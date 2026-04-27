@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-05-27T16:54:16">
+  <properties>
+    <titles>
+      <title>Jezu w Hostii utajony</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezu w Hostii utajony,<br/>daj mi serce Twoje, daj.<br/>Tyś mi jeden ulubiony,<br/>Tyś mojego serce raj.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wszędzie dobrze mi, o Panie,<br/>choćby krzyż me siły rwał,<br/>słodkie ziemskie me wygnanie,<br/>byleś mi sam siebie dał.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Wszystko, wszystko chętnie zniosę,<br/>Panie dla miłości Twej,<br/>tylko błagam, tylko proszę:<br/>Ty mnie w sercu zawsze miej.</lines>
+    </verse>
+  </lyrics>
+</song>

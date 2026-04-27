@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-06T13:22:42">
+  <properties>
+    <titles>
+      <title>Ja świeży powiew</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Panie nasz przyjdź jak wiatr<br/>Ogień swój ześlij nam<br/>Duchu święty dotknij naszych serc</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Gdy żałujemy naszych win<br/>Przebudzenia żar się tli<br/>Oddech Twój niech rozpali nas</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jak świeży powiew, jak zapach nieba<br/>Duchu Święty przyjdź, Duchu Świety przyjdź</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Niech w sercach płonie bojaźń twa<br/>Oczyszczaj je każdego dnia<br/>Ogień Twój niech umacnia nas</lines>
+    </verse>
+    <verse name="v4">
+      <lines>My, Twój Kościół chcemu nieść<br/>Światu wokół światło twe<br/>Przyjdź królestwo Twe, modlimy się</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jak świeży powiew, jak zapach nieba<br/>Duchu Święty przyjdź, Duchu Świety przyjdź</lines>
+    </verse>
+    <verse name="c3a">
+      <lines>Potrzebujemy, Twej obecności<br/>Duchu Święty przyjdź, Duchu Święty przyjdź</lines>
+    </verse>
+    <verse name="c3b">
+      <lines>Duchu Święty przyjdź, <br/>Duchu Święty przyjdź,<br/>Duchu Święty przyjdź, <br/>Duchu Święty przyjdź...</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Niech popłynie pieśń<br/>Z rozpalonych serc<br/>Słychać już jak wiatr<br/>Wieje, wieje, wieje</lines>
+    </verse>
+    <verse name="b2">
+      <lines>Niech uwielbi Cię<br/>Twoich dzieci śpiew<br/>Słychać już jak wiatr<br/>Wieje, wieje, wieje</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Jak świeży powiew, jak zapach nieba<br/>Duchu Święty przyjdź, Duchu Świety przyjdź</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Potrzebujemy, Twej obecności<br/>Duchu Święty przyjdź, Duchu Święty przyjdź</lines>
+    </verse>
+  </lyrics>
+</song>

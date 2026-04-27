@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-21T17:34:02">
+  <properties>
+    <titles>
+      <title>Jezus przychodzi do duszy pokornej</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezus przychodzi <br/>do duszy pokornej,<br/>Jezus przychodzi <br/>do duszy ogołoconej.<br/>Duchu Święty, wypełnij pustkę <br/>mojego serca.<br/>Duchu Święty <br/>wypełnij pustkę.</lines>
+    </verse>
+  </lyrics>
+</song>

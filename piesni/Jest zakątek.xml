@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Jest zakątek</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jest zakątek na tej ziemi<br/>Gdzie powracać każdy chce,<br/>Gdzie króluje Jej Oblicze<br/>Na Nim cięte rysy dwie.<br/>Wzrok ma smutny, zatroskany<br/>Jakby chciała prosić cię,<br/>Byś w matczyną Jej opiekę oddał się. </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Madonno, Czarna Madonno<br/>Jak dobrze Twym dzieckiem być!<br/>O, pozwól, Czarna Madonno<br/>W ramiona Twoje się skryć!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W Jej ramionach znajdziesz spokój<br/>I uchronisz się od zła,<br/>Bo dla wszystkich swoich dzieci<br/>Ona serce czułe ma.<br/>I opieką cię otoczy <br/>Gdy Jej serce oddasz swe,<br/>Gdy powtórzysz <br/>Jej z radością słowa te:</lines>
+    </verse>
+  </lyrics>
+</song>

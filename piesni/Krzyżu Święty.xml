@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-24T11:55:44">
+  <properties>
+    <titles>
+      <title>Krzyżu Święty</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Krzyżu Święty nade wszystko<br/>Drzewo przenajszlachetniejsze<br/>W żadnym lesie takie nie jest<br/>Jedno, na którym sam Bóg jest<br/>Słodkie drzewo, słodkie gwoździe<br/>Rozkoszny owoc nosiło</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Skłoń gałązki drzewo święte<br/>Ulżyj członkom tak rozpiętym<br/>Odmień teraz oną srogość<br/>Którąś miało z urodzenia<br/>Spuść lekuchno i cichuchno<br/>Ciało Króla Niebieskiego</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Tyś samo było dostojne<br/>Nosić światowe Zbawienie<br/>Przez Cię przewóz jest naprawion<br/>Światu, który był zagubion<br/>Który święta Krew polała<br/>Co z Baranka wypływała</lines>
+    </verse>
+    <verse name="v4">
+      <lines>W jasełkach leżąc gdy płakał<br/>Już tam był wszystko oglądał<br/>Iż tak haniebnie umrzeć miał<br/>Gdy wszystek świat odkupić chciał<br/>W on czas mędzy zwierzętami<br/>A teraz między łotrami</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Niesłychanać to jest dobroć,<br/>za kogo na krzyżu umrzeć;<br/>Któż to może dzisiaj zdziałać,<br/>Za kogo swoją duszę dać?<br/>Sam to Pan Jezus wykonał,<br/>Bo nas wiernie umiłował.</lines>
+    </verse>
+  </lyrics>
+</song>

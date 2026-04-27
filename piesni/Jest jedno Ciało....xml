@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-06T13:46:43">
+  <properties>
+    <titles>
+      <title>Jest jedno Ciało...</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Jest jedno Ciało jest jeden Pan<br/>Jednoczy nas w Duchu byśmy razem szli<br/>Usta głoszą chwałę Mu <br/>w ręku słowa Jego miecz<br/>W moc odziani tak idziemy <br/>zdobywamy ziemię tę</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Jesteśmy ludem Króla chwał. <br/>Jego świętym narodem<br/>Wybranym pokoleniem <br/>by objawiać Jego cześć.<br/>Jesteśmy ludem Króla chwał<br/>Jego świętym narodem<br/>Wielbimy Jezusa On jest Królem <br/>całej ziemi tej.</lines>
+    </verse>
+  </lyrics>
+</song>

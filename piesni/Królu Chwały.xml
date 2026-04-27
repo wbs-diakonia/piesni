@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-27T18:39:39">
+  <properties>
+    <titles>
+      <title>Królu Chwały</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tego dnia Bogu pokłoni się świat<br/>Wyzna, że jedynie On Królem jest<br/>Nie czekajmy więc<br/>Wołajmy dziś</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Królu chwały do nas przyjdź<br/>Na nowo wypełnij nas<br/>Sobą wypełnij nas</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tego dnia Bogu pokłoni się świat<br/>Wyzna, że jedynie On Królem jest<br/>Nie czekajmy więc<br/>Wołajmy dziś<br/>Tylko w Bogu jest<br/>Zwycięstwa pieśń</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Wznośmy więc Alleluja, <br/>aż wróci do nas Król<br/>Uwielbiajmy Go razem, <br/>aż wróci po swój lud</lines>
+    </verse>
+  </lyrics>
+</song>

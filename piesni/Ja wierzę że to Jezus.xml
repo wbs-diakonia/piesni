@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Ja wierzę że to Jezus</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ja wierzę że to Jezus<br/>Wierzę że On Synem Boga jest<br/>On zmarł i powstał aby żyć<br/>I za cenę śmierci życie dał<br/>Wierzę że jest tu teraz (On tu teraz jest)<br/>Stoi pośród nas<br/>Ma moc nas teraz uzdrawiać (uzdrowienia moc)<br/>Ma przebaczenia dar</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ja wierzę Tobie Panie. Wierzę że Tyś Synem Boga jest<br/>Zmarłeś i powstałeś aby żyć i za cenę śmierci życie dać<br/>Wierzę że tutaj Jesteś (Ty jesteś tu). Stoisz pośród nas<br/>Masz moc nas teraz uzdrawiać (uzdrowienia moc)<br/>Masz przebaczenia dar.</lines>
+    </verse>
+  </lyrics>
+</song>

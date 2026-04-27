@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-03-16T17:12:22">
+  <properties>
+    <titles>
+      <title>Na nowo stwarzaj mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Na nowo stwarzaj mnie, <br/>niechaj z Ducha zrodzę się!</lines>
+    </verse>
+    <verse name="v1">
+      <lines>To Ty jesteś Ożywicielem, <br/>Tchnij nowe życie w moje martwe ciało, <br/>To Ty jesteś Odnowicielem, <br/>Spraw by me serce żywe się stało.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Na nowo stwarzaj mnie, <br/>niechaj z Ducha zrodzę się!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>To Ty jesteś Miłości Płomieniem<br/>Przyjdź i rozpal przygaszone serce <br/>To Ty jesteś Ożywczym Strumieniem <br/>Niech z Boku Chrystusa nowe życie czerpie</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Na nowo stwarzaj mnie, <br/>niechaj z Ducha zrodzę się!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>To Ty jesteś duszy oczyszczeniem <br/>Niech me rany obmywa Krew z drzewa życia<br/>To Ty jesteś moim Odpocznieniem <br/>Niech w ramionach Krzyża, Twój powiew mnie porusza</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Na nowo stwarzaj mnie, <br/>niechaj z Ducha zrodzę się!</lines>
+    </verse>
+    <verse name="v4">
+      <lines>To Ty jesteś moim pragnieniem<br/>Niechaj me serce Twojej woli szuka<br/>To Ty jesteś moim spełnieniem<br/>Daj mi dziś Panie narodzić się z ducha</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Na nowo stwarzaj mnie, <br/>niechaj z Ducha zrodzę się!</lines>
+    </verse>
+  </lyrics>
+</song>

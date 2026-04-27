@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Jak Cię zrozumieć Tajemnico</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jak Cię zrozumieć Tajemnico,<br/>co spełniasz się każdego dnia?<br/>Po stokroć i po razy tysiąc<br/>Bóg siebie nam w ofierze siebie dał</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Myśmy niegodni ofiary tej, myśmy niegodni<br/>Boże chcąc pojąć, zrozumieć Cię<br/>trzeba się modlić /x3</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tyś wybrał drogę pełną cierni<br/>choć miałeś tron u nieba bram<br/>I stałeś się jak my śmiertelny<br/>by życie swoje oddać nam</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Za nasze grzechy i niestałość<br/>Ty Boży Syn Przedwieczna Myśl<br/>Wciąż nam oddajesz Krew i Ciało<br/>byśmy na wieki mogli żyć</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Więc, czy to w pracy, czy w spoczynku<br/>będziemy z Ciebie czerpać wzór,<br/>dziękując Tobie Boży Synu<br/>za mękę i za ból</lines>
+    </verse>
+  </lyrics>
+</song>

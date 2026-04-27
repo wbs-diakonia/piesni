@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T09:03:14">
+  <properties>
+    <titles>
+      <title>Jezus dla Jezusa</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezus, dla Jezusa, wszystko to, co mam,<br/>Kim jestem i kim chciałbym być.<br/>Jezus, dla Jezusa, wszystko to co mam,<br/>Kim jestem i chcę być.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wszystkie me ambicje, plany też<br/>Powierzam Ci, oddaję w ręce Twe. /x2</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Tylko z woli Twej jestem, wolny /x2</lines>
+    </verse>
+  </lyrics>
+</song>

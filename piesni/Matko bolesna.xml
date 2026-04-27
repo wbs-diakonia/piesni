@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-04-18T15:22:41">
+  <properties>
+    <titles>
+      <title>Matko bolesna</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Matko Bolesna, Twe oczy zwróć <br/>Ku mojej nędzy, niedolę skróć,<br/>Ty wiesz co boleść, co skargi, szloch.<br/>Przed Tobą Matko korzę się w proch.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tyś bowiem siedmiu doznała ran,<br/>Kiedy na krzyżu, konał nasz Pan.<br/>Całe Twe życie bolesna nić,<br/>Kielich goryczy musiałaś pić.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Spójrz na mą boleść co serce drze,<br/>Jak łzy zraszają źrenice me,<br/>Ucz mnie cierpliwie tu znosić ból,<br/>Prowadź przez próby do niebios pól.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Gdy w mojej duszy wre krwawy bój,<br/>Ty moje rany litośnie gój,<br/>Wlej w nie balsamu niebiański dar,<br/>Miłości Bożej zapal w niej żar.</lines>
+    </verse>
+  </lyrics>
+</song>

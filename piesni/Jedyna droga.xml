@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-15T11:36:10">
+  <properties>
+    <titles>
+      <title>Jedyna droga</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Twoje oczy widzą każdą ścieżkę moją<br/>Aniołowie strzegą mnie na każdej z nich<br/>Szukam Twoich drogowskazów by nie zbłądzić<br/>Nawet gdy kolejny raz potykam się</lines>
+    </verse>
+    <verse name="p1">
+      <lines>Powołany do wdzięczności chcę iśc naprzód<br/>Twoje słowo lampą dla mych stóp</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jedyna droga, którą wybieram dziś to Ty<br/>Jedyna prawda która wskaże mi jak mam żyć<br/>Bez strachu i zwątpień<br/>Za Tobą pójdę Jezu choćby mi runął świat<br/>Pobłogosławisz kiedy w ciszy zaufam Ci<br/>Nie zawiodę się</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Decyduję całe życie dać w ofierze<br/>Naśladując Ciebie chcę nieść swój krzyż</lines>
+    </verse>
+    <verse name="p2">
+      <lines>Panie proszę obudź we mnie mądre serce<br/>Każdy krok pokieruj tam gdzie chcesz</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jedyna droga, którą wybieram dziś to Ty<br/>Jedyna prawda która wskaże mi jak mam żyć<br/>Bez strachu i zwątpień<br/>Za Tobą pójdę Jezu choćby mi runął świat<br/>Pobłogosławisz kiedy w ciszy zaufam Ci<br/>Nie zawiodę się</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Schronienie mam bezpieczny szlak<br/>Gdy braknie sił pomożesz mi<br/>Wprowadzisz mnie tam gdzie nie zdołam wejść<br/>Objawisz to co niewidzialne jest</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Jedyna droga, którą wybieram dziś to Ty<br/>Jedyna prawda która wskaże mi jak mam żyć<br/>Bez strachu i zwątpień<br/>Za Tobą pójdę Jezu choćby mi runął świat<br/>Pobłogosławisz kiedy w ciszy zaufam Ci<br/>Nie zawiodę się</lines>
+    </verse>
+  </lyrics>
+</song>

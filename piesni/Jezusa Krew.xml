@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:41">
+  <properties>
+    <titles>
+      <title>Jezusa Krew</title>
+      <title>TGD</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Swój niebiański tron zostawiłeś by<br/>Ziemskie życie wieść, nieść haniebny krzyż<br/>By na siebie wziąć winę mą i wstyd<br/>Przebaczenia dar ofiarować mi</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jedynie Ty, kochany Zbawco<br/>Umarłeś bym ja mógł żyć<br/>Mój każdy dzień zawdzięczam Tobie<br/>Wolność mam w Jezusa Krwi</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Z grobu wstałeś, by w Niebie zająć tron<br/>Wszystko u Twych stóp, Twoja wszelka moc<br/>Całe Niebo brzmi pieśnią ku Twej czci<br/>Ziemia woła dziś Panie Jezu przyjdź</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jedynie Ty, kochany Zbawco<br/>Umarłeś bym ja mógł żyć<br/>Mój każdy dzień zawdzięczam Tobie<br/>Wolność mam w Jezusa Krwi</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Kiedy przyjdzie czas kiedy spotkam Cię<br/>Gdy objawisz mi piękno twarzy Twej<br/>Padnę do Twych stóp i zaśpiewam pieśń<br/>Baranek godzien jest przyjąć wszelką cześć</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Jedynie Ty, kochany Zbawco<br/>Umarłeś bym ja mógł żyć<br/>Mój każdy dzień zawdzięczam Tobie<br/>Wolność mam w Jezusa Krwi</lines>
+    </verse>
+  </lyrics>
+</song>

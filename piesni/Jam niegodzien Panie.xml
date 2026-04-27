@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-02-24T18:27:24">
+  <properties>
+    <titles>
+      <title>Jam niegodzien Panie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jam niegodzien Panie tego coś mi dał<br/>Tyś mnie tak biednego umiłować chciał<br/>Nie mam nic swojego wszystko z ręki Twej<br/>Ale mnie samego przyjąć chciej</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jestem jak pył ziemi który niesie wiatr<br/>Jakby spadający z nieba w ziemię grad<br/>Jestem jak rozbity przez wichurę dzban<br/>Gdy nie stoisz przy mnie Ty mój Bóg i Pan</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Przeciw moim wrogom Ty mi dajesz moc<br/>Z Tobą mi nie straszna nawet śmierci moc<br/>Czuje żeś tu blisko żeś mi pomóc chciał<br/>Choć nie jestem godzien tego coś mi dał</lines>
+    </verse>
+  </lyrics>
+</song>

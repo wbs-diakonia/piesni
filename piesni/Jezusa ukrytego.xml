@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-18T14:40:59">
+  <properties>
+    <titles>
+      <title>Jezusa ukrytego</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezusa ukrytego mam w Sakramencie czcić,<br/>Wszystko oddać dla Niego, Jego miłością żyć!<br/>On się nam daje cały, z nami zamieszkał tu.<br/>Dla Jego Boskiej chwały życie poświęćmy Mu!<br/>Wiarą ukorzyć trzeba zmysły i rozum swój, <br/>Bo tu już nie ma chleba, To Bóg, to Jezus mój!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tu Mu ciągle Hosanna! śpiewa anielski chór<br/>A ta cześć nieustanna, to dla nas biednych wzór.<br/>Dzielić z nami wygnanie, Jego rozkosze są,<br/>Niechże z Nim przebywanie będzie radością mą!<br/>On wie co udręczenie, On zna, co smutku łzy.<br/>Powiem Mu swe cierpienie, bo serce z bólu drży</lines>
+    </verse>
+  </lyrics>
+</song>

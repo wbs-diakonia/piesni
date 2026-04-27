@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-19T14:16:19">
+  <properties>
+    <titles>
+      <title>Moje owce</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Moje owce słuchają głosu mego, <br/>a ja je znam.<br/>Idą one za mną, a ja <br/>życie wieczne daje im.<br/> <br/>Nie zginą one na wieki /x4<br/>I nikt nie wyrwie ich z ręki mej.</lines>
+    </verse>
+  </lyrics>
+</song>

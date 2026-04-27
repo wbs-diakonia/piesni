@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-25T06:59:07">
+  <properties>
+    <titles>
+      <title>Jego imię Jezus</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>JEDYNIE ON <br/>ODKUPIENIEM JEST<br/>JEDYNIE ON <br/>PRZEZWYCIĘŻYŁ ŚMIERĆ<br/>JEDYNIE ON <br/>JEST GODZIEN PRZYJĄĆ CZEŚĆ</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W RĘKU MA <br/>KLUCZ DO PIEKŁA BRAM<br/>A JEGO GŁOS <br/>UZDRAWIA KAŻDĄ Z RAN<br/>ON SWOJĄ KRWIĄ <br/>Z GRZECHÓW OBMYŁ NAS</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>A JEGO IMIĘ JEZUS<br/>JEGO IMIĘ JEZUS<br/>JEGO IMIĘ KRÓLÓW KRÓL<br/>DORADCA NASZ <br/>WSZECHMOCNY BÓG</lines>
+    </verse>
+    <verse name="v3">
+      <lines>NIECH KAŻDY Z NAS <br/>CHWAŁĘ ODDA MU<br/>NIECH CAŁY ŚWIAT <br/>PADNIE MU DO STÓP<br/>NADCHODZI SĄD <br/>A SĘDZIĄ JEST NASZ BÓG</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>CZŁOWIECZY SYN <br/>PRZYJDZIE W CHWALE SWEJ<br/>NA ODGŁOS TRĄB <br/>KAŻDY SKŁONI SIĘ <br/>I WYZNA TO <br/>ON WIELKIM BOGIEM JEST</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>A JEGO IMIĘ JEZUS<br/>JEGO IMIĘ JEZUS<br/>JEGO IMIĘ KRÓLÓW KRÓL<br/>DORADCA NASZ <br/>WSZECHMOCNY BÓG</lines>
+    </verse>
+    <verse name="v4">
+      <lines>TO DORADCA NASZ<br/>PEŁEN MOCY BÓG<br/>TO POKOJU PAN<br/>WSZECHPOTĘŻNY KRÓL<br/>ON CUDOWNY JEST<br/>PIĘKNY W CHWALE SWEJ<br/>WSZECHMOCNY BÓG</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:48:43">
+  <properties>
+    <titles>
+      <title>Koronka do Bożego Miłosierdzia</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines><br/>Ojcze Przedwieczny, ofiaruję Ci Ciało i Krew, Duszę i Bóstwo najmilszego Syna Twojego, a Pana naszego Jezusa Chrystusa na przebłaganie za grzechy nasze i świata całego </lines>
+    </verse>
+    <verse name="v1">
+      <lines><br/>Dla Jego bolesnej męki, miej miłosierdzie dla nas i świata całego (x10)</lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Święty Boże, Święty Mocny,<br/>Święty Nieśmiertelny, <br/>zmiłuj się nad nami i nad całym światem.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-04-22T19:32:38">
+  <properties>
+    <titles>
+      <title>Miłujcie się wzajemnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Miłujcie się wzajemnie<br/>Tak jak ja Was umiłowałem</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Gdybym mówił językami ludzi i aniołów,<br/>a miłości bym nie miał,<br/>stałbym się jak miedź brzęcząca<br/>albo cymbał brzmiący.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Gdybym też miał dar prorokowania<br/>i znał wszystkie tajemnice<br/>i posiadał wszelką wiedzę<br/>i wiarę miał tak wielką, iżbym góry przenosił<br/>a miłości bym nie miał, byłbym niczym</lines>
+    </verse>
+    <verse name="v3">
+      <lines>I gdybym rozdał na jałmużnę<br/>całą majętność moją,<br/>a ciało wystawił na spalenie<br/>lecz miłości bym nie miał,<br/>nic bym nie zyskał</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Miłość cierpliwa jest i łaskawa,<br/>miłość nie zazdrości i nie szuka uznania.<br/>Nie unosi się pychą i nie szuka swego</lines>
+    </verse>
+  </lyrics>
+</song>

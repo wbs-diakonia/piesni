@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-11-13T18:20:30">
+  <properties>
+    <titles>
+      <title>Maryjo pokorna służebnico</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1. Maryjo, pokorna służebnico Pana<br/>Maryjo, Bogu na zawsze oddana.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Tyś Przybytkiem Ducha Świętego,<br/>pełna łaski jesteś Ty.<br/>Przepełniona Bożą miłością,<br/>prowadź nas do Syna dziś.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Maryjo Królowo Niepokalana<br/>Maryjo od wieków przez Ojca wybrana.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Tyś Przybytkiem Ducha Świętego,<br/>pełna łaski jesteś Ty.<br/>Przepełniona Bożą miłością,<br/>prowadź nas do Syna dziś.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3. Maryjo, Królowo Różańca Świętego.<br/>Maryjo broń nas od wszystkiego złego.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Tyś Przybytkiem Ducha Świętego,<br/>pełna łaski jesteś Ty.<br/>Przepełniona Bożą miłością,<br/>prowadź nas do Syna dziś.</lines>
+    </verse>
+  </lyrics>
+</song>

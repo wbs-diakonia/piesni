@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:41">
+  <properties>
+    <titles>
+      <title>Kantyk Mojżesza</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Śpiewajcie Panu bo wielka Jego moc i chwała<br/>On z niewoli zła swój lud ocala.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Pan jest moją mocą i źródłem męstwa,<br/>Jemu zawdzięczam moje ocalenie.<br/>On Bogiem moim, uwielbiać Go będę;<br/>On Bogiem ojca mego, będę Go wywyższał.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Rzucił w morze rydwany faraona i jego wojsko.<br/>Wybrani wodzowie jego zginęli w Morzu Czerwonym.<br/>Przepaści ich ogarnęły,<br/>Jak głaz runęli w głębinę.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Wyprowadziłeś lud swój<br/>i osadziłeś na górze Twego dziedzictwa,<br/>w miejscu, które uczyniłeś swym mieszkaniem.<br/>Pan Bóg jest Królem<br/>na zawsze, na wieki.</lines>
+    </verse>
+  </lyrics>
+</song>

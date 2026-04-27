@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-27T06:58:22">
+  <properties>
+    <titles>
+      <title>Maryjo, Matko mojego wezwania</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Maryjo, Matko mojego wezwania<br/>Chcę i pragnę, idąc za Twym słowem<br/>Czynić wszystko, co powie mi Jezus,<br/>Miłować Jego wolę<br/>A wszystko inne ze względu na Niego samego</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo tak jest z tymi, którzy z Ducha <br/>narodzili się, <br/>Nikt nie wie, dokąd pójdą <br/>za wolą Twą</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Słuchać słowa całym sercem,<br/>I w Duchu Świętym je wypełniać<br/>Amen, amen, amen! /x2</lines>
+    </verse>
+  </lyrics>
+</song>

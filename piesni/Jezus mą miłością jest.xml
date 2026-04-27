@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2022-02-07T18:29:51">
+  <properties>
+    <titles>
+      <title>Jezus mą miłością jest</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezus mą miłością jest<br/>Jezus moją miłością jest<br/>Panie kocham Cię</lines>
+    </verse>
+  </lyrics>
+</song>

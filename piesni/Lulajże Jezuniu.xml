@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:42">
+  <properties>
+    <titles>
+      <title>Lulajże Jezuniu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Lulajże Jezuniu, moja Perełko, <br/>Lulaj ulubione me Pieścidełko. <br/>Lulajże Jezuniu, lulajże lulaj <br/>A ty go matulu w płaczu utulaj </lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Zamknijże znużone płaczem powieczki,<br/>Utulże zemdlone łkaniem usteczki.<br/>Lulajże Jezuniu, lulajże lulaj <br/>A ty go matulu w płaczu utulaj </lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Lulajże, piękniuchny nasz Aniołeczku.<br/>Lulajże wdzięczniuchny świata Kwiateczku.<br/>Lulajże Jezuniu, lulajże lulaj <br/>A ty go matulu w płaczu utulaj </lines>
+    </verse>
+    <verse name="v4">
+      <lines><br/>Lulajże, Różyczko najozdobniejsza,<br/>Lulajże, Lilijko najprzyjemniejsza.<br/>Lulajże Jezuniu, lulajże lulaj <br/>A ty go matulu w płaczu utulaj </lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-04T18:53:33">
+  <properties>
+    <titles>
+      <title>Jakie piękne jest Imię Twe (piękne)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty na początku byłeś słowem<br/>Tam gdzie sam najwyższy Pan<br/>Swą chwałę ukrył w tym co stworzył<br/>Lecz objawił Ciebie nam</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jakie piękne jest imię Twe<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu, Królu nasz<br/>Jakie piękne jest imię Twe<br/>Nic z nim nie równa się<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Nie chciałeś mieszkać w niebie bez nas<br/>Więc przyniosłeś niebo tu<br/>Twa miłość Jezu jest największa<br/>Nic nas nie rozłączy już</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jakie piękne jest imię Twe<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu, Królu nasz<br/>Jakie piękne jest imię Twe<br/>Nic z nim nie równa się<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu</lines>
+    </verse>
+    <verse name="b1a">
+      <lines>Śmierć pokonana, zasłona rozdarta<br/>Zamilkł już grzech i zamilkł grób<br/>Głośno grzmi niebo, chwałę twą wielbiąc<br/>Bo zmartwychwstał nasz Pan i Bóg</lines>
+    </verse>
+    <verse name="b1b">
+      <lines>Nie masz rywala, sobie równego<br/>Na zawsze rządzisz w mocy swej<br/>Twoja jest chwała, twoje królestwo<br/>A imię Twe najwyższe jest</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Jakie piękne jest imię Twe<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu, Królu nasz<br/>Jakie piękne jest imię Twe<br/>Nic z nim nie równa się<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu</lines>
+    </verse>
+    <verse name="b2">
+      <lines>Nie masz rywala, sobie równego<br/>Na zawsze rządzisz w mocy swej<br/>Twoja jest chwała, Twoje królestwo<br/>A imię Twe najwyższe jest</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Jakie piękne jest imię Twe<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu, Królu nasz<br/>Jakie piękne jest imię Twe<br/>Nic z nim nie równa się<br/>Jakie piękne jest imię Twe<br/>Twe imię Jezu</lines>
+    </verse>
+  </lyrics>
+</song>

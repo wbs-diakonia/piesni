@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-02T13:15:20">
+  <properties>
+    <titles>
+      <title>Kim jest Ta</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Kim jest ta co wyłania się z Pustyni<br/>Otoczona wonią mirry i kadzidła<br/>W całej pełni chwały wchodzi córa Królewska<br/>W całej pełni chwały wchodzi córa Królewska Maryja</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Oto ja służebnica Pana mego<br/>Oby mi się stało według twoich słów<br/>Błogosławić mnie będą wszystkie pokolenia<br/>Gdyż wielkie rzeczy uczynił mi Bóg<br/>Błogosławić mnie będą wszystkie pokolenia<br/>Gdyż wielkie rzeczy uczynił mi Bóg</lines>
+    </verse>
+    <verse name="c2a">
+      <lines>Kim jest ta która świeci niby zorza<br/>Piękna jak księżyc jaśniejąca jak słońce<br/>Błogosławiona która uwierzyła Panu<br/>Błogosławiona która uwierzyła Panu Maryja</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wielbi dusza moja Pana mego<br/>I w Bogu zbawcy raduje się mój duch<br/>Błogosławić mnie będą wszystkie pokolenia<br/>Gdyż wielkie rzeczy uczynił mi Bóg<br/>Błogosławić mnie będą wszystkie pokolenia<br/>Gdyż wielkie rzeczy uczynił mi Bóg</lines>
+    </verse>
+    <verse name="c2b">
+      <lines>Kim jest ta która świeci niby zorza<br/>Piękna jak księżyc jaśniejąca jak słońce<br/>Błogosławiona która uwierzyła Panu<br/>Błogosławiona która uwierzyła Panu Maryja</lines>
+    </verse>
+  </lyrics>
+</song>

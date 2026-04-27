@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Jesteś blisko mnie</title>
+      <title>Twoja Miłość jak ciepły deszcz</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jesteś blisko mnie, tęsknię za Duchem Twym. <br/>Kocham kroki Twe, wiem jak pukasz do drzwi.<br/>Przychodzisz jak ciepły wiatr, <br/>Otwieram się i czuję znów że:</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Twoja miłość jak ciepły deszcz <br/>Twoja miłość jak morze gwiazd za dnia <br/>Twoja miłość sprawia, <br/>że nieskończenie dobry Święty Duch <br/>Ogarnia mnie.</lines>
+    </verse>
+  </lyrics>
+</song>

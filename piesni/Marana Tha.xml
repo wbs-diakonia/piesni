@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-12-11T16:55:49">
+  <properties>
+    <titles>
+      <title>Marana Tha</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Marana tha, przyjdź, Jezu Panie,<br/>W Swej chwale do nas zejdź!<br/>Marana tha, usłysz wołanie,<br/>Gdy się wypełnią wieki!</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Jak rosy chłód na spragniony grunt,<br/>Jak dobry chleb na głodnego dłoń.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Marana tha, przyjdź, Jezu Panie,<br/>W Swej chwale do nas zejdź!<br/>Marana tha, usłysz wołanie,<br/>Gdy się wypełnią wieki!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W Kościele Twym, gdzie dajesz się nam,<br/>Przez Ciała, Krwi tajemniczą moc.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Marana tha, przyjdź, Jezu Panie,<br/>W Swej chwale do nas zejdź!<br/>Marana tha, usłysz wołanie,<br/>Gdy się wypełnią wieki!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Gdy miłość swą okażemy w krąg,<br/>Przychodzisz już dziś na ziemię swą.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Marana tha, przyjdź, Jezu Panie,<br/>W Swej chwale do nas zejdź!<br/>Marana tha, usłysz wołanie,<br/>Gdy się wypełnią wieki!</lines>
+    </verse>
+    <verse name="v4">
+      <lines>W Dziecięciu Ty objawiasz się nam,<br/>Przez wichru szum dajesz poznać się.</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Marana tha, przyjdź, Jezu Panie,<br/>W Swej chwale do nas zejdź!<br/>Marana tha, usłysz wołanie,<br/>Gdy się wypełnią wieki!</lines>
+    </verse>
+  </lyrics>
+</song>

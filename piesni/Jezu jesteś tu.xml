@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Jezu jesteś tu</title>
+      <title>Chwała Chwała</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezu jesteś tu - Świat odszedł w cień. <br/>Mam tylko Ciebie - Moje życie to Ty. <br/>Każdy dzień Twoim darem<br/>W nocy jesteś schronieniem mym <br/>Chwała, Chwała - Jezu wielbię Cię!</lines>
+    </verse>
+  </lyrics>
+</song>

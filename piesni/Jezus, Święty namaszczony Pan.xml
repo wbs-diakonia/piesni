@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-04-20T14:51:57">
+  <properties>
+    <titles>
+      <title>Jezus, Święty namaszczony Pan</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezus, Jezus, Święty namaszczony<br/>Pan, <br/>Jezus!<br/>Jezus, Jezus, żyje wywyższony Pan Jezus!<br/>Twe Imię jak miód na ustach mych<br/>Twój Duch jest jak woda duszy mej<br/>Twe słowo jak lampa u mych stóp<br/>Jezu ja kocham Cię, ja kocham.</lines>
+    </verse>
+  </lyrics>
+</song>

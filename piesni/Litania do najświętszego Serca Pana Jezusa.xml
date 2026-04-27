@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:50:03">
+  <properties>
+    <titles>
+      <title>Litania do najświętszego Serca Pana Jezusa</title>
+    </titles>
+    <verseOrder>v1 v2 v3 v4 v5 v6 v7 v8 v9 v10</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kyrie, elejson. Chryste, elejson. Kyrie, elejson. <br/>Chryste, usłysz nas. Chryste, wysłuchaj nas. <br/>Ojcze z nieba, Boże, zmiłuj się nad nami. <br/>Synu, Odkupicielu świata, Boże, <br/>Duchu Święty, Boże, <br/>Święta Trójco, Jedyny Boże, </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Serce Jezusa, Syna Ojca Przedwiecznego,<br/>Serce Jezusa, w łonie Matki Dziewicy przez Ducha Świętego utworzone, <br/>Serce Jezusa, ze Słowem Bożym istotowo zjednoczone, <br/>Serce Jezusa, nieskończonego majestatu, <br/>Serce Jezusa, świątynio Boga, <br/>Serce Jezusa, przybytku Najwyższego, </lines>
+    </verse>
+    <verse name="v3">
+      <lines>Serce Jezusa, domie Boży i bramo niebios, <br/>Serce Jezusa, gorejące ognisko miłości, <br/>Serce Jezusa, sprawiedliwości i miłości skarbnico, <br/>Serce Jezusa, dobroci i miłości pełne, <br/>Serce Jezusa, cnót wszelkich bezdenna głębino, <br/>Serce Jezusa, wszelkiej chwały najgodniejsze, </lines>
+    </verse>
+    <verse name="v4">
+      <lines>Serce Jezusa, królu i zjednoczenie serc wszystkich, <br/>Serce Jezusa, w którym są wszystkie skarby mądrości i umiejętności, <br/>Serce Jezusa, w którym mieszka cała pełnia Bóstwa, <br/>Serce Jezusa, w którym sobie Ojciec bardzo upodobał, <br/>Serce Jezusa, z którego pełni wszyscyśmy otrzymali, </lines>
+    </verse>
+    <verse name="v5">
+      <lines>Serce Jezusa, odwieczne upragnienie świata, <br/>Serce Jezusa, cierpliwe i wielkiego miłosierdzia, <br/>Serce Jezusa, hojne dla wszystkich, którzy Cię wzywają, <br/>Serce Jezusa, źródło życia i świętości, <br/>Serce Jezusa, przebłaganie za grzechy nasze,<br/>Serce Jezusa, zelżywością napełnione,<br/>Serce Jezusa, dla nieprawości naszych starte,</lines>
+    </verse>
+    <verse name="v6">
+      <lines>Serce Jezusa, aż do śmierci posłuszne,<br/>Serce Jezusa, wlócznią przebyte,<br/>Serce Jezusa, źrodło wszelkiej pociechy,<br/>Serce Jezusa, życie i zmartwychwstanie nasze,<br/>Serce Jezusa, pokoju i pojednanie nasze,<br/>Serce Jezusa, krwawa ofiaro grzeszników</lines>
+    </verse>
+    <verse name="v7">
+      <lines>Serce Jezusa, zbawienie ufających Tobie,<br/>Serce Jezusa, nadziejo w Tobie umierających,<br/>Serce Jezusa rozkoszy wszystkich Świętych,</lines>
+    </verse>
+    <verse name="v8">
+      <lines>Baranku Boży, który gładzisz grzechy świata, <br/>przepuść nam, Panie. <br/>Baranku Boży, który gładzisz grzechy świata, <br/>wysłuchaj nas, Panie. <br/>Baranku Boży, który gładzisz grzechy świata, <br/>zmiłuj się nad nami.</lines>
+    </verse>
+    <verse name="v9">
+      <lines><br/>K. Jezu cichy i pokornego serca. <br/>W. Uczyń serca nasze według Serca Twego. </lines>
+    </verse>
+    <verse name="v10">
+      <lines>Do Serca Twojego uciekamy się Jezu, Boski Zbawicielu! Naszymi grzechami racz się nie zrażać, o Panie święty! Ale od wszelakich złych czynów racz nas zawsze zachować, Boże łaskawy i najlitościwszy! O Jezu dobry, Zbawicielu słodki, Pośredniku Boski, jedyna ucieczko nasza! W sercu Twoim racz nas obmyć, do Serca Twojego racz nas przytulić, w Twym Sercu na wieki racz nas zachować.</lines>
+    </verse>
+  </lyrics>
+</song>

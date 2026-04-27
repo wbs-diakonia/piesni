@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-17T17:18:12">
+  <properties>
+    <titles>
+      <title>Kto spożywa</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kto spożywa moje Ciało <br/>i Krew moją pije,<br/>trwa we Mnie a Ja w nim, <br/>będzie żył na wieki. /x2<br/></lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ja jestem Chlebem Żywym, <br/>który zstąpił z nieba,<br/>jeśli kto ten Chleb spożywa <br/>będzie żył na wieki.</lines>
+    </verse>
+  </lyrics>
+</song>

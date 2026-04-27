@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:42">
+  <properties>
+    <titles>
+      <title>Maryjo śliczna Pani</title>
+      <title>Maryja Ave Maryja</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Maryjo, Śliczna Pani  <br/>Matko Boga i ludzi na ziemi. <br/>Tyś świata Królową <br/>Tyś gwiazdą na niebie, <br/>Ty nas wiedziesz przed Jezusa wieczny tron.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Maryja, Ave Maryja<br/>U Boga nam wybłagaj zdroje łask. <br/>By świat lepszy był, by w miłości żył <br/>O Maryjo, miej w opiece dzieci swe.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Maryjo, Śliczna Pani  <br/>Świat dziś czuje na swych ustach gorzkie łzy.<br/>W sercu ból, smutek, żal <br/>A w oczach wciąż strach<br/>Usłysz, Pani, błaganie, pomóż nam!</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Maryja, Ave Maryja<br/>U Boga nam wybłagaj zdroje łask. <br/>By świat lepszy był, by w miłości żył <br/>O Maryjo, miej w opiece dzieci swe.</lines>
+    </verse>
+  </lyrics>
+</song>

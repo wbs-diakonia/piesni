@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-04-22T19:28:27">
+  <properties>
+    <titles>
+      <title>Mój Pan mocą moją jest</title>
+      <title>Dla Ciebie otwieram serce me</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Mój Pan mocą moją jest <br/>Pieśnią i zbawieniem<br/>On Bogiem mym. /x2<br/>Dla Ciebie otwieram serce swe /x3</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Mój Pan Królem był i jest <br/>Na zawsze i na wieki. Amen /x2<br/>Dla Ciebie otwieram serce swe /x3</lines>
+    </verse>
+  </lyrics>
+</song>

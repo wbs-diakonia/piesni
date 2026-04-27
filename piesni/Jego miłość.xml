@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-03-02T18:20:22">
+  <properties>
+    <titles>
+      <title>Jego miłość</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jego miłość zakrywa grzech<br/>Ona nie pamięta złego<br/>Jego krew, największy dar dla każdego<br/><br/>Jego imię, potężna moc<br/>Jezus drogą, prawdą, życiem<br/>Emmanuel, Bóg pośród nas, Odkupiciel</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bóg w łasce swej do nas zniżył się<br/>Pozostawił chwałę nieba<br/>Jezus wycierpiał każdy trud<br/>Żebyś żył i już się nie bał</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jego miłość zakrywa grzech<br/>Ona nie pamięta złego<br/>Jego krew, największy dar dla każdego<br/><br/>Jego imię, potężna moc<br/>Jezus drogą, prawdą, życiem<br/>Emmanuel, Bóg pośród nas, Odkupiciel</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Bóg w łasce swej do nas zniżył się<br/>Pozostawił chwałę nieba<br/>Jezus wycierpiał każdy trud<br/>Żebyś żył i już się nie bał</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jezus królem królów jest!<br/>Nasza wolność tylko w nim!<br/>Jezus królem królów jest!<br/>Nasza wolność tylko w nim!</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Bóg w łasce swej do nas zniżył się<br/>Pozostawił chwałę nieba<br/>Jezus wycierpiał każdy trud<br/>Żebyś żył</lines>
+    </verse>
+  </lyrics>
+</song>

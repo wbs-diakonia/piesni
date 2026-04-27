@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-11-30T15:46:52">
+  <properties>
+    <titles>
+      <title>Któż jak Bóg</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Któż jak Bóg, Baranek i Lew, <br/>dziś na tronie swym?<br/>Oceany wznoszą krzyk, góry kłaniają się<br/>Przed Bogiem Królem chwał /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Chwalmy Pana od świtu, aż po zmierzch<br/>Chwały wznieśmy pieśń<br/>Chwalmy Pana i niechaj każdy z nas<br/>Jemu dziś pokłoni się /x2</lines>
+    </verse>
+  </lyrics>
+</song>

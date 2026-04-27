@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:40">
+  <properties>
+    <titles>
+      <title>Jeden chleb co zmienia się</title>
+      <title>Jak ten chleb co złączył złote ziarna</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jeden chleb co zmienia się w Chrystusa Ciało, <br/>Z wielu ziaren pszenicznych się rodzi. <br/>Jedno wino co się Krwią Chrystusa stało,<br/>Z soku wielu winnych gron pochodzi.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jak ten chleb, co złączył złote ziarna, <br/>Tak niech miłość złączy nas ofiarna. <br/>Jak ten kielich łączy kropel wiele, <br/>Tak nas, Chryste, w Swoim złącz Kościele.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>O Pasterzu, zgromadź w jednej Swej owczarni,<br/>Zabłąkane owce, które giną.<br/>W jeden Kościół zbierz na nowo i przygarnij,<br/>Byśmy jedną stali się rodziną.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jak ten chleb, co złączył złote ziarna, <br/>Tak niech miłość złączy nas ofiarna. <br/>Jak ten kielich łączy kropel wiele, <br/>Tak nas, Chryste, w Swoim złącz Kościele.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Na ramiona swoje weź, o Panie,<br/>tych, co sami wrócić już nie mogą!<br/>Niechaj zjednoczenia cud się stanie,<br/>prowadź nas ku niebu wspólną drogą. </lines>
+    </verse>
+    <verse name="c3">
+      <lines>Jak ten chleb, co złączył złote ziarna, <br/>Tak niech miłość złączy nas ofiarna. <br/>Jak ten kielich łączy kropel wiele, <br/>Tak nas, Chryste, w Swoim złącz Kościele.</lines>
+    </verse>
+  </lyrics>
+</song>

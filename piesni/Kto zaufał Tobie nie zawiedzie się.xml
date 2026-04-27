@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-12T21:07:11">
+  <properties>
+    <titles>
+      <title>Kto zaufał Tobie nie zawiedzie się</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kto zaufa Tobie, nie zawiedzie się<br/>Kto żyje w bojaźni, samotny nie będzie<br/>Kto wezwie Ciebie, otrzyma odpowiedź<br/>Jesteś wierny swoim obietnicom</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jesteś, który jesteś<br/>Potężny i wielki<br/>Nie zmieniasz się<br/>Wy-star-czysz /x3<br/>Wystarczysz mi<br/>Jezu wystarczysz mi</lines>
+    </verse>
+    <verse name="b1a">
+      <lines>Wiem, że nie zawiodę się<br/>Wiem, że nie zawiodę się<br/>Wiem, że nie zawiodę się <br/>Nigdy<br/></lines>
+    </verse>
+    <verse name="b1b">
+      <lines>Jesteś wierny<br/>Jesteś wierny<br/>Który był, który jest<br/>I który przyjdzie znów</lines>
+    </verse>
+  </lyrics>
+</song>

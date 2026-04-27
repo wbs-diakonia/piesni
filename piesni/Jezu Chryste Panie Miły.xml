@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2022-03-28T17:01:12">
+  <properties>
+    <titles>
+      <title>Jezu Chryste Panie Miły</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1. Jezu Chryste, Panie miły <br/>Baranku bardzo cierpliwy! <br/>Wzniosłeś, wzniosłeś na krzyż ręce swoje, <br/>Gładząc, głądząc nieprawości moje.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Płacz Go, człowiecze mizerny, <br/>Patrząc jak jest miłosierny; <br/>Jezus, Jezus na krzyżu umiera, <br/>Słońce, słońce jasność swą zawiera.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3. Pan wyrzekł ostatnie słowa, <br/>Zwisła Mu na piersi głowa; <br/>Matka, Matka pod Nim frasobliwa, <br/>Stoi, stoi z żalu ledwie żywa.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>4. Zasłona się potargała, <br/>Ziemia rwie się, ryczy skała; <br/>Setnik woła: Syn to Boży! <br/>Tłuszcza wierząc w proch się korzy.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>5. Na koniec Mu bok przebito, <br/>Krew płynie z wodą obfito; <br/>Żal nasz, dziś wyznajem łzami: <br/>Jezu, zmiłuj się nad nami!</lines>
+    </verse>
+  </lyrics>
+</song>

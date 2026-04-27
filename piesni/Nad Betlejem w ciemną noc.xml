@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:43">
+  <properties>
+    <titles>
+      <title>Nad Betlejem w ciemną noc</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Nad Betlejem w ciemną noc <br/>śpiewał pieśń aniołów chór. <br/>Ich radosny, cudny głos <br/>odbijało echo gór. <br/>Gloria, Gloria in exscelsis Deo!</lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Pastuszkowie, jaką pieśń<br/>słyszeliście nocy tej?<br/>Jakaż to radosna wieść<br/>była tam natchnieniem jej?<br/>Gloria, Gloria in exscelsis Deo!</lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Do Betlejem prędko spiesz,<br/>zostaw stada pośród pól,<br/>gdyż anielska głosi wieść,<br/>że się tam narodził Król.<br/>Gloria, Gloria in exscelsis Deo!</lines>
+    </verse>
+    <verse name="v4">
+      <lines><br/>W twardym żłobie leży tam<br/>Jezus- nieba, ziemi Pan.<br/>Chciejmy mu w pokorze wznieść<br/>uwielbienie, chwałę, cześć!<br/>Gloria, Gloria in exscelsis Deo!</lines>
+    </verse>
+  </lyrics>
+</song>

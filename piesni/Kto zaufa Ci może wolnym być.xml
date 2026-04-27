@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-06T18:29:45">
+  <properties>
+    <titles>
+      <title>Kto zaufa Ci może wolnym być</title>
+      <title>Kimże jestem</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kimże jestem by nieba Król<br/>Chciał przyjąć mnie<br/>Dzięki niemu dziś jestem tu<br/>On pokochał mnie/ x2</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Ref.: Kto zaufa Ci może wolnym być<br/>Jestem dzieckiem Twym, ufam Ci</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Łąską swą On odkupił mnie<br/>W nim wolność mam<br/>Kiedy więził mnie strach i grzech<br/>Jezus za mnie zmarł<br/>Tak, On za mnie zmarł.</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Ref.: Kto zaufa Ci może wolnym być<br/>Jestem dzieckiem Twym, ufam Ci<br/>Swego domu drzwi otworzyłeś mi<br/>Jestem dzieckiem Twym, ufam Ci</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Ty mnie kochasz, nie opuszczasz<br/>Nazwałeś mnie dzieckiem swym<br/>Jesteś ze mną, Tobie ufam<br/>Nazwałeś mnie dzieckiem swym</lines>
+    </verse>
+  </lyrics>
+</song>

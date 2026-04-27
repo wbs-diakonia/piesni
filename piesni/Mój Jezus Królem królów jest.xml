@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:42">
+  <properties>
+    <titles>
+      <title>Mój Jezus Królem królów jest</title>
+      <title>On dał mi całkiem nowe zycie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Mój Jezus, Królem królów jest,<br/>mój Jezus władać będzie wciąż,<br/>Królestwo Jego wiecznie trwa<br/>On zbawił duszę mą i teraz we mnie mieszka już.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>On dał mi całkiem nowe życie<br/>Uczynił mnie dzieckiem światłości<br/>Dziedzictwem swym obdarzył mnie<br/>Bo umiłował mnie mój Ojciec - Bóg.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Mój Jezus, Królem królów jest,<br/>mój Jezus władać będzie wciąż,<br/>Królestwo Jego wiecznie trwa<br/>On zbawił duszę mą i teraz we mnie mieszka już.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>On wziął na Siebie moje winy<br/>On wyrwał mnie z królestwa ciemności<br/>Choroby wszystkie wziął na Siebie<br/>I juz nie muszę się niczego bać.</lines>
+    </verse>
+  </lyrics>
+</song>

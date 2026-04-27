@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-06-17T18:21:15">
+  <properties>
+    <titles>
+      <title>Kochajmy Pana</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kochajmy Pana bo serce Jego<br/>Żąda i pragnie serca naszego<br/>Dla nas Mu włócznią boleść zadana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v2">
+      <lines>O pójdź do Niego wszystko stworzenie<br/>Sercu Jezusa złóż dziękczynienie<br/>I swoje przed Nim zegnij kolana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Pójdźcie do Niego biedni grzesznicy<br/>Zmyć grzechów zmazy w czystej Krynicy<br/>Nad śnieg zbieleje dusza zmazana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Pójdźcie do Niego szczęśliwe dusze<br/>Obmyte we łzach pokuty skrusze<br/>Już niewinności szata wam dana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Pójdźcie do Niego święci anieli<br/>Z którymi szczęście On w niebie dzieli<br/>Przyjdź Jeruzalem chwałą odziana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v6">
+      <lines>Przyjdź o Panienko coś Go zrodziła<br/>Coś niezrównana w miłości była<br/>Z Tobą Maryjo niepokalana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v7">
+      <lines>Wszyscy ach wszyscy przed Nim padajmy<br/>Serca Mu swoje wspólnie oddajmy<br/>O bo tak woła miłości rana<br/>Kochajmy Pana kochajmy Pana</lines>
+    </verse>
+    <verse name="v8">
+      <lines>Jezu najsłodszy do serca rany<br/>Przyjmij świat cały krwią Twą oblany<br/>Byśmy na ziemi i wiecznie w niebie<br/>Kochali Ciebie kochali Ciebie</lines>
+    </verse>
+  </lyrics>
+</song>
