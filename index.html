@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pieśni WBS</title>
     <style>
-        * { box-sizing: border-box; } /* Bardzo ważne dla telefonów */
+        * { box-sizing: border-box; }
 
         body {
             margin: 0;
@@ -15,24 +15,73 @@
             font-family: 'Segoe UI', sans-serif;
             display: flex;
             flex-direction: column;
-            height: 100vh; /* Sztywna wysokość ekranu */
-            width: 100vw;
+            height: 100vh;
             overflow: hidden;
         }
 
+        /* GÓRNY PASEK - ZREORGANIZOWANY */
         #ui-layer {
             padding: 10px;
             background: #1a1a1a;
             display: flex;
-            gap: 10px;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            border-bottom: 1px solid #333;
             z-index: 1000;
-            flex-shrink: 0; /* Menu nie może się ścisnąć */
+            flex-shrink: 0;
         }
 
-        /* Ustawienia dla wyświetlacza */
+        #song-select {
+            flex: 1 1 100%; /* Na komórce zajmuje całą górę */
+            padding: 10px;
+            font-size: 16px;
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            border-radius: 4px;
+        }
+
+        .controls-row {
+            display: flex;
+            width: 100%;
+            gap: 8px;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 12px;
+            font-size: 14px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            white-space: nowrap;
+            flex: 0 1 auto; /* Przyciski są tak wąskie, jak ich tekst */
+        }
+
+        .btn-load { background: #28a745; }
+        .btn-clear { background: #6c757d; }
+
+        /* NOWY STYL INFO O ZWROTCE (W MENU) */
+        #section-info {
+            flex-grow: 1;
+            background: #444;
+            color: #ffca28; /* Wyraźny żółtawy kolor, by rzucał się w oczy */
+            padding: 9px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            border: 1px solid #555;
+            min-width: 80px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
         #display {
             flex-grow: 1;
-            position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -40,8 +89,6 @@
             padding: 20px;
             cursor: pointer;
             overflow: hidden;
-            /* Kluczowe dla Samsunga S24: */
-            height: calc(100vh - 60px); 
         }
 
         .verse {
@@ -51,47 +98,20 @@
             animation: fadeIn 0.2s ease-out;
             font-size: 8vh;
             width: 100%;
-            /* Margines od dołu, by tekst nie wszedł pod stopkę */
-            padding-bottom: 15vh; 
-        }
-
-        /* STOPKA - Zmieniona pozycja, by zawsze była widoczna */
-        #section-footer {
-            position: absolute;
-            bottom: 20px; /* Wyżej od krawędzi */
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 18px;
-            color: #ffffff;
-            text-transform: uppercase;
-            font-weight: bold;
-            background: rgba(60, 60, 60, 0.9);
-            padding: 8px 16px;
-            border-radius: 8px;
-            border: 1px solid #555;
-            z-index: 9999;
-            white-space: nowrap;
-            box-shadow: 0 0 15px rgba(0,0,0,0.5);
         }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* Poprawki pod Brave / Mobile */
+        /* Optymalizacja pod telefon */
+        @media (min-width: 769px) {
+            #song-select { flex: 1; }
+            .controls-row { width: auto; flex: 0; }
+            #ui-layer { flex-wrap: nowrap; }
+            #section-info { min-width: 150px; font-size: 16px; }
+        }
+
         @media (max-width: 768px) {
-            #ui-layer { flex-wrap: wrap; }
-            select { width: 100%; order: 1; font-size: 16px; }
-            button { flex: 1; order: 2; font-size: 14px; }
-            
-            .verse {
-                font-size: 4.5vh;
-                padding-bottom: 80px;
-            }
-            
-            #section-footer {
-                bottom: 15px; /* Jeszcze wyżej na komórce */
-                font-size: 14px;
-                padding: 6px 12px;
-            }
+            .verse { font-size: 5vh; }
         }
     </style>
 </head>
@@ -101,24 +121,20 @@
     <select id="song-select">
         <option value="">Ładowanie...</option>
     </select>
-    <button class="btn-load" style="background:#28a745" onclick="loadSong()">Załaduj</button>
-    <button class="btn-clear" style="background:#6c757d" onclick="clearDisplay()">Wyczyść</button>
+    <div class="controls-row">
+        <button class="btn-load" onclick="loadSong()">Załaduj</button>
+        <button class="btn-clear" onclick="clearDisplay()">Wyczyść</button>
+        <div id="section-info">---</div>
+    </div>
 </div>
 
 <div id="display" onclick="nextVerse()">
     <div id="lyrics-container">
-        <div class="verse">Wybierz z listy</div>
+        <div class="verse">Wybierz pieśń</div>
     </div>
-    <div id="section-footer"></div>
 </div>
 
 <script>
-    // Tu wstaw całą dotychczasową sekcję SCRIPT (funkcje init, loadSong, itd.)
-    // Pamiętaj tylko, by w funkcji renderVerse() dopisać na końcu:
-    // document.getElementById('section-footer').style.display = "block";
-    
-    // ... (reszta Twojego działającego skryptu) ...
-    
     let verses = [];
     let sectionNames = [];
     let currentVerseIndex = 0;
@@ -129,7 +145,7 @@
             const text = await response.text();
             const files = text.split(/\r?\n/).filter(line => line.trim() !== '');
             const select = document.getElementById('song-select');
-            select.innerHTML = '<option value="">-- Wybierz pieśń --</option>';
+            select.innerHTML = '<option value="">-- Wybierz z listy --</option>';
             files.forEach(fileName => {
                 const option = document.createElement('option');
                 option.value = 'piesni/' + fileName.trim();
@@ -148,7 +164,10 @@
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
-            verses = []; sectionNames = [];
+            
+            verses = [];
+            sectionNames = [];
+
             for (let v of xmlVerses) {
                 const name = v.getAttribute("name") || "";
                 const linesNode = v.getElementsByTagName("lines")[0];
@@ -172,27 +191,25 @@
     function translateSectionName(name) {
         if (!name) return "";
         let n = name.toLowerCase();
-        if (n.startsWith('v')) return "Zwrotka " + n.substring(1);
-        if (n.startsWith('c')) return "Refren " + n.substring(1);
-        if (n.startsWith('b')) return "Bridge " + n.substring(1);
-        if (n.startsWith('p')) return "Pre-refren " + n.substring(1);
+        if (n.startsWith('Z')) return "Zwr " + n.substring(1);
+        if (n.startsWith('R')) return "Ref " + n.substring(1);
+        if (n.startsWith('B')) return "Most " + n.substring(1);
+        if (n.startsWith('R')) return "Pre " + n.substring(1);
         return name;
     }
 
     function renderVerse() {
         const container = document.getElementById('lyrics-container');
-        const footer = document.getElementById('section-footer');
+        const info = document.getElementById('section-info');
         if (verses.length > 0) {
             container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
-            footer.textContent = sectionNames[currentVerseIndex];
-            footer.style.display = "block";
+            info.textContent = sectionNames[currentVerseIndex];
         }
     }
 
     function clearDisplay() {
         document.getElementById('lyrics-container').innerHTML = '<div class="verse"> </div>';
-        document.getElementById('section-footer').textContent = "";
-        document.getElementById('section-footer').style.display = "none";
+        document.getElementById('section-info').textContent = "---";
     }
 
     function nextVerse() {
@@ -224,6 +241,5 @@
 
     init();
 </script>
-
 </body>
 </html>
