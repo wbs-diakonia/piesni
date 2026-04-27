@@ -19,7 +19,6 @@
             overflow: hidden;
         }
 
-        /* GÓRNY PASEK - Optymalizacja miejsca */
         #ui-layer {
             padding: 8px;
             background: #1a1a1a;
@@ -57,11 +56,9 @@
         }
 
         .btn-toggle { background: #28a745; }
-        .btn-hide { background: #6c757d; }
-
-        /* Pole wyboru sekcji - węższe */
+        
         #section-select {
-            flex: 0 1 90px;
+            flex: 0 1 110px; /* Nieco szerszy, by zmieścić nazwy typu v1a */
             background: #444;
             color: #ffca28;
             border: 1px solid #555;
@@ -71,11 +68,10 @@
             padding: 5px;
         }
 
-        /* OKNO WYŚWIETLANIA - Przesunięte wyżej */
         #display {
             flex-grow: 1;
             display: flex;
-            align-items: flex-start; /* Tekst zaczyna się wyżej */
+            align-items: flex-start;
             justify-content: center;
             text-align: center;
             padding: 10px 20px;
@@ -86,7 +82,7 @@
 
         #lyrics-container {
             width: 100%;
-            margin-top: 20px; /* Mały margines od góry */
+            margin-top: 20px;
         }
 
         .verse {
@@ -94,12 +90,10 @@
             line-height: 1.2;
             white-space: pre-wrap;
             animation: fadeIn 0.2s ease-out;
-            /* Zmniejszona czcionka dla większej ilości linii */
             font-size: 3.8vh; 
             width: 100%;
         }
 
-        /* Ukrywanie tekstu */
         .hidden { visibility: hidden; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -133,12 +127,11 @@
 </div>
 
 <script>
-    let verses = [];
-    let sectionNames = [];
+    let versesList = []; // Finalna lista tekstów do wyświetlenia
+    let sectionLabelsList = []; // Finalna lista etykiet (np. Zw 1a)
     let currentVerseIndex = 0;
     let isHidden = false;
 
-    // Mapowanie skrótów na polskie nazwy
     const sectionMap = {
         'v': 'Zwr',
         'c': 'Ref',
@@ -172,13 +165,12 @@
             const str = await response.text();
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
-            const xmlVerses = xmlDoc.getElementsByTagName("verse");
             
-            verses = [];
-            sectionNames = [];
-
+            // 1. Mapujemy wszystkie dostępne sekcje z pliku do obiektu pomocniczego
+            const availableSections = {};
+            const xmlVerses = xmlDoc.getElementsByTagName("verse");
             for (let v of xmlVerses) {
-                const name = v.getAttribute("name") || "";
+                const name = v.getAttribute("name");
                 const linesNode = v.getElementsByTagName("lines")[0];
                 if (linesNode) {
                     let txt = "";
@@ -186,36 +178,68 @@
                         if (node.nodeType === 3) txt += node.nodeValue;
                         else if (node.nodeName === "br") txt += "\n";
                     }
-                    if (txt.trim()) {
-                        verses.push(txt.trim());
-                        sectionNames.push(translateSectionName(name));
-                    }
+                    availableSections[name.toLowerCase()] = txt.trim();
                 }
             }
+
+            // 2. Sprawdzamy czy jest zdefiniowana kolejność (verseOrder)
+            const orderTag = xmlDoc.getElementsByTagName("verseOrder")[0];
+            let orderArray = [];
+            if (orderTag && orderTag.textContent) {
+                // Rozbijamy np. "v1 c1 v2 c1" na tablicę
+                orderArray = orderTag.textContent.toLowerCase().split(/\s+/).filter(s => s !== "");
+            } else {
+                // Jeśli brak verseOrder, bierzemy sekcje w kolejności występowania w pliku
+                orderArray = Array.from(xmlVerses).map(v => v.getAttribute("name").toLowerCase());
+            }
+
+            // 3. Budujemy finalne listy do wyświetlania
+            versesList = [];
+            sectionLabelsList = [];
             
+            orderArray.forEach(name => {
+                if (availableSections[name]) {
+                    versesList.push(availableSections[name]);
+                    sectionLabelsList.push(translateSectionName(name));
+                }
+            });
+
             updateSectionDropdown();
             currentVerseIndex = 0;
             isHidden = false;
             updateUI();
             renderVerse();
-        } catch (err) { alert("Błąd XML"); }
+        } catch (err) { 
+            console.error(err);
+            alert("Błąd przetwarzania pieśni."); 
+        }
     }
 
     function translateSectionName(name) {
         if (!name) return "???";
-        let prefix = name.replace(/[0-9]/g, '').toLowerCase();
-        let num = name.replace(/\D/g, '');
-        let label = sectionMap[prefix] || name;
-        return num ? `${label} ${num}` : label;
+        // Wyciągamy litery (typ), cyfry (numer) i opcjonalne litery a/b na końcu
+        const match = name.match(/^([a-z]+)(\d*)([a-z]?)$/i);
+        if (!match) return name;
+
+        const prefix = match[1].toLowerCase();
+        const num = match[2];
+        const suffix = match[3];
+
+        let label = sectionMap[prefix] || prefix.toUpperCase();
+        let result = label;
+        if (num) result += " " + num;
+        if (suffix) result += suffix;
+        
+        return result;
     }
 
     function updateSectionDropdown() {
         const sel = document.getElementById('section-select');
         sel.innerHTML = '';
-        sectionNames.forEach((name, index) => {
+        sectionLabelsList.forEach((label, index) => {
             const opt = document.createElement('option');
             opt.value = index;
-            opt.textContent = name;
+            opt.textContent = label;
             sel.appendChild(opt);
         });
     }
@@ -249,35 +273,31 @@
     function renderVerse() {
         const container = document.getElementById('verse-text');
         const secSelect = document.getElementById('section-select');
-        if (verses.length > 0) {
-            container.innerText = verses[currentVerseIndex];
+        if (versesList.length > 0) {
+            container.innerText = versesList[currentVerseIndex];
             secSelect.value = currentVerseIndex;
         }
     }
 
     function handleTap(e) {
-        if (verses.length === 0) return;
+        if (versesList.length === 0) return;
         const width = window.innerWidth;
-        if (e.clientX < width / 2) {
-            prevVerse();
-        } else {
-            nextVerse();
-        }
+        if (e.clientX < width / 2) prevVerse();
+        else nextVerse();
     }
 
     function nextVerse() {
-        if (verses.length === 0) return;
-        currentVerseIndex = (currentVerseIndex + 1) % verses.length;
+        if (versesList.length === 0) return;
+        currentVerseIndex = (currentVerseIndex + 1) % versesList.length;
         renderVerse();
     }
 
     function prevVerse() {
-        if (verses.length === 0) return;
-        currentVerseIndex = (currentVerseIndex - 1 + verses.length) % verses.length;
+        if (versesList.length === 0) return;
+        currentVerseIndex = (currentVerseIndex - 1 + versesList.length) % versesList.length;
         renderVerse();
     }
 
-    // Klawiatura
     document.addEventListener('keydown', (e) => {
         if (e.code === 'Space' || e.code === 'ArrowRight') nextVerse();
         else if (e.code === 'ArrowLeft') prevVerse();
