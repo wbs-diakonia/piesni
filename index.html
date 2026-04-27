@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pieśni WBS</title>
     <style>
+        /* --- Style podstawowe (Wspólne) --- */
         body {
             margin: 0;
             padding: 0;
             background-color: #000;
             color: #fff;
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             flex-direction: column;
             height: 100vh;
@@ -64,12 +65,19 @@
             position: relative;
         }
 
+        #lyrics-container {
+            width: 100%;
+        }
+
         .verse {
-            font-size: 7vh; 
             font-weight: 600;
             line-height: 1.4;
-            white-space: pre-wrap;
+            white-space: pre-wrap; /* Kluczowe dla obsługi nowych linii */
             animation: fadeIn 0.2s ease-out;
+            
+            /* Domyślnie dla rzutnika */
+            font-size: 7vh; 
+            padding: 0 40px;
         }
 
         #section-footer {
@@ -83,8 +91,8 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         #hint {
@@ -96,6 +104,30 @@
             color: #222;
             font-size: 14px;
             pointer-events: none;
+        }
+
+        /* --- Style dla urządzeń mobilnych (RWD) --- */
+        @media (max-width: 768px) {
+            #ui-layer {
+                flex-direction: column;
+            }
+
+            select, button {
+                width: 100%;
+                font-size: 18px;
+            }
+
+            .verse {
+                font-size: 4.5vh; 
+                padding: 0 15px;
+                line-height: 1.2;
+            }
+
+            #section-footer {
+                font-size: 16px;
+                bottom: 10px;
+                right: 15px;
+            }
         }
     </style>
 </head>
@@ -116,13 +148,14 @@
     <div id="section-footer"></div>
 </div>
 
-<div id="hint">Spacja / Strzałki / Klik - nawigacja</div>
+<div id="hint">Nawigacja: Klik/Spacja/Strzałki | Wyczyść: Esc/B</div>
 
 <script>
     let verses = [];
     let sectionNames = [];
     let currentVerseIndex = 0;
 
+    // 1. Inicjalizacja listy z pliku lista.txt
     async function init() {
         try {
             const response = await fetch('lista.txt');
@@ -139,10 +172,11 @@
                 select.appendChild(option);
             });
         } catch (err) {
-            console.error("Błąd listy:", err);
+            console.error("Błąd ładowania listy plików:", err);
         }
     }
 
+    // 2. Ładowanie i precyzyjne parsowanie pliku XML
     async function loadSong() {
         const url = document.getElementById('song-select').value;
         if (!url) return;
@@ -160,12 +194,14 @@
             for (let v of xmlVerses) {
                 const name = v.getAttribute("name") || "";
                 const linesNode = v.getElementsByTagName("lines")[0];
+                
                 if (linesNode) {
                     let textWithNewLines = "";
+                    // Iteracja po dzieciach węzła, aby zachować <br> jako \n
                     for (let node of linesNode.childNodes) {
-                        if (node.nodeType === 3) {
+                        if (node.nodeType === 3) { // Tekst
                             textWithNewLines += node.nodeValue;
-                        } else if (node.nodeName === "br") {
+                        } else if (node.nodeName === "br") { // Tagi łamania linii
                             textWithNewLines += "\n";
                         }
                     }
@@ -180,11 +216,12 @@
             currentVerseIndex = 0;
             renderVerse();
         } catch (err) {
-            console.error(err);
-            alert("Błąd wczytywania pliku XML.");
+            console.error("Błąd XML:", err);
+            alert("Nie udało się załadować pieśni.");
         }
     }
 
+    // Tłumaczenie nazw sekcji OpenLP
     function translateSectionName(name) {
         if (!name) return "";
         let translated = name.toLowerCase();
@@ -195,13 +232,7 @@
         return name;
     }
 
-    // Funkcja czyszcząca ekran
-    function clearDisplay() {
-        document.getElementById('lyrics-container').innerHTML = "";
-        document.getElementById('section-footer').textContent = "";
-        // Nie zerujemy currentVerseIndex ani verses, żeby móc wrócić do pieśni
-    }
-
+    // 3. Funkcje wyświetlania
     function renderVerse() {
         const container = document.getElementById('lyrics-container');
         const footer = document.getElementById('section-footer');
@@ -210,6 +241,11 @@
             container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
             footer.textContent = sectionNames[currentVerseIndex] || "";
         }
+    }
+
+    function clearDisplay() {
+        document.getElementById('lyrics-container').innerHTML = "";
+        document.getElementById('section-footer').textContent = "";
     }
 
     function nextVerse() {
@@ -224,6 +260,7 @@
         renderVerse();
     }
 
+    // 4. Obsługa sterowania (Klawiatura)
     document.addEventListener('keydown', (e) => {
         if (e.code === 'Space' || e.code === 'ArrowRight' || e.code === 'ArrowDown') {
             e.preventDefault();
@@ -231,11 +268,26 @@
         } else if (e.code === 'ArrowLeft' || e.code === 'ArrowUp') {
             prevVerse();
         } else if (e.code === 'Escape' || e.code === 'KeyB') {
-            // Skrót klawiszowy dla czyszczenia: ESC lub klawisz B (Blackout)
             clearDisplay();
         }
     });
 
+    // 5. Obsługa sterowania dotykowego (Swipe dla telefonów)
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    const displayZone = document.getElementById('display');
+    displayZone.addEventListener('touchstart', e => {
+        touchstartX = e.changedTouches[0].screenX;
+    }, {passive: true});
+
+    displayZone.addEventListener('touchend', e => {
+        touchendX = e.changedTouches[0].screenX;
+        if (touchendX < touchstartX - 50) nextVerse();
+        if (touchendX > touchstartX + 50) prevVerse();
+    }, {passive: true});
+
+    // Uruchomienie listy na starcie
     init();
 </script>
 
