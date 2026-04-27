@@ -19,22 +19,20 @@
             overflow: hidden;
         }
 
-        /* GÓRNY PASEK - ZREORGANIZOWANY */
+        /* GÓRNY PASEK - Optymalizacja miejsca */
         #ui-layer {
-            padding: 10px;
+            padding: 8px;
             background: #1a1a1a;
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            align-items: center;
+            gap: 6px;
             border-bottom: 1px solid #333;
             z-index: 1000;
-            flex-shrink: 0;
         }
 
         #song-select {
-            flex: 1 1 100%; /* Na komórce zajmuje całą górę */
-            padding: 10px;
+            flex: 1 1 100%;
+            padding: 8px;
             font-size: 16px;
             background: #333;
             color: white;
@@ -45,92 +43,92 @@
         .controls-row {
             display: flex;
             width: 100%;
-            gap: 8px;
-            align-items: center;
+            gap: 6px;
         }
 
         button {
-            padding: 10px 12px;
+            padding: 8px 12px;
             font-size: 14px;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            white-space: nowrap;
-            flex: 0 1 auto; /* Przyciski są tak wąskie, jak ich tekst */
+            flex: 1;
         }
 
-        .btn-load { background: #28a745; }
-        .btn-clear { background: #6c757d; }
+        .btn-toggle { background: #28a745; }
+        .btn-hide { background: #6c757d; }
 
-        /* NOWY STYL INFO O ZWROTCE (W MENU) */
-        #section-info {
-            flex-grow: 1;
+        /* Pole wyboru sekcji - węższe */
+        #section-select {
+            flex: 0 1 90px;
             background: #444;
-            color: #ffca28; /* Wyraźny żółtawy kolor, by rzucał się w oczy */
-            padding: 9px 12px;
+            color: #ffca28;
+            border: 1px solid #555;
             border-radius: 4px;
             font-size: 14px;
             font-weight: bold;
-            text-align: center;
-            text-transform: uppercase;
-            border: 1px solid #555;
-            min-width: 80px;
-            overflow: hidden;
-            white-space: nowrap;
+            padding: 5px;
         }
 
+        /* OKNO WYŚWIETLANIA - Przesunięte wyżej */
         #display {
             flex-grow: 1;
             display: flex;
-            align-items: center;
+            align-items: flex-start; /* Tekst zaczyna się wyżej */
             justify-content: center;
             text-align: center;
-            padding: 20px;
+            padding: 10px 20px;
             cursor: pointer;
             overflow: hidden;
+            position: relative;
+        }
+
+        #lyrics-container {
+            width: 100%;
+            margin-top: 20px; /* Mały margines od góry */
         }
 
         .verse {
             font-weight: 600;
-            line-height: 1.3;
+            line-height: 1.2;
             white-space: pre-wrap;
             animation: fadeIn 0.2s ease-out;
-            font-size: 8vh;
+            /* Zmniejszona czcionka dla większej ilości linii */
+            font-size: 3.8vh; 
             width: 100%;
         }
 
+        /* Ukrywanie tekstu */
+        .hidden { visibility: hidden; }
+
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* Optymalizacja pod telefon */
         @media (min-width: 769px) {
-            #song-select { flex: 1; }
-            .controls-row { width: auto; flex: 0; }
             #ui-layer { flex-wrap: nowrap; }
-            #section-info { min-width: 150px; font-size: 16px; }
-        }
-
-        @media (max-width: 768px) {
-            .verse { font-size: 5vh; }
+            #song-select { flex: 2; }
+            .controls-row { flex: 1; width: auto; }
+            .verse { font-size: 7vh; line-height: 1.4; }
         }
     </style>
 </head>
 <body>
 
 <div id="ui-layer">
-    <select id="song-select">
+    <select id="song-select" onchange="loadSong()">
         <option value="">Ładowanie...</option>
     </select>
     <div class="controls-row">
-        <button class="btn-load" onclick="loadSong()">Załaduj</button>
-        <button class="btn-clear" onclick="clearDisplay()">Wyczyść</button>
-        <div id="section-info">---</div>
+        <button id="btn-toggle" class="btn-toggle" onclick="toggleDisplay()">Ukryj</button>
+        <select id="section-select" onchange="jumpToSection(this.value)">
+            <option value="">---</option>
+        </select>
     </div>
 </div>
 
-<div id="display" onclick="nextVerse()">
+<div id="display" onclick="handleTap(event)">
     <div id="lyrics-container">
-        <div class="verse">Wybierz pieśń</div>
+        <div id="verse-text" class="verse"></div>
     </div>
 </div>
 
@@ -138,6 +136,17 @@
     let verses = [];
     let sectionNames = [];
     let currentVerseIndex = 0;
+    let isHidden = false;
+
+    // Mapowanie skrótów na polskie nazwy
+    const sectionMap = {
+        'v': 'Zwr',
+        'c': 'Ref',
+        'b': 'Bri',
+        'p': 'Pre',
+        'i': 'Int',
+        'e': 'Zak'
+    };
 
     async function init() {
         try {
@@ -145,7 +154,7 @@
             const text = await response.text();
             const files = text.split(/\r?\n/).filter(line => line.trim() !== '');
             const select = document.getElementById('song-select');
-            select.innerHTML = '<option value="">-- Wybierz z listy --</option>';
+            select.innerHTML = '<option value="">-- Wybierz pieśń --</option>';
             files.forEach(fileName => {
                 const option = document.createElement('option');
                 option.value = 'piesni/' + fileName.trim();
@@ -183,33 +192,77 @@
                     }
                 }
             }
+            
+            updateSectionDropdown();
             currentVerseIndex = 0;
+            isHidden = false;
+            updateUI();
             renderVerse();
         } catch (err) { alert("Błąd XML"); }
     }
 
     function translateSectionName(name) {
-        if (!name) return "";
-        let n = name.toLowerCase();
-        if (n.startsWith('v')) return "Zw " + n.substring(1);
-        if (n.startsWith('c')) return "Re " + n.substring(1);
-        if (n.startsWith('b')) return "Br " + n.substring(1);
-        if (n.startsWith('p')) return "Re " + n.substring(1);
-        return name;
+        if (!name) return "???";
+        let prefix = name.replace(/[0-9]/g, '').toLowerCase();
+        let num = name.replace(/\D/g, '');
+        let label = sectionMap[prefix] || name;
+        return num ? `${label} ${num}` : label;
     }
 
-    function renderVerse() {
-        const container = document.getElementById('lyrics-container');
-        const info = document.getElementById('section-info');
-        if (verses.length > 0) {
-            container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
-            info.textContent = sectionNames[currentVerseIndex];
+    function updateSectionDropdown() {
+        const sel = document.getElementById('section-select');
+        sel.innerHTML = '';
+        sectionNames.forEach((name, index) => {
+            const opt = document.createElement('option');
+            opt.value = index;
+            opt.textContent = name;
+            sel.appendChild(opt);
+        });
+    }
+
+    function jumpToSection(index) {
+        currentVerseIndex = parseInt(index);
+        isHidden = false;
+        updateUI();
+        renderVerse();
+    }
+
+    function toggleDisplay() {
+        isHidden = !isHidden;
+        updateUI();
+    }
+
+    function updateUI() {
+        const btn = document.getElementById('btn-toggle');
+        const text = document.getElementById('verse-text');
+        if (isHidden) {
+            text.classList.add('hidden');
+            btn.textContent = "Pokaż";
+            btn.style.background = "#6c757d";
+        } else {
+            text.classList.remove('hidden');
+            btn.textContent = "Ukryj";
+            btn.style.background = "#28a745";
         }
     }
 
-    function clearDisplay() {
-        document.getElementById('lyrics-container').innerHTML = '<div class="verse"> </div>';
-        document.getElementById('section-info').textContent = "---";
+    function renderVerse() {
+        const container = document.getElementById('verse-text');
+        const secSelect = document.getElementById('section-select');
+        if (verses.length > 0) {
+            container.innerText = verses[currentVerseIndex];
+            secSelect.value = currentVerseIndex;
+        }
+    }
+
+    function handleTap(e) {
+        if (verses.length === 0) return;
+        const width = window.innerWidth;
+        if (e.clientX < width / 2) {
+            prevVerse();
+        } else {
+            nextVerse();
+        }
     }
 
     function nextVerse() {
@@ -224,20 +277,12 @@
         renderVerse();
     }
 
+    // Klawiatura
     document.addEventListener('keydown', (e) => {
-        if (e.code === 'Space' || e.code === 'ArrowRight' || e.code === 'ArrowDown') { e.preventDefault(); nextVerse(); }
-        else if (e.code === 'ArrowLeft' || e.code === 'ArrowUp') prevVerse();
-        else if (e.code === 'Escape' || e.code === 'KeyB') clearDisplay();
+        if (e.code === 'Space' || e.code === 'ArrowRight') nextVerse();
+        else if (e.code === 'ArrowLeft') prevVerse();
+        else if (e.code === 'KeyH' || e.code === 'Escape') toggleDisplay();
     });
-
-    let touchstartX = 0;
-    const displayZone = document.getElementById('display');
-    displayZone.addEventListener('touchstart', e => { touchstartX = e.changedTouches[0].screenX; }, {passive: true});
-    displayZone.addEventListener('touchend', e => {
-        let touchendX = e.changedTouches[0].screenX;
-        if (touchendX < touchstartX - 50) nextVerse();
-        if (touchendX > touchstartX + 50) prevVerse();
-    }, {passive: true});
 
     init();
 </script>
