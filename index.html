@@ -35,22 +35,21 @@
             border: 1px solid #444;
             border-radius: 4px;
             flex-grow: 1;
+            min-width: 0; /* Zapobiega wypychaniu kontenera */
         }
 
         button {
-            padding: 10px 20px;
+            padding: 10px 15px;
             font-size: 16px;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             transition: opacity 0.2s;
+            white-space: nowrap;
         }
 
-        button:hover {
-            opacity: 0.8;
-        }
-
+        button:hover { opacity: 0.8; }
         .btn-load { background: #28a745; }
         .btn-clear { background: #6c757d; }
 
@@ -60,34 +59,40 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            padding: 40px;
+            padding: 20px;
             cursor: pointer;
             position: relative;
         }
 
         #lyrics-container {
             width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .verse {
             font-weight: 600;
             line-height: 1.4;
-            white-space: pre-wrap; /* Kluczowe dla obsługi nowych linii */
+            white-space: pre-wrap;
             animation: fadeIn 0.2s ease-out;
             
-            /* Domyślnie dla rzutnika */
+            /* Ustawienia dla rzutnika */
             font-size: 7vh; 
             padding: 0 40px;
+            padding-bottom: 60px; /* Miejsce na stopkę */
         }
 
         #section-footer {
             position: absolute;
-            bottom: 20px;
-            right: 30px;
-            font-size: 2.5vh;
+            bottom: 15px;
+            right: 20px;
+            font-size: 2.2vh;
             color: #444;
             text-transform: uppercase;
             letter-spacing: 2px;
+            pointer-events: none;
         }
 
         @keyframes fadeIn {
@@ -95,38 +100,39 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        #hint {
-            position: fixed;
-            bottom: 10px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            color: #222;
-            font-size: 14px;
-            pointer-events: none;
-        }
-
         /* --- Style dla urządzeń mobilnych (RWD) --- */
         @media (max-width: 768px) {
             #ui-layer {
-                flex-direction: column;
+                flex-wrap: wrap; /* Pozwala na zawijanie w razie potrzeby */
+                padding: 10px;
+                gap: 8px;
             }
 
-            select, button {
+            select {
                 width: 100%;
-                font-size: 18px;
+                order: 1; /* Select na górze */
+            }
+
+            .btn-load, .btn-clear {
+                flex: 1; /* Przyciski po 50% szerokości */
+                order: 2; /* Przyciski pod selectem */
+                font-size: 15px;
+                padding: 12px 5px;
             }
 
             .verse {
-                font-size: 4.5vh; 
-                padding: 0 15px;
-                line-height: 1.2;
+                font-size: 4.2vh; 
+                padding: 0 10px;
+                padding-bottom: 50px; /* Ochrona przed stopką na komórce */
+                line-height: 1.25;
             }
 
             #section-footer {
-                font-size: 16px;
-                bottom: 10px;
-                right: 15px;
+                font-size: 14px;
+                bottom: 8px;
+                right: 12px;
+                background: rgba(0,0,0,0.5); /* Lekkie tło pod napisem, by był czytelny */
+                padding: 2px 5px;
             }
         }
     </style>
@@ -148,80 +154,58 @@
     <div id="section-footer"></div>
 </div>
 
-<div id="hint">Nawigacja: Klik/Spacja/Strzałki | Wyczyść: Esc/B</div>
-
 <script>
     let verses = [];
     let sectionNames = [];
     let currentVerseIndex = 0;
 
-    // 1. Inicjalizacja listy z pliku lista.txt
     async function init() {
         try {
             const response = await fetch('lista.txt');
             const text = await response.text();
             const files = text.split(/\r?\n/).filter(line => line.trim() !== '');
-            
             const select = document.getElementById('song-select');
             select.innerHTML = '<option value="">-- Wybierz pieśń --</option>';
-
             files.forEach(fileName => {
                 const option = document.createElement('option');
                 option.value = 'piesni/' + fileName.trim();
                 option.textContent = fileName.replace('.xml', '').replace(/_/g, ' ');
                 select.appendChild(option);
             });
-        } catch (err) {
-            console.error("Błąd ładowania listy plików:", err);
-        }
+        } catch (err) { console.error(err); }
     }
 
-    // 2. Ładowanie i precyzyjne parsowanie pliku XML
     async function loadSong() {
         const url = document.getElementById('song-select').value;
         if (!url) return;
-
         try {
             const response = await fetch(url);
             const str = await response.text();
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
-            
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
             verses = [];
             sectionNames = [];
-            
             for (let v of xmlVerses) {
                 const name = v.getAttribute("name") || "";
                 const linesNode = v.getElementsByTagName("lines")[0];
-                
                 if (linesNode) {
                     let textWithNewLines = "";
-                    // Iteracja po dzieciach węzła, aby zachować <br> jako \n
                     for (let node of linesNode.childNodes) {
-                        if (node.nodeType === 3) { // Tekst
-                            textWithNewLines += node.nodeValue;
-                        } else if (node.nodeName === "br") { // Tagi łamania linii
-                            textWithNewLines += "\n";
-                        }
+                        if (node.nodeType === 3) textWithNewLines += node.nodeValue;
+                        else if (node.nodeName === "br") textWithNewLines += "\n";
                     }
-                    
                     if (textWithNewLines.trim()) {
                         verses.push(textWithNewLines.trim());
                         sectionNames.push(translateSectionName(name));
                     }
                 }
             }
-
             currentVerseIndex = 0;
             renderVerse();
-        } catch (err) {
-            console.error("Błąd XML:", err);
-            alert("Nie udało się załadować pieśni.");
-        }
+        } catch (err) { alert("Błąd XML."); }
     }
 
-    // Tłumaczenie nazw sekcji OpenLP
     function translateSectionName(name) {
         if (!name) return "";
         let translated = name.toLowerCase();
@@ -232,11 +216,9 @@
         return name;
     }
 
-    // 3. Funkcje wyświetlania
     function renderVerse() {
         const container = document.getElementById('lyrics-container');
         const footer = document.getElementById('section-footer');
-        
         if (verses.length > 0) {
             container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
             footer.textContent = sectionNames[currentVerseIndex] || "";
@@ -260,7 +242,6 @@
         renderVerse();
     }
 
-    // 4. Obsługa sterowania (Klawiatura)
     document.addEventListener('keydown', (e) => {
         if (e.code === 'Space' || e.code === 'ArrowRight' || e.code === 'ArrowDown') {
             e.preventDefault();
@@ -272,24 +253,17 @@
         }
     });
 
-    // 5. Obsługa sterowania dotykowego (Swipe dla telefonów)
     let touchstartX = 0;
     let touchendX = 0;
-
     const displayZone = document.getElementById('display');
-    displayZone.addEventListener('touchstart', e => {
-        touchstartX = e.changedTouches[0].screenX;
-    }, {passive: true});
-
+    displayZone.addEventListener('touchstart', e => { touchstartX = e.changedTouches[0].screenX; }, {passive: true});
     displayZone.addEventListener('touchend', e => {
         touchendX = e.changedTouches[0].screenX;
         if (touchendX < touchstartX - 50) nextVerse();
         if (touchendX > touchstartX + 50) prevVerse();
     }, {passive: true});
 
-    // Uruchomienie listy na starcie
     init();
 </script>
-
 </body>
 </html>
