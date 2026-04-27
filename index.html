@@ -191,10 +191,10 @@
     function translateSectionName(name) {
         if (!name) return "";
         let n = name.toLowerCase();
-        if (n.startsWith('Z')) return "Zwr " + n.substring(1);
-        if (n.startsWith('R')) return "Ref " + n.substring(1);
-        if (n.startsWith('B')) return "Most " + n.substring(1);
-        if (n.startsWith('R')) return "Pre " + n.substring(1);
+        if (n.startsWith('v')) return "Zw " + n.substring(1);
+        if (n.startsWith('c')) return "Re " + n.substring(1);
+        if (n.startsWith('b')) return "Br " + n.substring(1);
+        if (n.startsWith('p')) return "Re " + n.substring(1);
         return name;
     }
 
