@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-21T17:31:42">
+  <properties>
+    <titles>
+      <title>Przywołaj mnie Panie</title>
+      <title>mów domego serca</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przywołaj mnie Panie, <br/>przywołaj mnie Panie <br/>na pustynię. <br/>I niech mój głód Ciebie <br/>i moja tęsknota <br/>przywoła Ciebie.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Mów do mego serca, mów do mego serca, <br/>Ty znasz jego ukryte doliny. <br/>Tam gdzie usychają piękne winnice,<br/>Ty wiesz gdzie otworzyć ukryte źródła</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Niech we mnie umilkną <br/>pragnienia i myśli <br/>abyś mógł mówić Ty.<br/>Niech słowa miłości <br/>i przebaczenia <br/>przenikną duszę mą.</lines>
+    </verse>
+  </lyrics>
+</song>

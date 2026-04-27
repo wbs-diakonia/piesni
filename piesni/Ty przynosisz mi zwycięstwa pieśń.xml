@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-17T14:55:00">
+  <properties>
+    <titles>
+      <title>Ty przynosisz mi zwycięstwa pieśń</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty przynosisz mi zwycięstwa pieśń<br/>Ty dotykasz słowem swym<br/>Dajesz wolność mi z sideł wokół mnie<br/>A więc znika każdy lęk.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Wiem, nie muszę się więcej bać<br/>Bo jestem dzieckiem Twym</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ty wybrałeś mnie u początku dni<br/>Wyszeptałeś imię me<br/>Jestem dzieckiem Twym, pokochałeś mnie<br/>Me życie w Twojej krwi</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Bo na Twój głos dziś mogę przejść przez morze<br/>W miłości tonie cały strach<br/>Wyzwalasz mnie i mogę wyznać, że<br/>Ja jestem dzieckiem Twym</lines>
+    </verse>
+  </lyrics>
+</song>

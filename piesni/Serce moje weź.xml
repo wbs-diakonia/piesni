@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:49">
+  <properties>
+    <titles>
+      <title>Serce moje weź</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wszystko Tobie oddać pragnę    <br/>i dla Ciebie tylko żyć!           <br/>Chcę Cię Jezu kochać wiernie      <br/>dzieckiem Twoim zawsze być!       </lines>
+    </verse>
+    <verse name="c1">
+      <lines><br/>Serce moje weź, niech Twą śpiewa cześć,<br/>serce moje, duszę moją, Panie Jezu weź!<br/>/x2 </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wszystko Tobie oddać pragnę<br/>od najmłodszych moich lat.<br/>Pomóż Jezu by mnie nie zwiódł<br/>pokusami swymi świat. <br/> </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Serce moje weź, niech Twą śpiewa cześć,<br/>serce moje, duszę moją, Panie Jezu weź!<br/>/x2 </lines>
+    </verse>
+    <verse name="v3">
+      <lines>Wszystko Tobie oddać pragnę,<br/>w duszy czuję święty żar.<br/>To Ty dajesz dziecku swemu<br/>Twojej łaski Boży dar.<br/> </lines>
+    </verse>
+    <verse name="c3">
+      <lines><br/>Serce moje weź, niech Twą śpiewa cześć,<br/>serce moje, duszę moją, Panie Jezu weź!<br/>/x2 </lines>
+    </verse>
+  </lyrics>
+</song>

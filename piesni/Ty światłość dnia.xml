@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-06T21:26:35">
+  <properties>
+    <titles>
+      <title>Ty światłość dnia</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty światłość dnia wszedłeś w moje ciemności,<br/>dałeś mi wzrok, abym mógł<br/>widzieć Twą Twarz i Spojrzenie Miłości,<br/>którym roztapiasz mój strach</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jestem tu, by wielbić, by oddawać chwałę,<br/>jestem tu, by wyznać: to mój Bóg.<br/>dobry i łaskawy, cały tak wspaniały,<br/>ponad wszystko cenny dla mnie jest. /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ty czasów Król, wywyższony na wieki,<br/>jaśnieje w Niebie Twój Tron<br/>zszedłeś na Ziemię, by stać się Człowiekiem,<br/>by rajem stał się mój dom</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jestem tu, by wielbić, by oddawać chwałę,<br/>jestem tu, by wyznać: to mój Bóg.<br/>dobry i łaskawy, cały tak wspaniały,<br/>ponad wszystko cenny dla mnie jest. /x2</lines>
+    </verse>
+    <verse name="v3">
+      <lines>I niczym nie odpłacę się<br/>za miłość Twą i za Twój Krzyż! /x3</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Jestem tu, by wielbić, by oddawać chwałę,<br/>jestem tu, by wyznać: to mój Bóg.<br/>dobry i łaskawy, cały tak wspaniały,<br/>ponad wszystko cenny dla mnie jest. /x4</lines>
+    </verse>
+  </lyrics>
+</song>

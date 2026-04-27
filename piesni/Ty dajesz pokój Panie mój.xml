@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-11-06T15:42:17">
+  <properties>
+    <titles>
+      <title>Ty dajesz pokój Panie mój</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty dajesz pokój Panie mój<br/>Ty bierzesz wszystkie niepokoje<br/><br/>Weź usta, ręce, weź ciało me<br/>Weź duszę, serce moje</lines>
+    </verse>
+  </lyrics>
+</song>

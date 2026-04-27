@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-10-18T16:59:22">
+  <properties>
+    <titles>
+      <title>Różańcowa Pani nieba Ziemi</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Różańcowa Pani nieba, ziemi,<br/>Pozdrawiamy Cię głosy naszymi.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przyszłaś do nas z matczynym zadaniem:<br/>Przestrzec ludzkość przed Bożym karaniem.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Mówisz, że chcesz być dla nas obroną<br/>I ratować dusze, które toną.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Rzekłaś, że świat grzechem jest zatruty,<br/>więc żądałaś po trzykroć pokuty.</lines>
+    </verse>
+    <verse name="c4a">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Ty w Fatimie wskazałaś różaniec,<br/>dla grzeszników to obrony szaniec.</lines>
+    </verse>
+    <verse name="c4b">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v6">
+      <lines>Tajemnice różańca świętego<br/>zdepczą wroga zbawienia naszego.</lines>
+    </verse>
+    <verse name="c4c">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+    <verse name="v7">
+      <lines>Wtedy Serce me zatryumfuje,<br/>ludzkość całą ono uratuje</lines>
+    </verse>
+    <verse name="c4d">
+      <lines>Do Ciebie się cały świat ucieka,<br/>Przez różaniec Twej pomocy czeka,<br/>Różańcowa Dziewico Maryjo.</lines>
+    </verse>
+  </lyrics>
+</song>

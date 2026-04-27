@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-06T16:05:50">
+  <properties>
+    <titles>
+      <title>Przymnóż nam wiary</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1a">
+      <lines>Przymnóż nam wiary<br/>Przymnóż nam wiary<br/>Przymnóż nam wiary Panie nasz./ x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Ojcze Przyjacielu, wierzymy Ci<br/>Ojcze Miłosierny, wierzymy Ci<br/>Boże Ojcze w Trójcy, wierzymy Ci<br/>Ojcze Wszechmogący, wierzymy Ci</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Przymnóż nam wiary<br/>Przymnóż nam wiary<br/>Przymnóż nam wiary Panie nasz./ x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jezu, Synu Boży, wierzymy Ci<br/>Zbawicielu świata, wierzymy Ci<br/>Żywe Słowo Boga, wierzymy Ci<br/>Jezu, Synu Maryi, wierzymy Ci</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Przymnóż nam wiary<br/>Przymnóż nam wiary<br/>Przymnóż nam wiary Panie nasz./ x2</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Duchu Święty, Boże, wierzymy Ci<br/>Duchu, życie wieczne, wierzymy Ci<br/>Słodki Gościu duszy, wierzymy Ci<br/>Duchu Miłości, wierzymy Ci</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Przymnóż nam wiary<br/>Przymnóż nam wiary<br/>Przymnóż nam wiary Panie nasz./ x2</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Wierzę w Boga Ojca<br/>wierzę w Jezusa Chrystusa,<br/>wierzę w Ducha Świętego,<br/>święty Kościół.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>W świętych obcowanie,<br/>grzechów odpuszczenie,<br/>ciała zmartwychwstanie, <br/>żywot wieczny. Amen.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Przymnóż nam wiary<br/>Przymnóż nam wiary<br/>Przymnóż nam wiary Panie nasz./ x2</lines>
+    </verse>
+  </lyrics>
+</song>

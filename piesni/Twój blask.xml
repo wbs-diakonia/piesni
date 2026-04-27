@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:50">
+  <properties>
+    <titles>
+      <title>Twój blask</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Twój blask przeniknął mnie, odrodził radość mą<br/>Jak deszcz wylała się cudowna łaska Twa.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Smutek mój obróciłeś w taniec.<br/>Moje łzy obróciłeś w śmiech</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Twa dłoń podniosła mnie, na skale stoję Twej<br/>Więc pieśń zaśpiewam Ci, ogłoszę wszystkim, że…</lines>
+    </verse>
+  </lyrics>
+</song>

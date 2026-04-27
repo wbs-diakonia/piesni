@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-10-23T09:59:10">
+  <properties>
+    <titles>
+      <title>Przyjdź Jezu mój</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Bóg kiedyś stał się jednym z nas<br/>By nas przemienić w siebie<br/>Przyjdź Jezu mój<br/>Zostań wśród nas na zawsze już /x2</lines>
+    </verse>
+  </lyrics>
+</song>

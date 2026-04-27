@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-24T19:19:23">
+  <properties>
+    <titles>
+      <title>Przyjacielu chcę zostać z Tobą</title>
+      <title>Bo nie ma większej miłości</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przyjacielu, <br/>chcę zostać z Tobą,<br/> przy Tobie chcę być <br/>i nie trzeba, <br/>byś mówił więcej, <br/>wystarczy byś był.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo nie ma większej miłości niż ta, <br/>gdy ktoś życie oddaje,<br/>abym ja mógł żyć.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Chcę być z Tobą, <br/>gdy jest mi dobrze <br/>i kiedy mi źle.<br/>Przyjacielu, <br/>otwieram przed Tobą serce swe.</lines>
+    </verse>
+  </lyrics>
+</song>

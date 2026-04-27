@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:48">
+  <properties>
+    <titles>
+      <title>Schowaj mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Schowaj mnie pod skrzydła Twe,<br/>Ukryj mnie w silnej dłoni swej</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Kiedy fale mórz chcą porwać mnie<br/>Z Tobą wzniosę się, podniesiesz mnie!<br/>Panie, Królem Tyś spienionych wód<br/>Ja ufam Ci- Ty jesteś Bóg</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Odpoczne dziś w ramionach Twych<br/>Dusza ma w Tobie będzie trwać</lines>
+    </verse>
+  </lyrics>
+</song>

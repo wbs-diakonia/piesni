@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:50">
+  <properties>
+    <titles>
+      <title>Tylko On</title>
+      <title>TGD</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Tylko On godzien jest<br/>Przyjąć hołd wszelką cześć<br/>To mój Pan, to mój brat<br/>To mój Jezus<br/>To mój król tylko On<br/>Godzien jest zająć tron<br/>Tylko On, tylko Jezus</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Obrazem jest Boga niewidzialnego<br/>Stworzony świat przez Niego i dla Niego<br/>Pierwszy we wszystkim, wszystko początek swój ma w Nim<br/>doskonały Boży Syn</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Tylko On godzien jest<br/>Przyjąć hołd, wszelką cześć<br/>To mój Pan, to mój brat<br/>To mój Jezus<br/>To mój król tylko On<br/>Godzien jest zająć tron<br/>Tylko On, tylko Jezus</lines>
+    </verse>
+    <verse name="v1d">
+      <lines>Bóg zechciał, by w Nim zamieszkała pełnia<br/>Przez Jego krzyż ze sobą świat pojednał<br/>Dał nam zbawienie i odpuszczenie wszelkich win<br/>Oto jest moc Jego świętej Krwi</lines>
+    </verse>
+    <verse name="v1e">
+      <lines>Tylko On godzien jest<br/>Przyjąć hołd, wszelką cześć<br/>To mój Pan, to mój brat<br/>To mój Jezus<br/>To mój król tylko On<br/>Godzien jest zająć tron<br/>Tylko On, tylko Jezus<br/><br/>Jezus, Jezus, Jezus, tylko Jezus!</lines>
+    </verse>
+  </lyrics>
+</song>

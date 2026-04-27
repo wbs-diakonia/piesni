@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-04-20T15:18:12">
+  <properties>
+    <titles>
+      <title>Tylko z Tobą być</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tylko z Tobą być<br/>to wszystko, co chcę<br/>odczuwać, że kochasz<br/>służąc Ci z wszystkich mych sił x2</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Niewiele tak mam<br/>lecz to, co mam oddaję Ci <br/>weź  życie me, tak życie me<br/>jako dar miłości mej</lines>
+    </verse>
+  </lyrics>
+</song>

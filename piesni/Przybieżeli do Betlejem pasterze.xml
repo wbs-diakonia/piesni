@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:47">
+  <properties>
+    <titles>
+      <title>Przybieżeli do Betlejem pasterze</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przybieżeli do Betlejem pasterze, <br/>Grając skocznie Dzieciąteczku na lirze. <br/>Chwała na wysokości, chwała na wysokości, <br/>A pokój na ziemi. </lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Oddawali swe ukłony w pokorze<br/>Tobie z serca ochotnego, o Boże!<br/>Chwała na wysokości, chwała na wysokości, <br/>A pokój na ziemi. </lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Anioł Pański sam ogłosił te dziwy,<br/>Których oni nie słyszeli, jak żywi.<br/>Chwała na wysokości, chwała na wysokości, <br/>A pokój na ziemi. </lines>
+    </verse>
+    <verse name="v4">
+      <lines><br/>Dziwili się napowietrznej muzyce,<br/>i myśleli co to będzie za dziecię<br/>Chwała na wysokości, chwała na wysokości, <br/>A pokój na ziemi. </lines>
+    </verse>
+    <verse name="v5">
+      <lines><br/>My Go także Bogiem, Zbawcą już znamy,<br/>I z całego serca wszyscy kochamy<br/>Chwała na wysokości, chwała na wysokości, <br/>A pokój na ziemi. <br/><br/>Chwała, niech będzie chwała </lines>
+    </verse>
+  </lyrics>
+</song>

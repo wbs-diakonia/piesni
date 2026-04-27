@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:51">
+  <properties>
+    <titles>
+      <title>Tylko w Bogu moje jest zbawienie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tylko w Bogu moje jest zbawienie<br/>W Nim jedynie duszy ukojenie<br/>Moja chwała i skała<br/>W Nim pokładam mą nadzieję</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ufaj Mu, Kościele, w każdym czasie<br/>Wylewajcie przed Nim serca wasze<br/>Ludzie lżejsi niż tchnienie<br/>Tylko w Bogu jest zbawienie</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Sprawiedliwy jest nasz Pan<br/>Każdy zbierze to, co siał<br/>Kto uwierzy nie zawiedzie się<br/>Przychodzimy przed Twój tron<br/>Chcemy widzieć Twoją moc<br/>I doświadczyć, Panie, łaski Twej</lines>
+    </verse>
+  </lyrics>
+</song>

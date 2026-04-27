@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:47">
+  <properties>
+    <titles>
+      <title>Przyjdź Duchu Święty ja pragnę</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przyjdź Duchu Święty, ja pragnę. O to dziś błagam Cię.<br/>Przyjdź w swojej mocy i sile. Radością napełnij mnie. x2 </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przyjdź jako Mądrość do dzieci. Przyjdź jak ślepemu wzrok.<br/>Przyjdź jako moc w mej słabości. Weź wszystko, co moje jest. x2</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Przyjdź jako źródło pustyni mocą swą do naszych dusz.<br/>O niech Twa moc uzdrowienia dotknie, uleczy mnie już. x2</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Przyjdź Duchu Święty, ja pragnę. O to dziś błagam Cię.<br/>Przyjdź w swojej mocy i sile. Radością napełnij mnie. x2</lines>
+    </verse>
+  </lyrics>
+</song>

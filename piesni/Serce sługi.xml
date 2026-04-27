@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-15T12:28:16">
+  <properties>
+    <titles>
+      <title>Serce sługi</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jestem więźniem miłości do końca moich dni <br/>Ta miłość mnie odmieniła z miłosci niosłeś krzyż <br/>Co mogę Tobie dać gdy puste ręce mam </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Serce gorące gotowe by służyć<br/>Temu co sługą się stał<br/>Niech moje usta ogłoszą chwałę <br/>Temu co chwałą się okrył sam<br/>Temu co chwałą się okrył sam </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jezu trzymaj mnie blisko bez Ciebie nie mam nic <br/>Twa łaska dała mi wszystko za cenę Twojej krwi<br/>Co mogę Tobie dać gdy puste ręce mam </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Serce gorące gotowe by służyć<br/>Temu co sługą się stał<br/>Niech moje usta ogłoszą chwałę <br/>Temu co chwałą się okrył sam<br/>Temu co chwałą się okrył sam </lines>
+    </verse>
+    <verse name="b1">
+      <lines>Chwała w Twoich planach i cudach nie dorówna Ci nikt <br/>Chwała uwielbiamy Twe imię Najwyższy!<br/>Chwała W Twoich planach i cudach nie dorówna Ci nikt <br/>Chwała uwielbiamy Twe imię Najwyższy! </lines>
+    </verse>
+  </lyrics>
+</song>

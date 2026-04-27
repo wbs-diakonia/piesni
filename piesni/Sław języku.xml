@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-02T15:27:16">
+  <properties>
+    <titles>
+      <title>Sław języku</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1. Sław języku tajemnicę<br/>Ciała i Najdroższej Krwi<br/>którą jako łask krynicę<br/>wylał w czasie ziemskich dni<br/>Ten co matkę miał dziewicę<br/>Król narodów godzien czci.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Z panny czystej narodzony<br/>posłan zbawić ludzki ród<br/>gdy po świecie na wsze strony<br/>ziarno Słowa rzucił w lud<br/>wtedy cudem niezgłębionym<br/>zamknął swej pielgrzymki trud.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3. W noc ostatnią przy wieczerzy<br/>z tymi których braćmi zwał<br/>pełniąc wszystko jak należy<br/>czego przepis prawny chciał<br/>Sam dwunastu się powierzył<br/>i za pokarm z rąk Swych dał</lines>
+    </verse>
+    <verse name="v4">
+      <lines>4. Słowem więc Wcielone Słowo<br/>chleb zamienia w Ciało swe<br/>wino Krwią jest Chrystusową<br/>darmo wzrok to widzieć chce<br/>tylko wiara Bożą mowa<br/>pewność o tym w serca śle</lines>
+    </verse>
+    <verse name="v5">
+      <lines> 5. Przed tak wielkim Sakramentem<br/>upadajmy wszyscy wraz<br/>niech przed Nowym Testamentem<br/>starych praw ustąpi czas<br/>co dla zmysłów niepojęte<br/>niech dopełni wiara w nas</lines>
+    </verse>
+    <verse name="v6">
+      <lines>6. Bogu Ojcu i Synowi<br/>od po wszystkie nieśmy dni<br/>niech podaje wiek wiekowi<br/>hymn tryumfu dzięki czci<br/>a równemu Im Duchowi niechaj<br/>wieczna chwała brzmi. Amen.</lines>
+    </verse>
+  </lyrics>
+</song>

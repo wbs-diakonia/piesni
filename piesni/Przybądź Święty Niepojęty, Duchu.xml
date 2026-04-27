@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-05-17T16:51:07">
+  <properties>
+    <titles>
+      <title>Przybądź Święty Niepojęty, Duchu</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines> Języku ognia, przyjdź i płoń  w naszych sercach;<br/>Duchu miłości, przemieniaj nas.<br/>Swe pocieszenie nam daj i nim wypełniaj;<br/>Duchu nadziei, umacniaj nas.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Przybądź Święty, niepojęty<br/>z nieba na nas tchnięty Duchu!<br/>Rozpal świętą, niepojętą,<br/>z nieba na nas tchniętą miłość!<br/>Nią ogarnij nas! Amen!<br/>Nią ogarnij nas! Amen!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Obłoku jasny, ochroń nas przed gniewem Złego;<br/>daj soli smak i światłu blask.<br/>Nie daj się ukryć miastu Boga przedwiecznego;<br/>osłaniaj je, strzeż jego bram.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Przybądź Święty, niepojęty<br/>z nieba na nas tchnięty Duchu!<br/>Rozpal świętą, niepojętą,<br/>z nieba na nas tchniętą miłość!<br/>Nią ogarnij nas! Amen!<br/>Nią ogarnij nas! Amen!</lines>
+    </verse>
+    <verse name="v3">
+      <lines> Pocieszycielu, radość swą ześlij z nieba,<br/>wszak Dobry ją obiecał nam.<br/>Przerwij milczenie w imię Syna - Słowa - Chleba;<br/>najświętsze Tchnienie, wołaj w nas!</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Przybądź Święty, niepojęty<br/>z nieba na nas tchnięty Duchu!<br/>Rozpal świętą, niepojętą,<br/>z nieba na nas tchniętą miłość!<br/>Nią ogarnij nas! Amen!<br/>Nią ogarnij nas! Amen!</lines>
+    </verse>
+  </lyrics>
+</song>

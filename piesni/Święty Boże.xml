@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-04-18T15:14:22">
+  <properties>
+    <titles>
+      <title>Święty Boże</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Święty Boże, Święty Mocny,<br/>Święty, a Nieśmiertelny;<br/>zmiłuj się nad nami.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Od powietrza, głodu, ognia i wojny,<br/>wybaw nas Panie.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Od nagłej, a niespodziewanej śmierci,<br/>zachowaj nas Panie.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>My grzeszni Ciebie Boga prosimy:<br/>wysłuchaj nas Panie.</lines>
+    </verse>
+  </lyrics>
+</song>

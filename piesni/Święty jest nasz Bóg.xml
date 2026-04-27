@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T09:06:58">
+  <properties>
+    <titles>
+      <title>Święty jest nasz Bóg</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Święty, święty, święty jest nasz Bóg,<br/>Święty jest nasz Bóg wszechmogący /2x<br/>Który był, który jest i który przychodzi<br/>Święty, święty, święty jest nasz Bóg.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Godzien, godzien, godzien jest Baranek,<br/>Godzien jest Baranek zabity,<br/>Który był, który jest i który przychodzi.<br/>Godzien, godzien, godzien jest Baranek.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jezus, Jezus, Jezus Panem jest,<br/>Jezus Bogiem jest wszechmogącym,<br/>Który był, który jest i który przychodzi.<br/>Jezus, Jezus, Jezus Panem jest.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-28T08:16:22">
+  <properties>
+    <titles>
+      <title>Tak jak Duch się porusza</title>
+      <title>Rest on us (Spocznij na nas)</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tak jak Duch się poruszał ponad wodami<br/>Panie poruszaj się tu<br/>Spocznij  na nas, spocznij na nas. /x2                                                                                    </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Zstąp dziś,<br/>Duchu Święty kiedy Ty przychodzisz,<br/>moje serce drży,                      <br/><br/>Ty, Panie wypełniasz to miejsce, <br/>wypełnij na nowo me serce /x2                             </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ogień i wiatr niech pojawią się znów, <br/>otwórz bramy nieba <br/>objaw się tu          <br/><br/>Spocznij  na nas, spocznij na nas. /x2                                                                                    </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Zstąp dziś, <br/>Duchu Święty kiedy Ty przychodzisz, <br/>moje serce drży,<br/><br/>Ty, Panie wypełniasz to miejsce, <br/>wypełnij na nowo me serce /x2                             </lines>
+    </verse>
+    <verse name="b1">
+      <lines>Duchu Święty, spocznij na nas <br/>pragniemy Cię, pragniemy Cię /x2                      <br/>                     </lines>
+    </verse>
+  </lyrics>
+</song>

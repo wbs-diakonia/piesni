@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:48">
+  <properties>
+    <titles>
+      <title>Raduj się, świecie, przyszedł Pan!</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Niech zabrzmi chwały pieśń.<br/>Niech każde serce Mu zrobi miejsce, <br/>Niech śpiewa wszelki twór,<br/>Niech śpiewa wszelki twór,<br/>Niechaj niebo i cała Ziemia chwalą Go.</lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Bóg sprawiedliwy pełen łask.<br/>Objawił miłość swą.<br/>Dał światu Syna swego, świętego jedynego.<br/>Niech śpiewa wszelki twór,<br/>niech śpiewa wszelki twór.<br/>Niechaj niebo i cała ziemia chwalą Go (x3)</lines>
+    </verse>
+  </lyrics>
+</song>

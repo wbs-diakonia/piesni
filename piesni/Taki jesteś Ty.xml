@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-07-01T18:34:20">
+  <properties>
+    <titles>
+      <title>Taki jesteś Ty</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jesteś tu jesteś pośród nas <br/>uwielbiam Cię uwielbiam Cię<br/>Jesteś tu działasz w każdym z nas<br/>uwielbiam Cię uwielbiam Cię</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jesteś Wszechmocny Ty czynisz cuda<br/>Jeste drogą, światłem w ciemności,<br/>O tak taki jesteś Ty</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jesteś tu i dotykasz serc<br/>uwielbiam Cię, uwielbiam Cię<br/>Jesteś tu leczysz każde z serc<br/>uwielbiam Cię, uwielbiam Cię</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jesteś tu zmieniasz życie me<br/>uwielbiam Cię, uwielbiam Cię<br/>Jesteś tu i odnawiasz mnie <br/>uwielbiam Cię, uwielbiam Cię</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Jesteś Wszechmocny Ty czynisz cuda<br/>Jeste drogą, światłem w ciemności,<br/>O tak taki jesteś Ty</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Taki jesteś Ty / x4</lines>
+    </verse>
+    <verse name="b2">
+      <lines>Choć czasem tego nie widzę Ty działasz<br/>Choć czasem tego nie czuję Ty działasz<br/>Nie zmieniasz się <br/>i wiem, że wciąż działasz<br/>Nie zmieniasz się <br/>i wiem, że wciąż działasz</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Jesteś Wszechmocny Ty czynisz cuda<br/>Jeste drogą, światłem w ciemności,<br/>O tak taki jesteś Ty</lines>
+    </verse>
+  </lyrics>
+</song>

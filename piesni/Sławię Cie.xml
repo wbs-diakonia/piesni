@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-10T16:59:05">
+  <properties>
+    <titles>
+      <title>Sławię Cie</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Sławię Cię, Sławię Cię, zawsze chcę przy Tobie być,<br/>Dziękować Ci pragnę <br/>bo właśnie Ty kochasz mnie.</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Wyrwałeś mnie ze śmierci, odmieniłeś życie me<br/>Zmazałeś moje winy, przebaczyłeś mi mój grzech,<br/>Wyrwałeś mnie ze śmierci, odmieniłeś życie me<br/>Od dzisiał już na zawsze będę śpiewać Tobie pieśń.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Kocham Cię, kocham Cię przyjmij dziś miłość mą,<br/>Raduję się w Tobie, bo właśnie Ty kochasz mnie</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Wyrwałeś mnie ze śmierci, odmieniłeś życie me<br/>Zmazałeś moje winy, przebaczyłeś mi mój grzech,<br/>Wyrwałeś mnie ze śmierci, odmieniłeś życie me<br/>Od dzisiał już na zawsze będę śpiewać Tobie pieśń.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:50">
+  <properties>
+    <titles>
+      <title>Tryumfy Króla niebieskiego</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Tryumfy Króla niebieskiego <br/>Zstąpiły z nieba wysokiego <br/>Pobudziły pasterzów <br/>dobytku swego stróżów. <br/>Śpiewaniem, śpiewaniem, śpiewaniem. </lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Zrodziła Maryja Dziewica - Wiecznego Boga bez rodzica.<br/>By nas z piekła wybawił - a w niebieskich postawił.<br/>Pałacach, pałacach, pałacach.</lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Chwała bądź Bogu w wysokości - A ludziom pokój na niskości.<br/>Narodził się Zbawiciel - dusz ludzkich Odkupiciel.<br/>Na ziemi, na ziemi, na ziemi.</lines>
+    </verse>
+  </lyrics>
+</song>

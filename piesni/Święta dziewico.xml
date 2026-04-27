@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-19T12:39:22">
+  <properties>
+    <titles>
+      <title>Święta dziewico</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Święta Dziewico<br/>Łaski Skarbnico<br/>Bramo do nieba<br/>Prowadź nas Maryjo</lines>
+    </verse>
+  </lyrics>
+</song>

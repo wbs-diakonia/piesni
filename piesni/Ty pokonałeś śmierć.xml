@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-09T21:16:16">
+  <properties>
+    <titles>
+      <title>Ty pokonałeś śmierć</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Ty pokonałeś śmierć <br/>nie zawahałeś się<br/>Ty wziąłeś na siebie moj grzech<br/>wykonało się</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Należę do Ciebie<br/>Należę do Ciebie Panie mój<br/><br/>Już nic nie wyrwie mnie z Twoich rąk /x2</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Ty dałeś mi nowe serce<br/>Ukochałeś mnie<br/>Gdy byłem jeszcze wrogiem<br/>Oddałeś życie swe/ x2</lines>
+    </verse>
+    <verse name="v1d">
+      <lines>Należę do Ciebie<br/>Należę do Ciebie Panie mój<br/>Już nic nie wyrwie mnie z Twych rąk /x2</lines>
+    </verse>
+  </lyrics>
+</song>

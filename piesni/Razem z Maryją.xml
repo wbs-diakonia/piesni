@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-02-15T18:03:38">
+  <properties>
+    <titles>
+      <title>Razem z Maryją</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1.Kiedy przechodzi taka pełna blasku,<br/> To aniołowie patrzą zachwyceni, <br/>Umiłowana Córka Boga Ojca, <br/>Kwiat najpiękniejszy całego stworzenia. <br/>Mistrzyni życia w świętej codzienności, <br/>Znała ból straty i smutek rozstania, <br/>Nawet pod krzyżem nie przestała kochać, <br/>Nawet pod krzyżem ufała bez granic. </lines>
+    </verse>
+    <verse name="c1">
+      <lines> Idąc z Maryją nie pomylisz drogi, <br/>modląc się do Niej nie stracisz nadziei, <br/>gdy ją zawołasz rozproszy Twą rozpacz, <br/>myślą bądź przy Niej a wtedy nie zginiesz. <br/>Gdy Ona strzeże nie musisz się lękać, <br/>gdy Cię prowadzi nie czujesz zmęczenia,<br/><br/> <br/>w jej obecności matczynej, łaskawej,<br/> bezpiecznie dotrzesz do portu zbawienia.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Światła tej Gwiazdy nigdy nie trać z oczu,<br/> Czy to w radościach, trudach, czy pokusach,<br/> Jej czyste serce zna najlepszą drogę <br/>Prowadzi prosto w ramiona Jezusa.</lines>
+    </verse>
+    <verse name="c2">
+      <lines> Idąc z Maryją nie pomylisz drogi, <br/>modląc się do Niej nie stracisz nadziei, <br/>gdy ją zawołasz rozproszy Twą rozpacz, <br/>myślą bądź przy Niej a wtedy nie zginiesz. <br/>Gdy Ona strzeże nie musisz się lękać, <br/>gdy Cię prowadzi nie czujesz zmęczenia, <br/><br/><br/>w jej obecności matczynej, łaskawej,<br/> bezpiecznie dotrzesz do portu zbawienia.</lines>
+    </verse>
+  </lyrics>
+</song>

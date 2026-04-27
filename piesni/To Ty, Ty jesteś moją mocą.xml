@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:50">
+  <properties>
+    <titles>
+      <title>To Ty, Ty jesteś moją mocą</title>
+    </titles>
+    <verseOrder>v1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>To Ty, Ty jesteś moją mocą<br/>to Ty, Ty jesteś moją siłą<br/>to Ty, Ty rodzisz we mnie miłość<br/>to Ty, Ty Boże we mne żyjesz.</lines>
+    </verse>
+  </lyrics>
+</song>

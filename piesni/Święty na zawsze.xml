@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-05-09T21:55:11">
+  <properties>
+    <titles>
+      <title>Święty na zawsze</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Kolejne pokolenia od wieków wielbią Cię<br/>Śpiewając pieśni chwały na Twą cześć<br/>Śpiewali Ci przed nami<br/>Następni śpiewać będą<br/>Nie ucichną pieśni na Twą cześć</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Twe Imię jest najwyższe<br/>Twe Imię jest największe<br/>Twe Imię ponad wszystkim jest<br/>Nad królów panowaniem<br/>I mocą i władaniem<br/>Twe imię ponad wszystkim jest</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Pieśń Aniołów brzmi Święty<br/>Wszystko śpiewa dziś Świety<br/>Wywyższamy Cie Święty<br/>Święty na zawsze</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Śpiewa Boży lud Święty <br/>To nasz Królów Król Święty<br/>Już do końca dni Święty<br/>Święty na zawsze</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jeśli krew Baranka zmyła Twoje winy<br/>Śpiewaj najwyższemu Chwały pieśń<br/>Jeśli dał Ci wolność i nosisz Jego imię<br/>Śpiewaj nieustannie Chwały pieśń</lines>
+    </verse>
+  </lyrics>
+</song>

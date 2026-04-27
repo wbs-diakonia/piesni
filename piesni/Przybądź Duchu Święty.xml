@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:47">
+  <properties>
+    <titles>
+      <title>Przybądź Duchu Święty</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przybądź Duchu Święty <br/>Spuść z niebiosów wzięty <br/>Światła Twego strumień.<br/>Przyjdź Ojcze ubogich <br/>Dawco Darów mnogich<br/>Przyjdź Światłości sumień </lines>
+    </verse>
+    <verse name="v2">
+      <lines>O najmilszy z gości<br/>słodka serc Radości<br/>słodkie Orzeźwienie.<br/>W pracy Tyś Ochłodą<br/>w skwarze Żywą wodą<br/>w płaczu utuleniem</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Światłości najświętsza serc<br/>wierzących wnętrza<br/>poddaj Swej Potędze.<br/>Bez Twojego tchnienia<br/>cóż jest wśród stworzenia<br/>jeno cierń i nędze</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Obmyj co nie święte<br/>oschłym wlej zachętę<br/>ulecz serca ranę.<br/>Nagnij co jest harde<br/>rozgrzej serca twarde<br/>prowadź zabłąkane</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Daj Twoim wierzącym<br/>w Tobie ufającym<br/>siedmiorakie dary.<br/>Daj zasługę męstwa<br/>daj wieniec zwycięstwa<br/>daj szczęście bez miary</lines>
+    </verse>
+  </lyrics>
+</song>

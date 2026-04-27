@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-27T17:01:05">
+  <properties>
+    <titles>
+      <title>To On, nasz Pan i Król</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>To On, nasz Pan i Król<br/>Odziany w majestat Swój<br/>Ziemio raduj się, ziemio raduj się<br/>Okrywa światłość Go<br/>Ucieka ciemność i zło<br/>Drży na Jego głos, drży na Jego głos</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jak wielki jest Bóg<br/>Jak wielki jest Bóg<br/>Jak wielki jest<br/>Nasz Bóg</lines>
+    </verse>
+    <verse name="v2">
+      <lines>On czas w swej dłoni ma<br/>Od wieków na wieki trwa<br/>Początkiem, końcem On, początkiem, końcem On<br/>Jedyny w Trójcy Bóg <br/>Ojciec, Syn i Duch<br/>Barankiem jest i Lwem, Barankiem jest i Lwem</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Na wieki godzien jest<br/>Przyjąć chwałę, moc i cześć<br/>Ogłaszać chcę<br/>Jak wielki jest Bóg</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-12-11T17:38:34">
+  <properties>
+    <titles>
+      <title>Stoję dziś</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Stoję dziś, moje serce, ręce tak wyciągam,<br/>w podziwie dla Tego, który wszystko dał.<br/>Stoję dziś, moją duszę Panie Tobie składam,<br/>ja chcę być jak Ty! </lines>
+    </verse>
+  </lyrics>
+</song>

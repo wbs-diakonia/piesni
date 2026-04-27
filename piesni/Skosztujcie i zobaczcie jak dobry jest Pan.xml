@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:49">
+  <properties>
+    <titles>
+      <title>Skosztujcie i zobaczcie jak dobry jest Pan</title>
+    </titles>
+    <verseOrder>c1 v1 c1 v2 c1 v3 c1 v4 c1 v5 c1 v6</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Skosztujcie i zobaczcie<br/>jak dobry jest Pan!</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Będę Panu w każdej porze<br/>śpiewać pieśń wdzięczności,<br/>na mych ustach chwała Jego<br/>nieustannie gości.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W Panu cała chluba moja,<br/> cieszcie się pokorni,<br/>Wspólnie ze mną chwalcie Pana,<br/> sławmy Imię Jego.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Kiedym tęsknie szukał Pana,<br/> raczył mnie wysłuchać,<br/>i od wszelkiej trwogi mojej<br/> raczył mnie wyzwolić.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Cieszcie się widokiem Jego, <br/>On was nie zawiedzie, <br/>Pan usłyszał głos biednego, <br/>wyrwał go z ucisków.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Tych, co Pana się lękają,<br/> Anioł Pański broni, <br/>By ich wyrwać z ręki wroga, <br/>szańcem ich osłoni.</lines>
+    </verse>
+    <verse name="v6">
+      <lines>Więc skosztujcie i zobaczcie, <br/>jaki Pan jest dobry! <br/>Kto do Niego się ucieknie, <br/>ten błogosławiony! </lines>
+    </verse>
+  </lyrics>
+</song>

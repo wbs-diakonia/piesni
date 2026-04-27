@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-27T18:27:47">
+  <properties>
+    <titles>
+      <title>Praise (Wielbij Go)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Uwielbiać Go będę, ze szczytów i z dolin<br/>Uwielbiać Go będę, gdy wierzę, gdy wątpię<br/>Uwielbiać Go będę, gdy wróg jest wokoło<br/>Uwielbienie jest morzem, w którym wróg tonie<br/></lines>
+    </verse>
+    <verse name="c1">
+      <lines>Dopóki oddycham, zawsze mam powód by<br/><br/>Wi — e — lbić Go, duszo ma<br/>Wi — e — lbij Go, duszo ma</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Uwielbiać Go będę, czy to czuję czy nie<br/>Uwielbiać Go będę, bo On Bogiem jest<br/>Uwielbienie jest bronią, to więcej niż dźwięk<br/>Uwielbienie ma moc mur Jerycha w pył zmieść</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Dopóki oddycham, zawsze mam powód by<br/><br/>Wi — e — lbić Go, duszo ma<br/>Wi — e — lbij Go, duszo ma</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Nie chcę już milczeć, mój Bóg żywy jest<br/>Muszę wyśpiewać Mu cześć<br/><br/>Wi — e — lbij Go, duszo ma</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Będę Cię wielbić, bo Ty władze masz<br/>Ty pokonałeś moc śmierci i zła<br/>Będę Cię wielbić ze wszystkich mych sił<br/>Bo nie ma nikogo większego niż Ty<br/>Będę Cię wielbić, bo Ty władze masz<br/>Ty pokonałeś moc śmierci i zła<br/>Będę Cię wielbić ze wszystkich mych sił<br/>Bo nie ma nikogo większego niż Ty</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Wi — e — lbij Go, duszo ma<br/>Wi — e — lbij Go, duszo ma<br/>Wi — e — lbij Go, duszo ma<br/>Wi — e — lbij Go, duszo ma</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Nie chcę już milczeć, mój Bóg żywy jest<br/>Muszę wyśpiewać Mu cześć<br/><br/>Wi — e — lbij Go, duszo ma</lines>
+    </verse>
+  </lyrics>
+</song>

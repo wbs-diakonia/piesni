@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:47">
+  <properties>
+    <titles>
+      <title>Przyjdź</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przyjdź, teraz jest czas by wielbić<br/>Przyjdź, teraz jest czas, by serce dać.<br/>Przyjdź do Niego jaki jesteś - Przyjdź przed Twoim Bogiem teraz stań. Przyjdź...</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Każdy język wyzna, żeś Ty Bogiem jest<br/>Kolano każde zegnie się<br/>Wciąż największe skarby czekają na tych	<br/>którzy dziś wybiorą Cię</lines>
+    </verse>
+  </lyrics>
+</song>

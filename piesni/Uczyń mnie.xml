@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-26T06:58:04">
+  <properties>
+    <titles>
+      <title>Uczyń mnie</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Uczyń mnie gałązką w krzewie winnym,<br/>duchem płonącą jak ognisty krzew<br/>Niechaj liście me nie zwiędną nigdy!<br/>Oczyść mnie i pozwól w Sobie trwać!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Odnów mnie daj przynosić dobry owoc!<br/>wyzwól mnie i nowe życia daj!<br/>zadsadź mnie nad płynącą żywą wodą<br/>uświęć mnie i naucz w Sobie trwać!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ty którego miłuje dusza moja!<br/>wskaż mi gdzie pasiesz stada swe.<br/>Ku źródłom wody żywej mnie poprowadź,<br/>bym nie błakał się szukając Cię!</lines>
+    </verse>
+  </lyrics>
+</song>

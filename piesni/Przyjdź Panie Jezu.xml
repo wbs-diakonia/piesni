@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:48">
+  <properties>
+    <titles>
+      <title>Przyjdź Panie Jezu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Przyjdź Panie Jezu, dotknij i uzdrów mnie<br/>Napełnij swym Duchem serce me.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przyjdź Panie Jezu, dotknij i uzdrów mnie<br/>Ulecz zranione serce me.</lines>
+    </verse>
+  </lyrics>
+</song>

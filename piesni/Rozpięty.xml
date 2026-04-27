@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-03-20T18:44:22">
+  <properties>
+    <titles>
+      <title>Rozpięty</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Rozpięty na ramionach, jak sokół na niebie,<br/>Chrystusie, Synu Boga, spójrz proszę na ziemię,</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Na ruchliwe ulice, zabieganych ludzi,<br/>gdy dzień się już kończy, a ranek się budzi.<br/>Uśmiechnij się przyjaźnie z wysokiego krzyża <br/>do ciężko pracujących, którychh głód poniża.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Pociesz zrozpaczonych, chleba daj głodującym, <br/>modlących się wysłuchaj, pociesz umierających. <br/>Spójrz, Cierpienia Sokole, na wszechświat, na ziemię,<br/>na cichy ciemny kościół, dziecko wzywające Ciebie.</lines>
+    </verse>
+  </lyrics>
+</song>
