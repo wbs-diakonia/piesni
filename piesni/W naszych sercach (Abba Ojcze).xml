@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-21T18:05:08">
+  <properties>
+    <titles>
+      <title>W naszych sercach (Abba Ojcze)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>W naszych sercach Twój pokój<br/>Nad naszym domem Twe błogosławieństwo.<br/><br/>Abba Ojcze, Abba Ojcze, Abba Ojcze<br/><br/>Abba Ojcze, Abba Ojcze, Abba Ojcze</lines>
+    </verse>
+  </lyrics>
+</song>

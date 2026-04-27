@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:52">
+  <properties>
+    <titles>
+      <title>Witaj Pokarmie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Witaj Pokarmie, w którym niezmierzony<br/>Nieba i ziemie Twórca jest zamkniony.<br/>Witaj Napoju zupełnie gaszący,<br/>umysł pragnący.					</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Witaj Krynico wszystkiego dobrego,<br/>gdy bowiem w sobie masz Boga samego.<br/>Znasz ludziom wszystkie Jego wszechmocności<br/>niesiesz godności.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Witaj z niebiosów manno padająca<br/>rozkoszny w sercu naszym smak czyniąca.<br/>Wszystko na świecie co jedno smakuje<br/>w tym się najduje.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Witaj rozkoszne z ogrodu rajskiego<br/>drzewo owocu pełne żywiącego.<br/>Kto Cię skosztuje, śmierci się nie boi<br/>choć nad nim stoi.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Witaj jedyna serc ludzkich radości,<br/>witaj strapionych wszelka łaskawości.<br/>Ciebie dziś moje łzy słodkie szukają<br/>K’ Tobie wołają.</lines>
+    </verse>
+  </lyrics>
+</song>

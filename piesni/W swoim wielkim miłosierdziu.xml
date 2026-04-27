@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:52">
+  <properties>
+    <titles>
+      <title>W swoim wielkim miłosierdziu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>W swoim wielkim miłosierdziu<br/>Bóg nas zrodził do nadziei<br/>W swoim wielkim miłosierdziu <br/>Bóg nas zrodził do nadziei,<br/>do wielkiej nadziei.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Do Ciebie Panie, wznoszę duszę moją, racz mnie wysłuchać w łaskawości swojej. Moi wrogowie nie panują nade mną, bo kto Ci ufa, nie będzie zawstydzony.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Daj mi poznać Twoje drogi Panie i naucz mnie chodzić Twoimi ścieżkami. Prowadź mnie w prawdzie według Twych pouczeń, Boże mój, Zbawco, w Tobie mam nadzieję.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Wspomnij na swoje miłosierdzie, Panie, na swoją miłość, która trwa od wieków. Nie pamiętaj win i grzechów naszych, lecz o swoim wielkim miłosierdziu.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Dobry jest Pan i łaskawy, wskazuje drogę grzesznikom. Pomaga pokornym czynić dobrze, uczy ubogich dróg swoich.</lines>
+    </verse>
+  </lyrics>
+</song>

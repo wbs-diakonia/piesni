@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:54">
+  <properties>
+    <titles>
+      <title>Zerwałem kajdany niewoli</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zerwałem kajdany niewoli,<br/>obmyłem cię Krwią Przenajdroższą<br/>darowałem nowe imię, abyś żył!<br/>Nazwałem cię przyjacielem,<br/>dałem ci godność królewską,<br/>napełniłem Duchem Świętym, abyś żył!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>A więc żyj! Jam zmartwychwstał!<br/>A więc żyj! Jam Twój Bóg!</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-29T18:39:02">
+  <properties>
+    <titles>
+      <title>Walczy ze mną święty Bóg</title>
+      <title>Egipt</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>WSPOMINAM WCIĄŻ CUDOWNE WYZWOLENIE<br/>GDY PANIE MÓJ Z NIEWOLI MNIE WYRWAŁEŚ<br/>ZNALAZŁEŚ, WYRWAŁEŚ<br/>A WIELKIE WODY NIE ZALAŁY MNIE<br/>O JAHWE</lines>
+    </verse>
+    <verse name="c1">
+      <lines>WALCZY ZA MNIE ŚWIĘTY BÓG<br/>KRZYK ZWYCIĘSTWA MOGĘ WZNIEŚĆ<br/>ALLELUJA, ALLELUJA<br/>TY ROZDZIELASZ WODY MÓRZ<br/>PO GŁĘBINIE MOGĘ IŚĆ<br/>ALLELUJA, ALLELUJA</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W OBŁOKU DNIA<br/>TY PRZY MNIE JESTEŚ BLISKO<br/>A W NOCY BLASK POKAZUJE JAK MAM IŚĆ<br/>ZNALAZŁEŚ, WYRWAŁEŚ<br/>A WIELKIE WODY NIE ZALAŁY MNIE<br/>O JAHWE</lines>
+    </verse>
+    <verse name="c2">
+      <lines>WALCZY ZA MNIE ŚWIĘTY BÓG<br/>KRZYK ZWYCIĘSTWA MOGĘ WZNIEŚĆ<br/>ALLELUJA, ALLELUJA<br/>TY ROZDZIELASZ WODY MÓRZ<br/>PO GŁĘBINIE MOGĘ IŚĆ<br/>ALLELUJA, ALLELUJA</lines>
+    </verse>
+    <verse name="b1">
+      <lines>TY WKROCZYŁEŚ GDZIE MÓJ EGIPT<br/>I ZA RĘKĘ WZIĄŁEŚ MNIE<br/>DAŁEŚ WOLNOŚĆ, WPROWADZIŁEŚ<br/>TAM GDZIE OBIECANY LĄD<br/>ODTĄD NIGDY NIE ZAPOMNĘ<br/>BĘDĘ ŚPIEWAĆ O TYM PIEŚŃ<br/>ŚMIERĆ ZOSTAŁA POKONANA<br/>POPRZEZ ŻAR MIŁOŚCI TWEJ</lines>
+    </verse>
+  </lyrics>
+</song>

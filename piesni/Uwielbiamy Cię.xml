@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:51">
+  <properties>
+    <titles>
+      <title>Uwielbiamy Cię</title>
+      <title>TGD</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Uwielbiamy Cię<br/>Z głębi naszych serc<br/>Póki serca biją w nas<br/>Niech rozbrzmiewa pieśń</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Ty pochylasz się nad nami<br/>I przywracasz ślepym wzrok<br/>Ty podnosisz załamanych<br/>Oddajemy Tobie hołd<br/>Ty więźniowi dajesz wolność<br/>A głodnemu dajesz chleb<br/>Podziwiamy Twoją dobroć<br/>Panie uwielbiamy Cię!</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Uwielbiamy Cię<br/>Z głębi naszych serc<br/>Póki serca biją w nas<br/>Niech rozbrzmiewa pieśń</lines>
+    </verse>
+    <verse name="v1d">
+      <lines>Ty pochylasz się nad nami<br/>I przywracasz ślepym wzrok<br/>Ty podnosisz załamanych<br/>Oddajemy Tobie hołd<br/>Ty więźniowi dajesz wolność<br/>A głodnemu dajesz chleb<br/>Podziwiamy Twoją dobroć<br/>Panie uwielbiamy Cię</lines>
+    </verse>
+    <verse name="v1e">
+      <lines>Jahwe<br/>My ufamy Tobie<br/>Jesteś naszym Bogiem<br/>Który stworzył świat<br/>Jahwe<br/>My ufamy Tobie<br/>Jesteś naszym Bogiem<br/>Nie zawiedziesz nas</lines>
+    </verse>
+    <verse name="v1f">
+      <lines>Uwielbiamy Cię<br/>Z głębi naszych serc<br/>Póki serca biją w nas<br/>Niech rozbrzmiewa pieśń!</lines>
+    </verse>
+  </lyrics>
+</song>

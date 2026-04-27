@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:51">
+  <properties>
+    <titles>
+      <title>Uwierz miłości, która szuka dziś Ciebie</title>
+      <title>miłuję Ciebie mój synu, córko moja</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Uwierz miłości, która szuka dziś Ciebie, <br/>Tęskni i szlocha i woła tym echem. /X2</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Miłuję Ciebie mój synu, córko moja, <br/>Miłuję ciebie- Bóg Ojciec dzisiaj woła. <br/>Zbliż się me dziecko, nie stój tak z daleka. <br/>Miłuję ciebie zbliż się już nie zwlekaj.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ojciec dał Syna ukochanego,<br/>Abyś miał życie wieczne przez Niego. /X2</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Miłuję Ciebie mój synu, córko moja, <br/>Miłuję ciebie- Bóg Ojciec dzisiaj woła. <br/>Zbliż się me dziecko, nie stój tak z daleka. <br/>Miłuję ciebie zbliż się już nie zwlekaj.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Ojciec posyła Ducha Świętego<br/>Abyś miał śmiały przystęp do Niego. /X2</lines>
+    </verse>
+  </lyrics>
+</song>

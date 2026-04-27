@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-11-30T10:55:52">
+  <properties>
+    <titles>
+      <title>Zaśpiewać chcę miłości pieśń</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Zaśpiewać chcę miłości pieśń<br/>Memu zbawcy Jezusowi<br/>Za dzieła Twe wychwalam Cię<br/>Kochany Zbawco drogi Jezu<br/>Raduję się, bo nazwałeś mnie swym<br/>Tylko z Tobą pragnę być<br/>W Twych ramionach się skryć /x2<br/></lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Więc przytul mnie i ukryj mnie <br/>W Twych ramionach dziś</lines>
+    </verse>
+  </lyrics>
+</song>

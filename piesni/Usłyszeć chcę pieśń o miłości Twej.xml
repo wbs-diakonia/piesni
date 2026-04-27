@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-17T14:35:25">
+  <properties>
+    <titles>
+      <title>Usłyszeć chcę pieśń o miłości Twej</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Usłyszeć chcę pieśń o miłości Twej<br/>objaw swe serce mi<br/><br/>Porwałeś mnie, chcę żyć dla Ciebie<br/>Pragnę serce Twe znać<br/><br/>Rzeczy dzieją się gdy dotykasz mnie<br/>Życie zmienia się gdy jesteś</lines>
+    </verse>
+  </lyrics>
+</song>

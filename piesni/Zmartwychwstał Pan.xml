@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-05-12T16:04:37">
+  <properties>
+    <titles>
+      <title>Zmartwychwstał Pan</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Zmartwychwstał Pan i żyje dziś <br/>blaskiem jaśnieje noc,<br/>nie umrę nie, lecz będę żył, <br/>Bóg okazał swą moc.<br/>Krzyż to jest brama Pana, <br/>jeśli chcesz przez nią wejdź,<br/>zbliżmy się do ołtarza, <br/>Bogu oddajmy cześć.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Dzięki składajmy Mu, <br/>bo wielka jest łaska,<br/>z grobu powstał dziś Pan, <br/>a noc jest pełna blasku,<br/>chcę dziękować Mu <br/>i chcę Go dziś błogosławić,<br/>Jezu mój Pan i Bóg, <br/>On przyszedł aby nas zbawić.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Lepiej się uciec do Pana, <br/>niż zaufać książętom<br/>Pan, moja moc i pieśń, <br/>podtrzyma gdy mnie popchnięto<br/>Już nie będę się bał, <br/>cóż może zrobić mi śmierć,<br/>Nie , nie lękam się i śpiewam chwały pieśń</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Odrzucony Pan, <br/>stał się kamieniem węgielnym<br/>Pan wysłuchał mnie, <br/>On jest zbwaieniem mym<br/>Cudem staje się noc, <br/>gdy w dzień jest przemieniona<br/>Tańczmy dla niego dziś, <br/>prawca Pańska wzniesiona!</lines>
+    </verse>
+  </lyrics>
+</song>

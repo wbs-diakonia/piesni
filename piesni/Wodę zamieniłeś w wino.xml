@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-27T17:00:09">
+  <properties>
+    <titles>
+      <title>Wodę zamieniłeś w wino</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wodę zamieniłeś w wino<br/>Ślepi przy Tobie znów widzą<br/>Któż jest jak Ty<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Blaskiem rozświetlasz ciemności<br/>Człowiek powstaje z marności<br/>Któż jest jak Ty<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Nasz Bóg jest wielki<br/>Nasz Bóg jest silny<br/>Boże nikt inny nie równa się z Tobą<br/>Nasz Bóg uzdrawia<br/>Jest Wszechmogący nasz Bóg<br/>Nasz Bóg<br/>Nasz Bóg</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Blaskiem rozświetlasz ciemności<br/>Człowiek powstaje z marności<br/>Któż jest jak Ty<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Nasz Bóg jest wielki<br/>Nasz Bóg jest silny<br/>Boże nikt inny nie równa się z Tobą<br/>Nasz Bóg uzdrawia<br/>Jest Wszechmogący nasz Bóg<br/>Nasz Bóg</lines>
+    </verse>
+    <verse name="v7">
+      <lines>Jeśli nasz Bóg jest przy nas<br/>Już nic nas nie zatrzyma<br/>Jeśli nasz Bóg jest z nami<br/>Któż jest przeciwko nam</lines>
+    </verse>
+    <verse name="c6">
+      <lines>Jeśli nasz Bóg jest przy nas<br/>Już nic nas nie zatrzyma<br/>Jeśli nasz Bóg jest z nami<br/>Któż jest przeciwko nam<br/>Któż jest przeciwko nam</lines>
+    </verse>
+  </lyrics>
+</song>

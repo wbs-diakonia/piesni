@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-12-02T17:59:53">
+  <properties>
+    <titles>
+      <title>Ulecz mą duszę o Jezu mój</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ulecz mą duszę o Jezu mój<br/>Ulecz mą duszę o Jezu mój<br/>Miłością Swoją dotykaj mnie<br/>Ulecz mą duszę o Jezu mój</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ulecz me serce o Jezu mój<br/>Ulecz me serce o Jezu mój<br/>Miłością Swoją dotykaj mnie<br/>Ulecz me serce o Jezu mój</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Ulecz me życie o Jezu mój<br/>Ulecz me życie o Jezu mój<br/>Miłością Swoją dotykaj mnie<br/>Ulecz me życie o Jezu mój</lines>
+    </verse>
+  </lyrics>
+</song>

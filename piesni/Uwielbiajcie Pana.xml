@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-05-29T18:09:15">
+  <properties>
+    <titles>
+      <title>Uwielbiajcie Pana</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Uwielbiajcie Pana ludzkich serc bijące dzwony<br/>Padnij na kolana przed Nim ludu utrudzony /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>On osuszy twoje łzy On ratunkiem będzie Ci<br/>U Jego stóp padnie wróg bo On Bóg niezwyciężony</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Niepojęty w Swej mądrości, Święty, Święty Bóg miłości<br/>Śpiewaj Panu ziemio chwalcie wszystkie świata strony</lines>
+    </verse>
+  </lyrics>
+</song>

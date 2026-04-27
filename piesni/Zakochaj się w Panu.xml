@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-10T16:49:17">
+  <properties>
+    <titles>
+      <title>Zakochaj się w Panu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zakochaj się w Panu <br/>i pozwól by prowadził Cię<br/>I choć czasem trudna droga, <br/>Ty nie zniechęcaj się<br/>Bo Pan blisko jest, <br/>wystarczy wyciągnąć do niego rękę,<br/>Pan blisko jest i na pewno przyjmie Cię</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-03-08T09:43:56">
+  <properties>
+    <titles>
+      <title>Umiłowany</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Uwielbiamy Cię, <br/>Uwielbiamy Cię<br/>Nasz jedyny umiłowany /x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Kto zawsze pierwszy szuka nas?<br/>Tylko Ty, Jezu Ty<br/>Znajduje gdzie się kończy świat<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Kto po nas w ciemność schyla się?<br/>Tylko Ty, Jezu Ty<br/>Podnosi do godności córek, synów<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Uwielbiamy Cię, <br/>Uwielbiamy Cię<br/>Nasz jedyny umiłowany /x2</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Kto w swoich dłoniach trzyma nas?<br/>Tylko Ty, Jezu Ty<br/>Kto chroni nasze życie, jest nam wierny?<br/>Tylko Ty</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Uwielbiamy Cię, <br/>Uwielbiamy Cię<br/>Nasz jedyny umiłowany /x2</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Nawet jeśli ciemność wielka nas zakryje<br/>Przecież dla Ciebie, noc jest jasna tak jak dzień<br/>Nigdy nas nie zgubisz ani na chwilę<br/>Przecież dla Ciebie, noc jest jasna tak jak dzień /x2</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Uwielbiamy Cię, <br/>Uwielbiamy Cię<br/>Nasz jedyny umiłowany</lines>
+    </verse>
+  </lyrics>
+</song>

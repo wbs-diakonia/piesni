@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:52">
+  <properties>
+    <titles>
+      <title>Wołam Cię</title>
+      <title>TGD</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Wołam Cię, Duchu przyjdź i napełnij mnie<br/>W mocy Twej służyć chcę<br/>Duchu Święty przyjdź</lines>
+    </verse>
+    <verse name="p1a">
+      <lines>Przyjdź, oczekuję Twojej mocy<br/>Przyjdź, potrzebuję Cię</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wołam Cię, Duchu przyjdź i napełnij mnie<br/>Pokaż mi jak mam żyć<br/>Duchu Święty przyjdź</lines>
+    </verse>
+    <verse name="p1b">
+      <lines>Przyjdź, oczekuję Twojej mocy<br/>Przyjdź, potrzebuję Cię</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Naucz mnie kochać tak<br/>By mógł zobaczyć świat<br/>Że to co we mnie jest pochodzi z Nieba<br/>Chcę Twoim blaskiem lśnić<br/>odbiciem Twojej świętości chcę być</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Wołam Cię, Duchu przyjdź i napełnij mnie<br/>Miłość swą w serce wlej<br/>Duchu Święty przyjdź</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Przyjdź, oczekuję Twojej mocy<br/>Przyjdź, potrzebuję Cię</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Naucz mnie kochać tak<br/>By mógł zobaczyć świat<br/>Że to co we mnie jest pochodzi z Nieba<br/>Chcę Twoim blaskiem lśnić<br/>odbiciem Twojej świętości chcę być</lines>
+    </verse>
+  </lyrics>
+</song>

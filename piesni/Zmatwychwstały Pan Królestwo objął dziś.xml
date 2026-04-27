@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-27T06:56:59">
+  <properties>
+    <titles>
+      <title>Zmatwychwstały Pan Królestwo objął dziś</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Ref. Zmartwychwstały Pan <br/>królestwo objął dziś,<br/>Wszechmogący Wódz okazał swoją moc,<br/>Zakwitł krzyż i karmi, chroni mnie, <br/>Jezus Pan rozdaje życie swe.</lines>
+    </verse>
+    <verse name="v1a">
+      <lines>1. Milczący Baranek, Baranek zabity<br/>Wybawił dziś nas z niewoli tego świata. <br/>Hańbą okrył śmierć, nasza Pascha,<br/>On wywiódł dziś nas ze śmierci do życia.</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>2. W Ablu zabity, w Izaaku związany,<br/>Wzgardzony w Jakubie, w Józefie sprzedany,<br/>Zrodzony w Maryi, pięknej owieczki,<br/>Złożony w ofierze, powstaje dziś z martwych.</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>3. Zstępuję z nieba do naszego cierpienia,<br/>By wyprowadzić nas z ciemności do światła.<br/>Wzięty ze stada, zawieszony na drzewie,<br/>Naznacza nas Duchem i własną Krwią.</lines>
+    </verse>
+  </lyrics>
+</song>

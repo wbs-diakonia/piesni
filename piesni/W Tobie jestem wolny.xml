@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:52">
+  <properties>
+    <titles>
+      <title>W Tobie jestem wolny</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zabrałeś cały strach, otarłeś moje łzy<br/>W Tobie jestem wolny, w Tobie jestem wolny!<br/>Zabrałeś cały strach, otarłeś moje łzy,<br/>W Tobie jestem wolnym w Tobie jestem wolny!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo Ty skradłeś moje serce, <br/>nie potrzebuje już niczego więcej<br/>Tylko Ciebie, Jezu! /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Dziś na skale postawiona, jak młody orzeł wzbijam się.<br/>Twoją łaską przytulona, mówię twierdzą moją,<br/>skałą moją, ucieczką moją jesteś,<br/>Święty Jahwe, kochany Tato! Tatusiu!</lines>
+    </verse>
+  </lyrics>
+</song>

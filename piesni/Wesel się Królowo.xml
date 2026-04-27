@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-04-19T16:49:14">
+  <properties>
+    <titles>
+      <title>Wesel się Królowo</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wesel się Królowo miła,<br/>bo Ten, któregoś zrodziła,<br/>zmartwychwstał Pan nad panami.<br/>Módl się do Niego za nami.<br/>Alleluja, alleluja!<br/><br/><br/>Ciesz się i wesel się w niebie,<br/>proś Go za nami w potrzebie,<br/>byśmy się też tam dostali<br/>i na wiek wieków śpiewali<br/>Alleluja,alleluja!</lines>
+    </verse>
+  </lyrics>
+</song>

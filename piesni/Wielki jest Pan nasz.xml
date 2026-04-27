@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T06:53:17">
+  <properties>
+    <titles>
+      <title>Wielki jest Pan nasz</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wielki jest Pan nasz, godzien chwały i czci,<br/>A miasto Boga świętym miejscem jest,<br/>Radością ziemi Pan.<br/>Wielki jest Pan i w nim zwycięstwo dane nam,<br/>On mocnym swym ramieniem wspiera nas,<br/>Kolana skłońmy swe.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wywyższać chemy, Panie, Imię Twe<br/>I chcemy Ci dziękować<br/>Za Twą łaskę w naszym życiu.<br/>W Tobie, Panie, pokładamy ufność swą,<br/>Jedynie Tyś wszechmogącym Bogiem,<br/>Tu na ziemi i na niebiosach.</lines>
+    </verse>
+  </lyrics>
+</song>

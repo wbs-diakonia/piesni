@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-06-30T19:50:10">
+  <properties>
+    <titles>
+      <title>Wszystko mogę w tym</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wszystko mogę w tym, który mnie umacnia<br/>Wszystko mogę w tym, który kocha mnie /x2<br/>On drogą mą, którą kroczyć mam,<br/>Nadzieją, bez której nie mogę żyć,<br/>On wiarą jest, co uskrzydla mnie,<br/>Miłością, miłością! /x2</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-02-01T18:17:10">
+  <properties>
+    <titles>
+      <title>Wierzyć jak Piotr</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wierzyć jak Piotr pod Cezareą<br/>Rękę do boku włożyć za Tomaszem <br/>Skosztować łez Marii Magdaleny <br/>I w małej Betsaidzie przejrzeć na oczy. <br/><br/><br/>Skosztować chleba po rozmnożeniu <br/>Być jedynakiem wskrzeszonym w Nain <br/>Znać smak uwolnienia od wielu legionów <br/>I spojrzeć w twarz Bogu na Górze Tabor </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Dotknąć co nienamacalne <br/>Widzieć jasno niewidzialne <br/>Daj mi siłę bym uwierzył <br/>Bym mógł w pełni życie przeżyć. </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Zrozumieć ciszę po burzy na jeziorze<br/>W skórzanych sandałach przejść Morze Czerwone<br/>Zwołać swych braci do studni Jakuba<br/>Rozpoznać Chrystusa przy ołtarzu chleba<br/><br/><br/><br/><br/><br/>Skosztować chleba po rozmnożeniu<br/>Być jedynakiem wskrzeszonym w Nain<br/>Znać smak uwolnienia od wielu legionów<br/>I spojrzeć w twarz Bogu na Górze Tabor</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Dotknąć co nienamacalne <br/>Widzieć jasno niewidzialne <br/>Daj mi siłę bym uwierzył <br/>Bym mógł w pełni życie przeżyć. </lines>
+    </verse>
+  </lyrics>
+</song>

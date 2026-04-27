@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T09:06:00">
+  <properties>
+    <titles>
+      <title>Zaprowadź mnie tam</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zaprowadź mnie tam, skąd powrotu nie ma,<br/>gdzie ustaje wiara, spełnia się nadzieja.<br/>Gdzie światłością pachnie każdy skrawek nieba,<br/>bo ją na swój obraz Miłość wylewa.</lines>
+    </verse>
+  </lyrics>
+</song>

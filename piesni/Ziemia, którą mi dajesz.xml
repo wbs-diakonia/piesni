@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:54">
+  <properties>
+    <titles>
+      <title>Ziemia, którą mi dajesz</title>
+      <title>będę tańczyć przedTwoim tronem</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ziemia, którą mi dajesz, nie jest, fikcją ani bajką <br/>A wolność, którą mam w Sobie jest prawdziwa.<br/>Wszystkie, góry na drodze muszą, muszą ustąpić,<br/>bo wiara góry przenosi, a ja wierzę Tobie.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Będę tańczyć przed Twoim tronem <br/>i oddam Tobie chwałę <br/>I nic już nie zamknie mi ust.<br/>Żaden mur i żadna ściana, największa nawet tama <br/>Już nie, nie zatrzyma mnie już.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Większy , większy jest we mnie ten,<br/>który mnie umacnia<br/>Żaden Goliat nie może z Nim równać się /2x</lines>
+    </verse>
+  </lyrics>
+</song>

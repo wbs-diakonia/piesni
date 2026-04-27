@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-07-24T14:46:35">
+  <properties>
+    <titles>
+      <title>Wszyscy ludzie klaszczą</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Wszycy ludzie klaszczą w dłonie<br/>cała ziemia śpiewa, śpiewa<br/>wielka radość na Syjonie <br/>Król zstępuje z nieba, nieba</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Nadejdzie dzień, nadejdzie dzień<br/>Zobaczy to każdy z nas<br/>Nadejdzie dzień, nadejdzie dzień<br/>Uwielbi Go cały świat</lines>
+    </verse>
+  </lyrics>
+</song>

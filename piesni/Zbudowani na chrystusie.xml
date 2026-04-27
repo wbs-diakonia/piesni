@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-02-19T20:02:43">
+  <properties>
+    <titles>
+      <title>Zbudowani na chrystusie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zbudowani na Chrystusie,<br/>w Nim zakorzenieni,<br/>mocni w wierze i wdzięczni,<br/>bo On jest źródłem życia.<br/></lines>
+    </verse>
+    <verse name="c1">
+      <lines>Nic nas nie zdoła odłączyć od Ciebie,<br/>ani śmierć, ani życie, utrapienie i prześladowanie.<br/>Nic nas nie zdoła odłączyć od Ciebie,<br/>Ale we wszystkim tym odnosimy pełnie zwycięstwa,<br/>dzięki Temu, który nas umiłował.</lines>
+    </verse>
+  </lyrics>
+</song>

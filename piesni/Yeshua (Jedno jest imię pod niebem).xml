@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T09:05:19">
+  <properties>
+    <titles>
+      <title>Yeshua (Jedno jest imię pod niebem)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1a">
+      <lines>Yeshua, Yeshua, Yeshua</lines>
+    </verse>
+    <verse name="v1a">
+      <lines>Jedno jest Imię pod niebem dane nam,<br/>aby zbawić nas. <br/>Twoje Imię ponad wszelką władzą.<br/>Panie Jezu zbawco nasz!</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Yeshua, Yeshua, Yeshua</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ty zstąpisz do nas z nieba, <br/>by wyprowadzić nas do Jeruzalem.<br/>Z wiarą czekamy na Ciebie.<br/>Panie Jezu Zbawco nasz!</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Yeshua, Yeshua, Yeshua</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Jedno jest Imię pod niebem dane nam,<br/>aby zbawić nas. <br/>Twoje Imię ponad wszelką władzą.<br/>Panie Jezu zbawco nasz!</lines>
+    </verse>
+  </lyrics>
+</song>

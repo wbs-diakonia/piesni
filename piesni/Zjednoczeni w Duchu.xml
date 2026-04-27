@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-06-02T17:55:57">
+  <properties>
+    <titles>
+      <title>Zjednoczeni w Duchu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1. Zjednoczeni w Duchu, zjednoczeni w Nim, /2x<br/>Módlmy się, aby jedność była odnowiona w nas,<br/>Aby świat cały poznał uczniów Chrystusa w nas,<br/>Aby świat cały ujrzał miłość w nas.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2.Wraz z innymi pójdziemy, podaj mi swoją dłoń, /2x<br/>Wszystkim głosić będziemy tę radosną dla nas wieść,<br/>Że nasz Pan kroczy z nami, że nasz Pan z nami jest,<br/>Że nasz Pan zawsze z nami wszędzie jest.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3.Chcemy razem pracować, chcemy złączyć swój trud, /2x<br/>By nie stracić godności, którą Pan obdarzył nas,<br/>Aby strzec ludzkiej dumy, aby strzec dumy swej,<br/>Żeby człowiek zachował godność swą.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>4.Niechaj chwała brzmi Ojcu, który stworzył ten świat, /2x<br/>Chwała też Chrystusowi, który Synem Jego jest<br/>I Duchowi też chwała, który jednoczy nas,<br/>I Duchowi też, który łączy nas.</lines>
+    </verse>
+  </lyrics>
+</song>
