@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-10T16:32:38">
+  <properties>
+    <titles>
+      <title>O przyjdźcie do tronu</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jeśli cierpisz i nie masz już sił <br/>Dźwigać wszystkich swych grzechów i win<br/>Jezus cię woła<br/>Kiedy nie wiesz już dokąd masz iść <br/>Kiedy pragniesz lecz nie masz co pić<br/>Jezus cię woła</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>O przyjdźcie do tronu<br/>W ramiona Ojciec weźmie was<br/>Wasz dług jest spłacony<br/>Bo Jezus własne życie dał</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Dziś za sobą zostawcie swój wstyd<br/>Nie zwlekajcie – już czas żeby przyjść<br/>Jezus was woła<br/>Wasze troski zamieni na śmiech<br/>Swoje życie wam włoży do serc<br/>Jezus was woła</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>O przyjdźcie do tronu<br/>W ramiona Ojciec weźmie was<br/>Wasz dług jest spłacony<br/>Bo Jezus własne życie dał</lines>
+    </verse>
+    <verse name="b1">
+      <lines>To nasz Zbawiciel<br/>Niesamowity Bóg<br/>O alleluja Jezus żyje<br/>Przed nim się skłońmy<br/>Jedynym Panem jest<br/>O alleluja Jezus żyje</lines>
+    </verse>
+    <verse name="c1c">
+      <lines>O przyjdźmy do tronu<br/>W ramiona Ojciec weźmie nas<br/>Nasz dług jest spłacony<br/>Bo Jezus własne życie dał</lines>
+    </verse>
+    <verse name="c1d">
+      <lines>Nieś swój krzyż idąc do nieba bram<br/><br/>Powiedz światu co Jezus Ci dał</lines>
+    </verse>
+  </lyrics>
+</song>

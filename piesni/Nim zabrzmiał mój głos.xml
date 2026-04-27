@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-13T19:06:51">
+  <properties>
+    <titles>
+      <title>Nim zabrzmiał mój głos</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Nim zabrzmiał mój głos, śpiewałeś o mnie pieśń<br/>Dobroć Twa wciąż otacza mnie<br/>Nim wziąłem oddech, tchnąłeś we mnie życie swe<br/>Dobroć Twa wciąż otacza mnie</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Twoja miłość, nieskończona, nie rozumiem jej<br/>pozostawiasz by odnaleźć mnie.<br/>Nie zasłużyłem, lecz ty mimo wszystko,<br/>oddałeś za mnie życie swe.<br/>Twoja miłość wielka, nieskończona, nie rozumiem jej</lines>
+    </verse>
+    <verse name="c2">
+      <lines>O jak nieskończona, bezgraniczna miłość Boża jest<br/>pozostawiasz by odnaleźć mnie<br/>Nie zasłużyłem, lecz mimo wszystko<br/>oddałeś a mnie życie swe<br/>Twoja miłość wielka, nieskończona, nie rozumiem jej</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Gdy byłem wrogiem twym, walczyłeś o mnie ty<br/>Dobroć twa wciąż otacza mnie<br/>Gdy nikim czułem się, Ty drogo kupiłęś mnie<br/>Dobroć twa wciąż otacza mnie</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Rozjaśniasz każdą ciemność, zdobędziesz każdą górę, by odnaleźć mnie<br/>Wyburzysz wszystkie mury, obalisz każde kłamstwo, by odzyskać mnie</lines>
+    </verse>
+  </lyrics>
+</song>

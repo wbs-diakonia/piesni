@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:43">
+  <properties>
+    <titles>
+      <title>Nie jestem godzień abyś przyszedł do mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Nie jestem godzien abyś przyszedł do mnie,<br/>ale powiedz tylko słowo a będzie uzdrowiona dusza moja.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>W tym chlebie żyje ukryty Duch,<br/>który nie mże być spożyty.<br/>W tym winie płonie ogień,<br/>który nie może być wypity.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Nie jestem godzien abyś przyszedł do mnie,<br/>ale powiedz tylko słowo i uzdrów duszę moją.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Duch w Twoim chlebie, Ogień w Twym winie,<br/>Są wielkimi cudami jakie przyjmują nasze usta.<br/>Pan zstąpił na ziemię, czyniąc nas nowym stworzeniem,<br/>Niech na wzór Aniołów Ogień i Duch nas wypełnią.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Nie jestem godzien abyś przyszedł do mnie,<br/>ale powiedz tylko słowo i uzdrów duszę moją.</lines>
+    </verse>
+  </lyrics>
+</song>

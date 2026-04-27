@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-11-12T19:00:12">
+  <properties>
+    <titles>
+      <title>Oto ja klęczę kolejny raz</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oto ja klęczę kolejny raz<br/>oddaje co mam wszystko co mam<br/>Odnajdź mnie Panie przyciągnij mnie<br/>Tak blisko chcę być<br/>Przy Tobie być</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Twoim jestem /x2<br/>Chcę lepiej Ciebie znać /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Obmyj mnie w łasce i prawdzie swej<br/>Tak bardzo chcę żyć w tej pełni chcę żyć<br/>Słyszysz mnie gdy wpadam objęcia Twe<br/>Teraz mów Ty<br/>Mów do mnie Ty</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Twoim jestem /x2<br/>Chcę lepiej Ciebie znać /x2</lines>
+    </verse>
+    <verse name="e1">
+      <lines>Jak gwałtowny wiatr<br/>we mnie wiej Ty sam<br/>Niech dzieje się to czego chcesz<br/>Panie mój</lines>
+    </verse>
+    <verse name="e2">
+      <lines>Jak potężny sztorm<br/>porusz duszę mą<br/>Niech dzieje się to czego chcesz<br/>Panie mój</lines>
+    </verse>
+  </lyrics>
+</song>

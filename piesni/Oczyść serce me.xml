@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-09T08:23:02">
+  <properties>
+    <titles>
+      <title>Oczyść serce me</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oczyść serce me<br/>Chcę jak złoto lśnić i jak czyste srebro.<br/>Oczyść serce me<br/>Chcę czystego złota blaskiem lśnić.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Zstąp, ogniu zstąp<br/>Przyjdź, oczyść serce me<br/>Pragnę być święty<br/>Tobie oddany Panie<br/>Chcę zawsze być święty,<br/>Tobie mój Mistrzu na zawsze oddany<br/>Gotów by służyć Ci.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Oczyść serce me<br/>obmyj Swoją Krwią<br/> spraw bym mógł być święty<br/>Oczyść serce me<br/> z najtajniejszych grzechów<br/> oczyść je.</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Serce Jezusa dobroci i miłości pełne<br/>zmiłuj się nad nami<br/>Serce Jezusa źródło wszelkiej pociechy <br/>zmiłuj się nad nami</lines>
+    </verse>
+  </lyrics>
+</song>

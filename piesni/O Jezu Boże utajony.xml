@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:57:47">
+  <properties>
+    <titles>
+      <title>O Jezu Boże utajony</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>O Jezu, Boże utajony<br/>Serce moje Cię czuje<br/>Choć kryją Ciebie zasłony<br/>Ty wiesz, że Cię kocham<br/>Jesteś moją miłością</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Miłosierdzie Pana chcę śpiewać na wieki,<br/>Wyśpiewywać je będę przed wszystkim ludem,<br/>Bo ono jest największym przymiotem Boga<br/>Jest nieustannym cudem</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wytryskujesz z Troistości Bożej<br/>Lecz z jednego miłosnego łona<br/>Ze źródła miłosierdzia Twego płynie wszelkie szczęście<br/>i życie</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Przez otwarte serce ukrzyżowanego Syna<br/>Źródła miłosierdzia Boga otwarte są na nas<br/>Nie dla aniołów, Cherubów, Serafinów<br/>Lecz dla człowieka grzesznego.</lines>
+    </verse>
+  </lyrics>
+</song>

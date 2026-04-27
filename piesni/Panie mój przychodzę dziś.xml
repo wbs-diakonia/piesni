@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-05-31T16:48:59">
+  <properties>
+    <titles>
+      <title>Panie mój przychodzę dziś</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Panie mój przychodzę dziś, serce me skruszone przyjm,<br/>Skłaniam się przed świętym tronem Twym.<br/>Wznoszę ręce moje wzwyż, miłość mą wyznaję Ci,<br/>Uwielbiam Ciebie w Duchu, uwielbiam w prawdzie Cię,<br/>Życie me oddaję Tobie, uświęć je.</lines>
+    </verse>
+  </lyrics>
+</song>

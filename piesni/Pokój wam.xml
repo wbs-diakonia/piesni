@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-02-20T19:52:35">
+  <properties>
+    <titles>
+      <title>Pokój wam</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Pokój Wam /x3<br/>Nie bójcie się<br/>Weźmijcie Ducha Świętego /x2<br/>On poprowadzi was.<br/></lines>
+    </verse>
+  </lyrics>
+</song>

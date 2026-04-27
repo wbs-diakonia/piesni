@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:45">
+  <properties>
+    <titles>
+      <title>Oceans</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty wzywasz mnie, bym szedł po wodzie<br/>gdy wokół mrok i sił mi brak.<br/>Bez Ciebie Panie nic nie mogę!<br/>Lecz wierzę Ci, Ty jesteś tu!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>I wzywam Panie Imię Twe!<br/>Do Ciebie swą wyciągam dłoń - uratuj mnie!<br/>Nie pozwól stracić z oczu Cię!<br/>Ja jestem Twój, Ty jesteś mój!</lines>
+    </verse>
+    <verse name="e1">
+      <lines>Duchu Święty naucz ufać Ci bez granic!<br/>I poprawadź mnie po wodzie, gdziekolwiek mnie powołasz<br/>weź mnie dalej niż mnie nogi mogą ponieść<br/>Tobie Jezu się oddaję bo jesteś moim Zbawcą!</lines>
+    </verse>
+  </lyrics>
+</song>

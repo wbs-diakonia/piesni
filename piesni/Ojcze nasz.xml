@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-26T17:46:43">
+  <properties>
+    <titles>
+      <title>Ojcze nasz</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Ojcze nasz, który jesteś w niebie,<br/>Święć się imię Twoje, <br/>przyjdź królestwo Twoje,<br/>Bądź wola Twoja jako w niebie, tak i na ziemi.<br/>Chleba naszego powszedniego <br/>daj nam dzi-i-iś.</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>I odpuść nam nasze winy, jako i my<br/>Odpuszczamy naszym winowajco-o-om.<br/>I nie wódź nas na pokuszenie ale nas zbaw,<br/>Ale zbaw nas ode złego, Ojcze na-a-asz,<br/>Ojcze nasz.</lines>
+    </verse>
+  </lyrics>
+</song>

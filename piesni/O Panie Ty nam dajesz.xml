@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-12-03T12:09:23">
+  <properties>
+    <titles>
+      <title>O Panie Ty nam dajesz</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>O Panie Ty nam dajesz Ciało swe i Krew.<br/>Do Ciebie więc idziemy wciąż radosną nucąc pieśń:<br/><br/>Ty jesteś Bogiem wiernym na wieczny czas.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przez dar Twojego chleba, dobry Boże nasz.<br/>Rodzinę bratnią czynisz z nas, miłować uczysz nas.<br/><br/>Ty jesteś Bogiem wiernym na wieczny czas.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>To Twoje miłowanie dało wolność nam.<br/>Chwalimy święte Imię Boga jak nauczyłeś nas.<br/><br/>Ty jesteś Bogiem wiernym na wieczny czas.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Tyś nam wyznaczył drogę wiodącą na Twój szlak.<br/>Idziemy więc, by radość nieść tam gdzie jej światu brak.<br/><br/>Ty jesteś Bogiem wiernym na wieczny czas.</lines>
+    </verse>
+  </lyrics>
+</song>

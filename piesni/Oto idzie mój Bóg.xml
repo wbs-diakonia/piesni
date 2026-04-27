@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-12-09T17:21:56">
+  <properties>
+    <titles>
+      <title>Oto idzie mój Bóg</title>
+      <title>Marana Tha</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oto idzie mój Bóg, <br/>Oto idzie mój Pan, <br/>Oto Zbawiciel mój, <br/>A imię Jego Jezus /x2 </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tęsknię za Tobą, Panie <br/>Wiem,że przyjdziesz niebawem, <br/>Z głębi serca dziś wołam <br/>Marana Tha! /x2<br/></lines>
+    </verse>
+  </lyrics>
+</song>

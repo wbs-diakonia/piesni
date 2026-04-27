@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-06-30T16:23:28">
+  <properties>
+    <titles>
+      <title>O jak nieskończona Bezgrniczna Miłość Boża jest</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Twój śpiew wokół mnie <br/>przed każdym słowem mym,<br/>Wciąż dobry tak, wciąż dobry tak<br/>Ty tchnąłeś swe życie <br/>nim wziąłem oddech mój<br/>Wciąż dobry tak, wciąż dobry tak</lines>
+    </verse>
+    <verse name="c1">
+      <lines>O jak nieskończona, bezgraniczna <br/>miłość Boża jest,<br/>Ona znajdzie mnie gdziekolwiek będę, nie zostawi mnie<br/>Nie zasłużyłem, nic nie zrobiłem, <br/>a Ty dałeś siebie mi,<br/>O jak nieskończona bezgraniczna <br/>miłość Boża jest</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Gdy byłem twym wrogiem, <br/>Ty o mnie walczyłeś,<br/>Wciąż dobry tak, wciąż dobry tak<br/>Nie byłem nic wart, <br/>a Ty wykupiłeś mnie,<br/>Wciąż dobry tak, wciąż dobry tak</lines>
+    </verse>
+    <verse name="b2">
+      <lines>Ty mrok rozjaśniłeś<br/>Mury zburzyłeś<br/>Znalazłeś mnie<br/>Kłamstwo zniszczyłeś<br/>Prawdą zdobyłeś serce me</lines>
+    </verse>
+  </lyrics>
+</song>

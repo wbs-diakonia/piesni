@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-27T16:56:20">
+  <properties>
+    <titles>
+      <title>Niepojęta Łaska</title>
+      <title>TGD</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Niepojęta łaska Jego wciąż dosięga nas<br/>Gdy podnosi, przemienia serca<br/>i uwalnia nas<br/><br/>Prawda ta..</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>On jest ojcem sierot<br/>Opiekunem wdów, jest dobry Bóg<br/>Dom swój daje wszystkim opuszczonym<br/>Zsyła deszcz obfity<br/>Na to co spragnione i wyczerpane jest<br/>Dobry jest dla biednych<br/>W łasce swej nasz Bóg<br/>Do nas uniżył się</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Niepojęta łaska Jego wciąż dosięga nas<br/>Gdy podnosi, przemienia serca<br/>I uwalnia nas<br/><br/>Prawda ta...</lines>
+    </verse>
+    <verse name="v1d">
+      <lines>On zna każde serce<br/>Nie odwraca się gdy wzywamy Go<br/>Kocha nas pomimo<br/>Tego, że tak niewiele możemy Mu dać</lines>
+    </verse>
+    <verse name="v1e">
+      <lines>Niepojęta łaska Jego wciąż dosięga nas<br/>Gdy podnosi, przemienia serca<br/>i uwalnia nas<br/><br/>Prawda ta...</lines>
+    </verse>
+  </lyrics>
+</song>

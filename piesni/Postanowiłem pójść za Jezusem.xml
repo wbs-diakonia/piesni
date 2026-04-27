@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2022-02-28T18:19:32">
+  <properties>
+    <titles>
+      <title>Postanowiłem pójść za Jezusem</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Postanowiłem pójść za Jezusem /x3<br/>Nie wrócę już, nie wrócę już.</lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/> Krzyż jest przede mną, świat za mną został /x3<br/>Nie wrócę już, nie wrócę już.</lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Choć w samotnąści - wciąż będę za Nim iść. /x3<br/>Nie wrócę już, nie wrócę już.</lines>
+    </verse>
+  </lyrics>
+</song>

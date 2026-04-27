@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T08:09:36">
+  <properties>
+    <titles>
+      <title>Oto ja poślij mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Oto ja, poślij mnie <br/>Dotknij ogniem moich warg.<br/>Powiedz Panie, czego chcesz<br/>A moją rozkoszą, będzie być posłusznym.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Daj mi Twego Ducha, <br/>abym mógł stać się chlebem <br/>Abym stał się winem, <br/>abym gasił Twe pragnienie.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Nie chcę Ci już mówić <br/>o moich potrzebach.<br/>Panie, Ty wiesz wszystko,<br/>objaw mi Twe pragnienia.</lines>
+    </verse>
+  </lyrics>
+</song>

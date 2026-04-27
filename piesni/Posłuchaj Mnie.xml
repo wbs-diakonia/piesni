@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:46">
+  <properties>
+    <titles>
+      <title>Posłuchaj Mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Posłuchaj Mnie, Jestem Dobrym Pasterzem,<br/>Nie bój się i zaufaj Mi. <br/>Ukochałem cię, miłością wielką, <br/>więc nie lękaj się, ona cię uzdrowi. </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo góry ustąpią, pagórki się zachwieją, <br/>lecz Moja miłość trwać będzie na wieki,<br/>Mówi Pan, Ma litość nad tobą.</lines>
+    </verse>
+  </lyrics>
+</song>

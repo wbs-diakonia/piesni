@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-04-18T15:39:51">
+  <properties>
+    <titles>
+      <title>Odszedł Pasterz</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>1. Odszedł Pasterz od nas, zdroje wody żywej,<br/>Zbawca, Źródło łaski, miłości prawdziwej.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ref. Odszedł Pasterz nasz, co ukochał lud.<br/>O Jezu dzięki Ci, za Twej męki trud.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Gdy na krzyżu konał, słońce się zaćmiło,<br/>ziemia się zatrzęsła, wszystko się spełniło.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Ref. Odszedł Pasterz nasz, co ukochał lud.<br/>O Jezu dzięki Ci, za Twej męki trud.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3. Ten, co pierwszych ludzi złowił w swoje sidła,<br/>Sam już w więzach leży, opadły Mu skrzydła.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Ref. Odszedł Pasterz nasz, co ukochał lud.<br/>O Jezu dzięki Ci, za Twej męki trud.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>4. Oto Boski Zbawca zamki śmierci skruszył,<br/>zburzył straszne odrzwia, duszom życie zwrócił.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Ref. Odszedł Pasterz nasz, co ukochał lud.<br/>O Jezu dzięki Ci, za Twej męki trud.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>5. Zmiażdżył władzę czarta mocą Bóstwa Swego,<br/>i ujarzmił pychę wroga piekielnego.</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Ref. Odszedł Pasterz nasz, co ukochał lud.<br/>O Jezu dzięki Ci, za Twej męki trud.</lines>
+    </verse>
+  </lyrics>
+</song>

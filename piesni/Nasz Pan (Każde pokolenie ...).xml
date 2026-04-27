@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-06-25T18:25:51">
+  <properties>
+    <titles>
+      <title>Nasz Pan (Każde pokolenie ...)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Każde pokolenie pada u Twych stóp<br/>Żeby oddać Tobie wieczną cześć<br/>Wszyscy z Ciebie narodzeni i ci, którzy odrodzą się<br/>Razem Ci oddamy wieczną cześć</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Nasz Pan jest najwyższy<br/>Nasz Pan jest potężny<br/>Nasz Pan ponad wszystkim jest<br/>Ponad trony, panowania, potęgi i władze<br/>Nasz Pan ponad wszystkim jest</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Niebo śpiewa tę pieśń, święty<br/>I stworzenie też, święty<br/>Wywyższony Pan, święty<br/>na wieki święty</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jeśli Tobie przebaczono,<br/>Jego życie w sobie masz<br/>Oddaj Jemu teraz wieczną cześć<br/>Jeśli jesteś wolny i Jego imię znasz<br/>Oddaj Jemu teraz wieczną cześć<br/>Oddaj Barankowi wieczną cześć</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Nasz Pan jest najwyższy<br/>Nasz Pan jest potężny<br/>Nasz Pan ponad wszystkim jest<br/>Ponad trony, panowania, potęgi i władze<br/>Nasz Pan ponad wszystkim jest</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Niebo śpiewa tę pieśń, święty<br/>I stworzenie też, święty<br/>Wywyższony Pan, święty, na wieki święty<br/>Niech zawoła Twój lud, święty<br/>Królowi królów cześć, święty<br/>Tyś od zawsze jest święty na wieki święty</lines>
+    </verse>
+  </lyrics>
+</song>

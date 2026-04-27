@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-05-22T11:33:28">
+  <properties>
+    <titles>
+      <title>Oto ojciec posyła ducha swego syna</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oto Ojciec posyła nam Ducha Swego Syna<br/>Jezusa Chrystusa, który nas wykupił.<br/>To Twój Duch woła w nas<br/>Twój Duch uwielbia Ciebie<br/>Dziś Ojciec, Syn i Święty Duch<br/>jednoczy dzieci swe.</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Zebrani w imię Ojca głosimy moc Jezusa<br/>Twój Święty Duch posyła nas<br/>Abba Ojcze</lines>
+    </verse>
+  </lyrics>
+</song>

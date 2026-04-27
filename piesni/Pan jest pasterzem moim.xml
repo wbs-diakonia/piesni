@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:46">
+  <properties>
+    <titles>
+      <title>Pan jest pasterzem moim</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Pan jest Pasterzem moim<br/>Niczego mi nie braknie<br/>Na niwach zielonych pasie mnie<br/>Nad wody spokojne prowadzi mnie</lines>
+    </verse>
+  </lyrics>
+</song>

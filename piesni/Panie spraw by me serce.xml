@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-07-01T17:52:53">
+  <properties>
+    <titles>
+      <title>Panie spraw by me serce</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Panie spraw, by me serce<br/>Stało się sercem Twoim<br/>Bym był cichy i pokorny jak Ty<br/>Abym znalazł ukojenie dla duszy mojej</lines>
+    </verse>
+  </lyrics>
+</song>

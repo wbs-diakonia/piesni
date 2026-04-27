@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:43">
+  <properties>
+    <titles>
+      <title>Nasz Bóg jest wielki</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Otwieram oczy me<br/>gdy wino w Twą Krew zmienia się<br/>Któż jest jak Ty, tylko Ty.<br/>Twa łaska wszechmocna jest tak,<br/>że z prochów podnosi mój świat<br/>Któż jest jak Ty, tylko Ty.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Nasz Bóg jest wielki i tak potężny<br/>króluje wysoko ponad ziemią<br/>Chce nas uzdrawiać swoją miłością<br/>Nasz Bóg, nasz Bóg</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Blaskiem rozświetlasz ciemności<br/>człowiekpowstaje z marności<br/>Któż jest jak Ty, tylko Ty.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Nasz Bóg jest wielki i tak potężny<br/>króluje wysoko ponad ziemią<br/>Chce nas uzdrawiać swoją miłością<br/>Nasz Bóg, nasz Bóg</lines>
+    </verse>
+    <verse name="v3">
+      <lines>I jeśli Bóg jest przy nas<br/>to nic nas nie zatrzyma<br/>jeśli nasz Bóg jest z nami<br/>to któż przeciwko nam.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Nasz Bóg jest wielki i tak potężny<br/>króluje wysoko ponad ziemią<br/>Chce nas uzdrawiać swoją miłością<br/>Nasz Bóg, nasz Bóg</lines>
+    </verse>
+  </lyrics>
+</song>

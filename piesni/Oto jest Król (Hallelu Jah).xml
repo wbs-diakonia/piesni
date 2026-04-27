@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-15T18:43:23">
+  <properties>
+    <titles>
+      <title>Oto jest Król (Hallelu Jah)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oto jest Król wśród nas zasiada<br/>niech serce twe przyjmie Go dziś,<br/>gdzie chwała jest On sam zamieszka,<br/>tam będzie miłość i łaska pośród nas.  </lines>
+    </verse>
+    <verse name="c1">
+      <lines>Każde brzemię w obecności Twej jest lekkie.<br/>Każdy sukces jest złożony u Twych stóp.<br/>Jest takie Imię co króluje nad innymi,<br/>Chrystus Pan najwyższym Królem jest  </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Honor i cześć niech przyjmie Baranek<br/>godzien jest ten co zwycięzcą jest<br/>choć w grobie był zmartwychwstał w mocy.  <br/>On żyje dziś kamień odsunięty jest. </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Uwielbienie nieustannie trwa przed Panem,<br/>śmierć pokonał i zbawienia trzyma klucz.<br/>Jest takie Imię co króluje nad innymi,<br/>Chrystus Pan najwyższym Królem jest.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Niedługo już gdy Go ujrzymy<br/>i każdą łzę z oczu otrze, On<br/>będziemy w domu wojna ustanie<br/>ujrzymy Zbawcę niebawem twarzą w twarz.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Każde brzemię w obecności Twej jest lekkie.<br/>Każdy sukces jest złożony u Twych stóp,<br/>jest takie Imię co króluje nad innymi<br/>Chrystus Pan najwyższym Królem jest.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Uwielbienie nieustannie trwa przed Panem<br/>Święty, święty na wieki niechaj brzmi.  <br/>Jest takie Imię co króluje nad innymi.<br/>Chrystus Pan najwyższym Królem jest /x3</lines>
+    </verse>
+  </lyrics>
+</song>

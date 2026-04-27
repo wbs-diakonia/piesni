@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:43">
+  <properties>
+    <titles>
+      <title>Nie wyście mnie wybrali</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Nie wyście Mnie wybrali, <br/>ale Ja was wybrałem<br/>i przeznaczyłem was na to, <br/>abyście szli i owoc przynosili.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Oto ci, których wybrałeś,<br/>otocz ich Swą Świętą Chwałą.<br/>Duchem Swym przenikaj ich życie,<br/>Serca złącz, uwielbiony bądź.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Nie wyście Mnie wybrali, <br/>ale Ja was wybrałem<br/>i przeznaczyłem was na to, <br/>abyście szli i by owoc wasz trwał.</lines>
+    </verse>
+  </lyrics>
+</song>

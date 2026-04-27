@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-06-28T18:08:47">
+  <properties>
+    <titles>
+      <title>Oto są czasy Eliasza</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oto są czasy Eliasza <br/>- Głoszące Twe słowo i moc.<br/>Oto są dni, gdy Twój sługa Mojżesz - Prowadzi na wolność Twój lud.<br/>Choć świat się pogrążył w ciemnościach<br/>W czas głodu i wojennych prób<br/>Jak głos na pustyni wołamy ciagle - Prostujcie ścieżki w ten rok</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Wznieś swój głos, bo nadchodzi On<br/>Na obłokach gna przy odgłosie trąb<br/>Z mocą krzycz oto łaski Pana rok<br/>Czas powrotu i zbawienia głoś<br/></lines>
+    </verse>
+    <verse name="v2">
+      <lines>Oto są dni Ezechiela <br/>- Co życie tchnie w kości bez ciał<br/>Oto są dni, gdy Twój sługa Dawid - Buduje świątynię Twych chwał<br/>Nadeszła już pora na żniwa<br/>- Bieleją nam pola na zbiór<br/>Jesteśmy sługami winnicy Pańskiej<br/>Głosimy Twe słowo i moc</lines>
+    </verse>
+  </lyrics>
+</song>

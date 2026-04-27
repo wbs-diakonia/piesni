@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-11-29T17:53:38">
+  <properties>
+    <titles>
+      <title>Oczekuję Ciebie Panie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Nie chcę zbyt wysoko sięgać, Panie,<br/>Patrzeć tam gdzie pycha lśni i chwała,<br/>Chociaż tak wyniosłe ich mieszkanie,<br/>Choć zazdrości godny świata pałac.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ref. Oczekuję Ciebie, Panie, jesteś mym oczekiwaniem,<br/>Uspokajasz serce moje, uciszeniem jesteś i pokojem mym.<br/> </lines>
+    </verse>
+    <verse name="v2">
+      <lines> Nie chcę, by się wywyższało serce<br/> Wszystko czego pragnę to Twe progi.<br/> W ciszy na Twym progu siedzieć będę,<br/> Cieszyć się, że jesteś moim Bogiem.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Ref. Oczekuję Ciebie, Panie, jesteś mym oczekiwaniem,<br/>Uspokajasz serce moje, uciszeniem jesteś i pokojem mym. </lines>
+    </verse>
+  </lyrics>
+</song>

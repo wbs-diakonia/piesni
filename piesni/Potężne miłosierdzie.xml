@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-17T17:32:49">
+  <properties>
+    <titles>
+      <title>Potężne miłosierdzie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Potężne miłosierdzie spływa w dół<br/>Jak woda na spragniony grunt<br/>Piękne miłosierdzie, co jak chmury obfite w deszcz<br/>Wylewa się na to, co spragnione jest</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Otwieram, otwieram się, Jezu przyjdź,<br/>Uzdrawiaj, oczyszczaj mnie.<br/>Otwieram, otwieram się, niech miłość Twa<br/>Niech miłość przelewa się we wnętrze me</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Z łona jutrzenki, w blaskach świętości zrodziłem cię<br/>Głębia Mej miłości przyzwała cię<br/>Choćby ojciec i matka porzucili mnie<br/>To jednak Pan przygarnie mnie</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-03T17:29:36">
+  <properties>
+    <titles>
+      <title>Od Nowa</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Wybrałeś sobie dom<br/>Nie ręką zbudowany<br/>Zechciałeś mieszkać w nim<br/>Choć nie jest doskonały</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Gdybym zrozumieć mógł<br/>Gdzie przebywa Bóg<br/>Ostoi się tylko to, co święte<br/>Przez łaskę mogę wejść<br/>Gdzie królujesz mój Jezu<br/>Oczyść mnie</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>To jest Twoje miejsce Moje serce<br/>Ciebie pragnę więcej<br/>A mniej siebie<br/>Zapominam o tym<br/>Co jest za mną<br/>Z wiarą sięgam po to <br/>Co przede mną</lines>
+    </verse>
+    <verse name="v2a">
+      <lines>Postawię sercu straż<br/>Nie skończy się oliwa<br/>Dopóki przyjdzie czas<br/>Utęsknionego żniwa</lines>
+    </verse>
+    <verse name="v2b">
+      <lines>Niewiele mogę dać<br/>Ty mnie najlepiej znasz<br/>Tylko Tobie się chcę podobać<br/>Niech każda moja pieśń<br/>Rozraduje Cię, Jezu<br/>Ukryj mnie</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>To jest Twoje miejsce Moje serce<br/>Ciebie pragnę więcej<br/>A mniej siebie<br/>Zapominam o tym<br/>Co jest za mną<br/>Z wiarą sięgam po to <br/>Co przede mną</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Zanurz mnie <br/>W mocy Ducha i Ognia<br/>Nieba dźwięk<br/>Zabrzmi we mnie<br/>Od nowa</lines>
+    </verse>
+    <verse name="c1c">
+      <lines>To jest Twoje miejsce Moje serce<br/>Ciebie pragnę więcej<br/>A mniej siebie<br/>Zapominam o tym<br/>Co jest za mną<br/>Z wiarą sięgam po to <br/>Co przede mną</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-11-27T13:56:26">
+  <properties>
+    <titles>
+      <title>Niechaj z nami będzie Pan</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Niechaj z nami będzie Pan<br/>Alleluja<br/>Niech obroną będzie nam<br/>Alleluja</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jego Słowo zawsze trwa<br/>Alleluja<br/>Wieczną prawdę w sobie ma<br/>Alleluja<br/>Chcemy zgłębiać Słowa treść<br/>Alleluja</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Braciom je radośnie nieść<br/>Alleluja<br/>Chcemy Nim na co dzień żyć<br/>Alleluja<br/>I w przyjaźni z Bogiem być<br/>Alleluja</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Źródło życia Panie nasz<br/>Alleluja<br/>Ty nam wieczne życie dasz<br/>Alleluja</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Prowadź wśród zawiłych dróg<br/>Alleluja<br/>W Trójcy Świętej jeden Bóg<br/>Alleluja</lines>
+    </verse>
+  </lyrics>
+</song>

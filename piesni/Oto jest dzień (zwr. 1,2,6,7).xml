@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-04-12T16:48:31">
+  <properties>
+    <titles>
+      <title>Oto jest dzień (zwr. 1,2,6,7)</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Oto jest dzień, który dał nam Pan!  <br/>Weselmy się i radujmy się w nim!  <br/>Alleluja, alleluja!  </lines>
+    </verse>
+    <verse name="v1">
+      <lines>1. Ty, który mieszkasz w chmurze pełnej ognia,<br/>Ty, który siedzisz na tronie z szafirów  <br/>Istot tajemnych otoczony chórem,  <br/>Boże chwały wielkiej.  </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Oto jest dzień, który dał nam Pan!  <br/>Weselmy się i radujmy się w nim!  <br/>Alleluja, alleluja!  </lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Ty, co zamykasz cały wszechświat w dłoni,<br/>Czynisz z obłoków posłuszne rydwany,<br/>Jako swych posłów Ty kierujesz wichry,<br/>Boże Stworzycielu.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Oto jest dzień, który dał nam Pan!  <br/>Weselmy się i radujmy się w nim!  <br/>Alleluja, alleluja!  </lines>
+    </verse>
+    <verse name="v3">
+      <lines>6. Przyjął On mękę, śmierć i pogrzebania<br/>Krwi Swej purpurą przywrócił nam życie,<br/>Dnia zaś trzeciego powstał z mroków grobu,<br/>Boże zmartwychwstania.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Oto jest dzień, który dał nam Pan!  <br/>Weselmy się i radujmy się w nim!  <br/>Alleluja, alleluja!  </lines>
+    </verse>
+    <verse name="v4">
+      <lines>7. Tobie, Najwyższy pełen majestatu,<br/>Razem z Twym Synem i Duchem płomiennym,<br/>Sława niech będzie, cześć i dziękczynienie,<br/>Boże zawsze wierny.</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Oto jest dzień, który dał nam Pan!  <br/>Weselmy się i radujmy się w nim!  <br/>Alleluja, alleluja!  </lines>
+    </verse>
+  </lyrics>
+</song>

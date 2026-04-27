@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-13T15:00:35">
+  <properties>
+    <titles>
+      <title>Nie lękajcie się</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Nie lękajcie się, ja jestem z Wami <br/>Nie lękajcie się, ja jestem z Wami, z Wami<br/>Nie lękajcie się, Bóg jest Miłością<br/>Nie lękajcie się, trwajcie mocni w wierze</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Ty jesteś skałą zbawienia,<br/>Jedyną naszą ostoją.<br/>Przychodzimy do Ciebie po światło,<br/>Ulecz nasze serca, zmartwychwstać daj.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Pomóż nam wytrwać przy Tobie,<br/>Być wiernym w wierze przez życia czas.<br/>Tylko w Tobie cała nasza nadzieja.<br/>Miłosierdziem swoim uzdrawiaj nas.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Przekażcie światu mój ogień<br/>Pokoju i miłosierdzia.<br/>Nieście wszystkim orędzie nadziei.<br/>Moje światło niech świeci wśród was.</lines>
+    </verse>
+  </lyrics>
+</song>

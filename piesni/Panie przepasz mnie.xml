@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-09T14:05:08">
+  <properties>
+    <titles>
+      <title>Panie przepasz mnie</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Panie, przepasz mnie<br/>I poprowadź, gdzie ja nie chcę pójść<br/>Panie, o Panie, przepasz mnie. /x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Czy miłujesz mnie więcej aniżeli Ci<br/>Panie, Ty wiesz, Ty wiesz, że Cię kocham/ x2<br/>Czy miłujesz mnie więcej aniżeli Ci<br/>Panie, Ty wiesz, że ja miłuję Cię</lines>
+    </verse>
+  </lyrics>
+</song>

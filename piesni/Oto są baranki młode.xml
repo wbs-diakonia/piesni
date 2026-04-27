@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:45">
+  <properties>
+    <titles>
+      <title>Oto są baranki młode</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Oto są baranki młode<br/>Oto ci, co zawołali alleluja!<br/>Dopiero przyszli do zdrojów,<br/>światłością się napełnili,<br/>Alleluja, Alleluja!  /bis</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Na Baranka Pańskich godach<br/>W szat świątecznych czystej bieli,<br/>Po krwawego morza wodach<br/>Nieśmy Panu pieśń weseli.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W swej miłości wiekuistej<br/>On nas swoją Krwią częstuje,<br/>Nam też Ciało swe przeczyste<br/>Chrystus kapłan ofiaruje.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Na drzwi świętą Krwią skropione.<br/>Anioł mściciel z lękiem wziera,<br/>Pędzi morze rozdzielone,<br/>wrogów w nurtach swych pożera.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Już nam Paschą Tyś, o Chryste,<br/>Wielkanocną też ofiarą,<br/>Tyś Przaśniki nasze czyste <br/>dla dusz prostych z szczerą wiarą.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Ofiaro niebios święta,Ty moc piekła pokonywasz,<br/>Zrywasz ciężkie śmierci pęta, wieniec życia nam zdobywasz.</lines>
+    </verse>
+    <verse name="v6">
+      <lines>Chrystus piekło pogromiwszy. Swój zwycięski znak roztacza,<br/>Niebo ludziom otworzywszy, króla mroków w więzy wtłacza.</lines>
+    </verse>
+    <verse name="v7">
+      <lines>Byś nam wiecznie, Jezu drogi, Wielkanocną był radością,<br/>Strzeż od grzechu śmierci srogiej Odrodzonych Twą miłością.</lines>
+    </verse>
+    <verse name="v8">
+      <lines>Chwała Ojcu i Synowi, który z martwych żywy wstaje<br/>I Świętemu też duchowi,niech na wieki nie ustaje.</lines>
+    </verse>
+  </lyrics>
+</song>

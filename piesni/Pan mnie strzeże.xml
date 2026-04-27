@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:46">
+  <properties>
+    <titles>
+      <title>Pan mnie strzeże</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Pan mnie strzeże, Pan mnie strzeże<br/>Czuwa nade mną Bóg, On jest moim cieniem</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Chcę z Tobą chodzić po wszystkich mych drogach,<br/>Prowadź mnie w mocy Swej, abym nie upadł!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Biegnę do Ciebie, aby być z Tobą,<br/>Chce Ciebie widzieć, aby być sobą!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jak Henoch, Panie z Tobą chodzić chciał, tak z Tobą chodzić chcę,<br/>Jak Paweł wszystkie kroki Tobie dał, tak ja oddaję kroki swe!</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Nie boję się, wchodzę w noc ciemną bez lęku,<br/>Dobrze to wiem, Ty jesteś ze mną!</lines>
+    </verse>
+  </lyrics>
+</song>

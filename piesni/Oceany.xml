@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-13T15:45:46">
+  <properties>
+    <titles>
+      <title>Oceany</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Znad oceanów do mnie wołasz, <br/>gdzie każdy krok niepewny jest.<br/>Ty jesteś tam, gdzie niewiadoma,<br/>tam znajdę grunt dla wiary mej.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>I będę wzywać imię Twe,<br/>i ponad fale patrzeć chcę, gdy burzą się,<br/>mej duszy pokój w Tobie jest,<br/>gdzie pójdziesz Ty, ja pójdę też</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Mój strach utonie w Twojej łasce,<br/>bo ręka Twa, prowadzi mnie.<br/>I Ty mnie nigdy nie zawiodłeś,<br/>wiem teraz też nie zawiedziesz mnie.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>I będę wzywać imię Twe,<br/>i ponad fale patrzeć chcę, gdy burzą się, mej duszy pokój w Tobie jest,<br/>gdzie pójdziesz Ty, ja pójdę też.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Duchu prowadź mnie, gdzie wiara nie ma granic,<br/>Daj mi chodzić nad wodami, gdziekolwiek mnie zabierzesz.<br/>Prowadź głębiej niż pójść mogą moje stopy,<br/>moja wiara się umocni, w Twej obecności, Boże. /4x</lines>
+    </verse>
+  </lyrics>
+</song>

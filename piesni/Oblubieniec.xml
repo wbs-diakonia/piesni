@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:44">
+  <properties>
+    <titles>
+      <title>Oblubieniec</title>
+      <title>Jezus Oblubiencem</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Oblubieniec czeka już pierzmy szaty, <br/>blisko dzień wesela, <br/>zaproszonych gości tłum stoi u bram, <br/>które Pan otwiera.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Jezus Oblubieńcem naszym jest,<br/>a Kościół Świętą Panną, którą umiłował.<br/>Jezus Oblubieńcem naszym jest,<br/>a Kościół Świętą Panną, którą zdobył swoją Krwią.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tylko Oblubieniec wie, <br/>kto naprawdę jest w nim zakochany,<br/>w dzien wesela znajdzie<br/>i wniesie przez próg przez żywota bramy.</lines>
+    </verse>
+  </lyrics>
+</song>

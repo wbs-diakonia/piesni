@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-03-11T15:59:25">
+  <properties>
+    <titles>
+      <title>O Krwi najdroższa</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>O Krwi najdroższa O Krwi odkupienia<br/>Napoju życia z nieba dla nas dany<br/>O zdroju łaski O ceno zbawienia<br/>Ty grzechowe leczysz rany</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tyś w Jezusowym kielichu zamknięta<br/>Abyś nas wszystkich życiem napawała<br/>Abyś dla świata Krwi Boska Prześwięta<br/>Miłosierdzie wybłagała</lines>
+    </verse>
+    <verse name="v3">
+      <lines>O Krwi najdroższa przez Serce przeczyste<br/>Gdzie Twoje źródło miałaś na tej ziemi<br/>Cześć Tobie niesiem dzięki wiekuiste<br/>Z Aniołami ze świętymi</lines>
+    </verse>
+  </lyrics>
+</song>

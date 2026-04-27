@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:43">
+  <properties>
+    <titles>
+      <title>Naucz mnie miłości krzyża</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Naucz mnie miłości krzyża<br/>Naucz mnie miłości krzyża<br/>Wciąż umierać razem z Tobą - Baranku<br/></lines>
+    </verse>
+    <verse name="v2">
+      <lines>Naucz mnie miłości krzyża<br/>Naucz mnie miłości krzyża<br/>We krwi Twojej płukać szaty - Baranku</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Spójrz Panie na słabe serce moje<br/>Które pragnie rozdawać Twą miłość<br/>Nie tylko przyjaciołom, a nade wszystko wrogom<br/>Ty ukryty w mym wnętrzu kochaj.<br/></lines>
+    </verse>
+    <verse name="v4">
+      <lines>Pełen miłości patrzysz z drzewa krzyża<br/>Rozciągając szeroko ramiona <br/>Niech każde cierpienie przybliża mnie do Ciebie<br/>Naucz mnie ofiary Baranku milczący  </lines>
+    </verse>
+  </lyrics>
+</song>

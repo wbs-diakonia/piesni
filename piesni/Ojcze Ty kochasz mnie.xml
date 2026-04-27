@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-11-06T15:47:43">
+  <properties>
+    <titles>
+      <title>Ojcze Ty kochasz mnie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ojcze<br/>Ojcze<br/>Ojcze<br/>Ojcze</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ojcze Ty kochasz mnie<br/>nie dlatego, że jestem dobry<br/>ale dlatego,<br/>że jestem dzieckiem<br/>Twoim dzieckiem</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Jestem Twoim dzieckiem<br/>Jestem Twoim dzieckiem<br/>Jestem Twoim dzieckiem<br/>Jestem Twoim dzieckiem</lines>
+    </verse>
+  </lyrics>
+</song>

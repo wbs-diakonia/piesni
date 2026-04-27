@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-03-01T17:45:20">
+  <properties>
+    <titles>
+      <title>Panie daj mi łaskę wiernej modlitwy</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Smutna jest moja dusza, aż do śmierci<br/>Przybył z nieba Anioł, aby mnie umacniać.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Moje serce pogrążone jest w udręce<br/>Krwawy pot spływa na ziemię.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Nie zasłoniłem swojej twarzy przed opluciem<br/>Nie otworzyłem ust, gdy szydzili ze mnie.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Moje dłonie i stopy przybite do krzyża<br/>Ostra włócznia przeszyła mi serce.</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Smutna jest moja dusza, aż do śmierci<br/>Zostańcie tu i czuwajcie ze mną.</lines>
+    </verse>
+    <verse name="c6">
+      <lines>Panie daj mi łaskę wiernej modlitwy <br/>Abym nie opuścił Cię w godzinie Krzyża.</lines>
+    </verse>
+  </lyrics>
+</song>
