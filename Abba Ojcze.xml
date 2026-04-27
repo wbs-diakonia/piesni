@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:36">
+  <properties>
+    <titles>
+      <title>Abba Ojcze</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1 v3 c1 v4 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty wyzwoliłeś nas Panie<br/>Z kajdan i samych siebie<br/>A Chrystus stając się bratem<br/>Nauczył nas wołać do Ciebie:</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Abba Ojcze! /x4</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Bo Kościół jak drzewo życia<br/>W wieczności zapuszcza korzenie<br/>Przenika naszą codzienność<br/>I pokazuje nam Ciebie</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Bóg hojnym Dawcą jest życia<br/>On wyswobodził nas z śmierci<br/>I przygarniając do siebie<br/>Uczynił swoimi dziećmi</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Wszyscy jesteśmy braćmi<br/>Jesteśmy jedną rodziną.<br/>Tej prawdy nic już nie zaćmi<br/>I teraz jest jej godzina.</lines>
+    </verse>
+  </lyrics>
+</song>
