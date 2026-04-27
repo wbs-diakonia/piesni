@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-06-30T08:27:50">
+  <properties>
+    <titles>
+      <title>Dziękujemy Jezusowi</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Dziękujemy Jezusowi za wszystko co nam dał.<br/>Za Jego śmierć na krzyżu, przez którą zbawił nas.<br/>Za to, że wśród nas przebywa jak obiecał w słowie Swym,<br/>Wznieśmy w górę nasze serca i chwalmy Go.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Uwielbiajmy Go, chwalmy Go,<br/>Wznieśmy w górę nasze serca i chwalmy Go. /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Dziękujemy Bogu Ojcu za wszystko co nam dał.<br/>Za dar Ducha Świętego, którego zesłał nam.<br/>Za Maryję matkkę Pana, opiekunkę naszych serc,<br/>Więc padnijmy na kolana i chwalmy Go.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Uwielbiajmy Go, chwalmy Go,<br/>Wznieśmy w górę nasze serca i chwalmy Go. /x2</lines>
+    </verse>
+  </lyrics>
+</song>

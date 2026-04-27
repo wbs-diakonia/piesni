@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-09-28T07:11:58">
+  <properties>
+    <titles>
+      <title>Duszo ma Pana chwal</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Duszo ma Pana chwal<br/>Oddaj Bogu cześć<br/>Świętemu śpiewaj pieśń<br/>Z mocą wywyższaj Go<br/>Duszo ma<br/>Uwielbiam Boże Cię</lines>
+    </verse>
+    <verse name="v1">
+      <lines>1. Nowy dzień wraz ze wschodem słońca<br/>Znów nadszedł czas by Ci śpiewać pieśń<br/>Cokolwiek jest już za mną i to wszystko co przede mną<br/>Wiem, będę śpiewać gdy nadejdzie zmrok</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Duszo ma Pana chwal<br/>Oddaj Bogu cześć<br/>Świętemu śpiewaj pieśń<br/>Z mocą wywyższaj Go<br/>Duszo ma<br/>Uwielbiam Boże Cię</lines>
+    </verse>
+    <verse name="v2">
+      <lines>2. Bogaty w miłość gniew oddalasz Panie<br/>Twe serce miłe wielbię imię Twe<br/>Ze względu na Twą dobroć będę śpiewać Tobie pieśni<br/>Wiele powodów by uwielbiać Cię</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Duszo ma Pana chwal<br/>Oddaj Bogu cześć<br/>Świętemu śpiewaj pieśń<br/>Z mocą wywyższaj Go<br/>Duszo ma<br/>Uwielbiam Boże Cię</lines>
+    </verse>
+    <verse name="v3">
+      <lines>3. Przyjdzie dzień gdy bez sił zostanę<br/>Nadejdzie czas mego końca tu<br/>Dusza ma będzie już na zawsze Cię uwielbiać<br/>W wieczności z Tobą piękna zabrzmi pieśń</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Duszo ma Pana chwal<br/>Oddaj Bogu cześć<br/>Świętemu śpiewaj pieśń<br/>Z mocą wywyższaj Go<br/>Duszo ma<br/>Uwielbiam Boże Cię</lines>
+    </verse>
+  </lyrics>
+</song>

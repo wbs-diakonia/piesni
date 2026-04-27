@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Gdy drogi pomyli los zły</title>
+      <title>Ty tylko mnie poprowadź</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Gdy drogi pomyli los zły i oczy mgłą zasnuje, <br/>Miej w sobie tę ufność - nie lękaj się. <br/>A kiedy gniew świat ci przesłoni<br/>i zazdrość jak chwast zakiełkuje,<br/>Miej w sobie tę ufność - nie lękaj się!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ty tylko mnie poprowadź <br/>Tobie powierzam mą drogę<br/>Ty tylko mnie poprowadź Panie mój!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Poprowadź jak jego prowadzisz,<br/>przez drogi najprostsze z możliwych,<br/>I pokaż mi jedną - Tę jedną z nich.<br/>A kiedy już głos twój usłyszę i karmić się będę nim co dzień,<br/>Miej w sobie tę ufność - nie lękaj się!</lines>
+    </verse>
+  </lyrics>
+</song>

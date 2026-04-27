@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-11-16T15:58:21">
+  <properties>
+    <titles>
+      <title>Duszo Chrystusowa</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Duszo Chrystusowa, uświęć mnie.<br/>Ciało Chrystusowe, zbaw mnie,<br/>Krwi Chrystusowa, napój mnie.<br/>Wodo z boku Chrystusowego, obmyj mnie.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Męko Chrystusowa, wzmocnij mnie.<br/>O dobry Jezu, wysłuchaj mnie.<br/>W ranach swoich ukryj mnie.<br/>Nie daj mi z Tobą rozłączyć się.</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Od złego wroga obroń mnie.<br/>W godzinę śmierci wezwij mnie.<br/>I każ mi przyjść do siebie,<br/>Abym z świętymi Twymi chwalił Cię,<br/>Na wieki wieków. Amen.</lines>
+    </verse>
+  </lyrics>
+</song>

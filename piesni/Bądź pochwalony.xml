@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T08:14:26">
+  <properties>
+    <titles>
+      <title>Bądź pochwalony</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Bądź pochwalony /x4<br/>Bądź pochwalony na niebie,<br/>Bądź pochwalony na ziemi,<br/>Bądź pochwalony w świątyni swej<br/>Jezu, Jezu<br/>Pochwalony bądź.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wielbię Cię Panie /x4<br/>Wielbię Cię wraz z aniołami,<br/>Wielbię Cię z całego serca,<br/>Wielbię Cię Panie w świątyni Twej,<br/>Jezu, Jezu<br/>Pragnę wielbić Cię</lines>
+    </verse>
+  </lyrics>
+</song>

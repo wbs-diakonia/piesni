@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-06-21T16:43:05">
+  <properties>
+    <titles>
+      <title>Chrystus Pan, Boży Syn</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Chrystus Pan, Boży Syn,<br/>Zbawca nasz zgodził się,<br/>wziąć mój grzech <br/>- za mnie umrzeć chciał,<br/>Ażebym znał mój ogrom win<br/>i wiedział, że Krew Jego zbawia, oczyszcza i leczy.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Wywyższony bądź, Jezu, <br/>Baranku mój<br/>Tyś Jedyny Odkupiciel,<br/> Tyś mój Król!<br/>Wywyższony bądź, Boży Baranku!<br/>Przed Twym tronem dziś najwyższy składam hołd.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Dzięki Jezu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Dzięki Jezu, dzięki Jezu<br/> dzięki Ci, że kochasz mnie.<br/>Dzięki Jezu, dzięki Jezu<br/> dzięki Ci, o dzięki Ci,<br/>że kochasz mnie.						</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Tam na Golgocie umarłeś za mnie<br/> dzięki Ci, że kochasz mnie.<br/>Dzięki Jezu, dzięki Jezu<br/> dzięki Ci, o dzięki Ci,<br/>że kochasz mnie.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Zmartwychwstałeś, zyjesz we mnie<br/> dzięki Ci, że kochasz mnie.<br/>Dzięki Jezu, dzięki Jezu<br/> dzięki Ci, o dzięki Ci,<br/>że kochasz mnie.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Wkrótce przyjdziesz, stad mnie weźmiesz<br/>dzięki Ci, że kochasz mnie.<br/>Dzięki Jezu, dzięki Jezu<br/> dzięki Ci, o dzięki Ci,<br/>że kochasz mnie.</lines>
+    </verse>
+  </lyrics>
+</song>

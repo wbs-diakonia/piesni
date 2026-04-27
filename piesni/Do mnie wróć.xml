@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-03-17T17:00:53">
+  <properties>
+    <titles>
+      <title>Do mnie wróć</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Do mnie wróć, zbawię cię – cała ziemio.<br/>Bo Jam jest Pan – i twój Bóg – Jedyny.<br/>Przyjdźcie tu – zbawi was – przyjdźcie do Pana<br/>Bo On nasz Pan – i nasz Bóg – Jedyny.</lines>
+    </verse>
+  </lyrics>
+</song>

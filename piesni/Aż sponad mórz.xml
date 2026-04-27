@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-25T20:40:31">
+  <properties>
+    <titles>
+      <title>Aż sponad mórz</title>
+      <title>o miłości twej zawsze śpiewać</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Aż sponad mórz i szczytów gór<br/>Twa miłość spływa na mnie w dół<br/>A ja otwieram serce me<br/>Niech miłość Twa uwolni mnie </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Szczęśliwy jestem w prawdzie Twej <br/>Do Ciebie wznoszę ręce swe <br/>Chcę zawsze śpiewać o miłości Twojej, Panie <br/>O miłości Twej zawsze śpiewać<br/>Chcę o miłości Twej zawsze śpiewać</lines>
+    </verse>
+  </lyrics>
+</song>

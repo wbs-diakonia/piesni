@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Chlebie najcichszy</title>
+    </titles>
+    <verseOrder>c1 v1 c1 v2 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Chlebie najcichszy<br/>otul mnie Swym milczeniem,<br/>Ukryj mnie w Swojej bieli,<br/> wchłoń moją ciemność.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Przemień mnie w siebie,<br/>bym jak Ty stał się chlebem./x2<br/>Pobłogosław mnie, połam, rozdaj łaknącym braciom /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>A ułomki chleba, które zostaną /x2<br/>Rozdaj tym, którzy nie wierzą w swój głód /x2</lines>
+    </verse>
+  </lyrics>
+</song>

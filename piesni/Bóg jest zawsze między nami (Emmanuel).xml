@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-04-20T14:37:20">
+  <properties>
+    <titles>
+      <title>Bóg jest zawsze między nami (Emmanuel)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Bóg jest zawsze między nami<br/>Bóg jest zawsze blisko nas<br/>On zna wszystkie twoje rany<br/>przed Nim się nie schowasz</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Emmanuel, jest pośród nas<br/>Emmanuel, dotyka nas<br/>Emmanuel, nie mamy sił<br/>Emmanuel, prosimy przyjdź </lines>
+    </verse>
+    <verse name="v2">
+      <lines>Bóg jest zawsze blisko przy nas<br/>możesz do Niego przyjść<br/>On chce ujrzeć to co skrywasz<br/>Nie musisz bać się już </lines>
+    </verse>
+  </lyrics>
+</song>

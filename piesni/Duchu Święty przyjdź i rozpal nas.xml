@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-06-30T19:28:34">
+  <properties>
+    <titles>
+      <title>Duchu Święty przyjdź i rozpal nas</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Duchu Święty, Duchu Święty /x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Przyjdź i rozpal nas, i utul nas, miłość nam daj!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przyjdź i rozpal nas i ulecz nas, miłość nam daj!</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Przyjdź, napełnij nas, rozraduj nas ,miłość nam daj! </lines>
+    </verse>
+    <verse name="v4">
+      <lines>Przyjdź, umocnij nas i odnów nas, miłość nam daj!</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Przyjdź! (Duchu Święty) przyjdź! i utul nas, rozkochaj nas O Przyjdź!</lines>
+    </verse>
+  </lyrics>
+</song>

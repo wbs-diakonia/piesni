@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Dziś jest czas by oddać Bogu chwałę</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Dziś jest czas by oddać Bogu chwałę<br/>W tej Świątyni którą my jesteśmy sami</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Więc otwórz serce Swe<br/>i zacznij wielbić Go.<br/>Jego chwała wnet wypełni miejsce to.<br/>Chwała cześć! Chwalmy Go!<br/>Chwała cześć! Chwalmy Go!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Bóg przebywa w chwale swego ludu.<br/>On pragnie aby wzywać Jego imię.</lines>
+    </verse>
+  </lyrics>
+</song>

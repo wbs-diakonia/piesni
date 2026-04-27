@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-11-03T17:58:59">
+  <properties>
+    <titles>
+      <title>Błogosławieństwo Ojca</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Połóż na sercu <br/>jaką dziś o mnie masz myśl<br/>Wiem, że od wieków <br/>nucisz mi miłości hymn</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Dałeś mi życie <br/>i bardzo pragniesz być blisko<br/>Wszystko zrobiłeś <br/>abym mógł zobaczyć Cię</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ojcze mój<br/>Święty jesteś Ty<br/>Błogosławiony Twój Syn<br/>Jego krew<br/>Uświęciła mnie<br/>Nazywasz mnie dzieckiem swym</lines>
+    </verse>
+    <verse name="v2a">
+      <lines>Z Tobą w przymierzu <br/>tak najbezpieczniej jest żyć<br/>Nikt tylko Jezus <br/>zbawił i zabrał mój wstyd</lines>
+    </verse>
+    <verse name="v2b">
+      <lines>Wiem już kim jestem <br/>prawdziwe szczęście jest blisko<br/>Wszystko co Twoje <br/>na zawsze moim już jest</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Ojcze mój<br/>Święty jesteś Ty<br/>Błogosławiony Twój Syn<br/>Jego krew<br/>Uświęciła mnie<br/>Nazywasz mnie dzieckiem swym</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Uginam kolana<br/>Mój Ojcze błogosław mnie<br/>W tym błogosławieństwie życie jest<br/>Usłyszeć te słowa<br/>To jakby wziąć pierwszy wdech<br/>I całkiem od nowa widzieć sens x2</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Ojcze mój<br/>Święty jesteś Ty<br/>Błogosławiony Twój Syn<br/>Jego krew<br/>Uświęciła mnie<br/>Nazywasz mnie dzieckiem swym</lines>
+    </verse>
+  </lyrics>
+</song>

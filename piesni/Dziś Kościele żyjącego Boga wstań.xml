@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Dziś Kościele żyjącego Boga wstań</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Dziś Kościele żyjącego Boga wstań! <br/>Bóg Królem całej ziemi jest.<br/>Żadne moce i zwierzchności, <br/>nie wzruszą nas nigdy już.<br/>Gdy stajemy w jedności, <br/>nikt nas już nie rozdzieli, <br/>bo stajemy razem, gdzie nasz Bóg.</lines>
+    </verse>
+    <verse name="v1">
+      <lines break="optional">Jesteśmy ludem nabytym cenną krwią. <br/>W radości Bogu oddawajmy cześć.<br/>Gdy głosimy Bożą wielkość, majestat Jego i moc, <br/>to niszczymy moc szatana na ziemi tej.</lines>
+      <lines>Uwielbiajmy Jego chwałę dzień po dniu!<br/>W radości Bogu oddawajmy cześć.<br/>Gdy głosimy Bożą wielkość i miłosierdzia dar,<br/>to niszczymy moc szatana na ziemi tej.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Dziś Kościele żyjącego Boga wstań! <br/>Bóg Królem całej ziemi jest.<br/>Żadne moce i zwierzchności, <br/>nie wzruszą nas nigdy już.<br/>Gdy stajemy w jedności, <br/>nikt nas już nie rozdzieli, <br/>bo stajemy razem, gdzie nasz Bóg.</lines>
+    </verse>
+    <verse name="v2">
+      <lines break="optional">Ogłaszamy mocom zła na świecie tym:<br/>Wasz czas już kończy się.<br/>Nasz Bóg dał nam zwycięstwo i my, Jego Kościół dziś<br/>niszczymy moc szatana na ziemi tej.</lines>
+      <lines>Zatem cały ludu Pana teraz wstań!<br/>Uwierz mocy Słowa, które daje Bóg.<br/>Bo szatan jest pokonany i zastępy jego też,<br/>kiedy Kościół przyjmuje Bożą moc!</lines>
+    </verse>
+  </lyrics>
+</song>

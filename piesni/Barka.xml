@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Barka</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Pan, kiedyś stanął nad brzegiem,<br/>Szukał ludzi gotowych pójść za Nim,<br/>By łowić serca, słów Bożych prawdą.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>O Panie, to Ty na mnie spojrzałeś,<br/>Twoje usta dziś wyrzekły me imię.<br/>Swoją barkę pozostawiam na brzegu,<br/>Razem z Tobą nowy zacznę dziś łów.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jestem ubogim człowiekiem,<br/>Moim skarbem są ręce gotowe, <br/>Do pracy z Tobą i czyste serce.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Ty, potrzebujesz mych dłoni,<br/>Mego serca młodego zapałem,<br/>Mych kropli, potu i samotności.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Dziś wypływamy już razem,<br/>Łowić serca na morzach dusz ludzkich,<br/>Twej prawdy siecią i słowem życia.</lines>
+    </verse>
+  </lyrics>
+</song>

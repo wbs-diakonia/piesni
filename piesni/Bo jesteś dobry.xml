@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-07-04T19:28:41">
+  <properties>
+    <titles>
+      <title>Bo jesteś dobry</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Zawsze wierny byłeś mi<br/>kiedy zawodziłem ja<br/>niepojęty w miłości swej<br/>dobrze jest z Tobą być<br/>Darowałeś życie mi<br/>zabrałeś winę mą i grzech<br/>nikt nie kocha tak jak Ty<br/>dałeś życie swe</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo jesteś dobry, dla mnie zawsze Twoja łaska wiecznie trwa<br/>Bo jesteś dobry, dla mnie zawsze Twoja łaska na wieki trwa</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ponad wszystko jesteś Ty<br/>jednak sługą stałeś się<br/>słyszysz każdy płacz i szept<br/>miłosierny mój Pan<br/>Przed świętością Twoją drże<br/>spraw bym czyste serce miał<br/>wobec świata chcę kochać Cię <br/>dawać miłość Twą</lines>
+    </verse>
+    <verse name="e1">
+      <lines>Jesteś dobry dla mnie Panie<br/>O, jesteś dobry<br/>Zawsze wierny, sprawiedliwy, miłosierny</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Blisko, blisko</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Blisko, blisko, blisko jesteś Panie mój<br/>Blisko tak, że czuję tchnienie Twe<br/>I przychodzisz do mnie już dotykasz mnie.<br/>Łaską przebaczenia karmisz moją duszę</lines>
+    </verse>
+  </lyrics>
+</song>

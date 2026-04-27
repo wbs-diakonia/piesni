@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T08:03:34">
+  <properties>
+    <titles>
+      <title>Być bliżej Ciebie chcę</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Być bliżej Ciebie chcę, o Boże mój,<br/>Z Tobą przez życie lżej nieść krzyża znój.<br/>Ty w sercu moim trwasz,<br/>Z miłością Stwórcy ziem<br/>Tulisz w ojcowski płaszcz, chroniąc mnie w nim.<br/></lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Być bliżej Ciebie chcę na każdy dzień,<br/>za Tobą życiem swym iść jako cień.<br/>Daj tylko, Boże dusz,<br/>obecność Twoją czuć,<br/>myśl moją pośród burz na Ciebie zwróć.</lines>
+    </verse>
+    <verse name="v1c">
+      <lines>Choć jak wędrowiec sam idę przez noc,<br/>w Tobie niech siłę mam i w Tobie moc,<br/>gdy czuwam i wśród snu,<br/>czy słońce jest, czy mrok<br/>niechaj mnie strzeże Twój, o Panie, wzrok.</lines>
+    </verse>
+  </lyrics>
+</song>

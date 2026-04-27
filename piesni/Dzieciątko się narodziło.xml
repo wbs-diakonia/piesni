@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-01-16T17:55:33">
+  <properties>
+    <titles>
+      <title>Dzieciątko się narodziło</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Dzieciątko się narodziło,<br/>wszystek świat uweseliło.<br/><br/>Wesoła nowina,<br/>powiła nam Syna Maryja!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wzięła na się człowieczeństwo,<br/>co pokryło Jego Bóstwo.<br/><br/>Trzej królowie przyjechali,<br/>dary Mu trojakie dali.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Na to Boże Narodzenie,<br/>wesel się wszystkie stworzenie.<br/><br/>Wesoła nowina,<br/>powiła nam syna Maryja!</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Świętą Trójcę wysławiajmy,<br/>Bogu cześć i chwałę dajmy.<br/><br/>Wesoła nowina,<br/>powiła nam syna Maryja!</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Błogosławcie Pana</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Błogosławcie Pana wszystkie Jego dzieła,<br/>Które by nie kwitły, gdyby nie cierpienie,<br/>Błogosławcie Pana.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Błogosławcie Pana wszystkie łzy i żale,<br/>Każda moja słabość i upokorzenie,<br/>Błogosławcie Pana.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Błogosławcie Pana wszystkie moje rany,<br/>Na które Duch Święty staje się balsamem,<br/>Błogosławcie Pana.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Niech Cię błogosławią wszystkie me niemoce,<br/>Ból skrzętnie skrywany po bezsennej nocy,<br/>Niech Cię błogosławią.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Błogosławcie Pana, że Mu ufam jeszcze,<br/>Że mnie wciąż uzdrawia łaski Swojej deszczem,<br/>Błogosławcie Pana</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-03-01T17:38:26">
+  <properties>
+    <titles>
+      <title>Chwała Ojcu i Synowi i Duchowi Św.</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Chwała Ojcu i Synowi i Duchowi Świętemu x4<br/>Jak była na początku, teraz i zawsze i na wieki wieków<br/>Amen <br/></lines>
+    </verse>
+  </lyrics>
+</song>

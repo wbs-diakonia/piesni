@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-06-29T18:32:02">
+  <properties>
+    <titles>
+      <title>Com przyrzekł Bogu</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Com przyrzekł Bogu przy chrzcie raz,<br/>Dotrzymać pragnę szczerze.<br/>Kościoła słuchać w każdy czas<br/>I w świętej wytrwać wierze.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>O Panie Boże, dzięki Ci,<br/>Żeś mi Kościoła otwarł drzwi,<br/>W nim żyć, umierać pragnę.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>W Kościele tym jest z Ciałem, Krwią<br/>Bóg pod osłoną chleba.<br/>Swym Ciałem karmi duszę mą,<br/>by żyła w nim dla nieba.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>W to wierzyć zawsze mocno chcę,<br/>Bo tego Kościół uczy mnie.<br/>W nim żyć, umierać pragnę.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Mój Zbawca wie, czego mi brak.<br/>Gdy prosić będę rzewnie,<br/>On pokieruje wszystkim tak,<br/>Że niebo zyskam pewnie.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Nadzieją tą pokrzepiam się,<br/>Bo Kościół tak naucza mnie.<br/>W nim żyć, umierać pragnę</lines>
+    </verse>
+  </lyrics>
+</song>

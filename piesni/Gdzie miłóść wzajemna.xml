@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-15T12:56:03">
+  <properties>
+    <titles>
+      <title>Gdzie miłóść wzajemna</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Gdzie miłość wzajemna i dobroć,<br/>tam znajdziesz Boga żywego.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>W jedno nas tu zgromadziła miłość Chrystusa<br/>weselmy się w nim i radujmy.<br/>Z pokorą szczerą miłujmy Boga, <br/>z czystego serca miłujmy się nawzajem. </lines>
+    </verse>
+    <verse name="c2">
+      <lines>Gdzie miłość wzajemna i dobroć,<br/>tam znajdziesz Boga żywego.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Skoro się tu wszyscy gromadzimy,<br/>strzeżmy się tego, co nas rozdziela<br/>Niech ustaną wszystkie gniewy i spory,<br/>a pośrodku nas niech będzie Chrystus.    </lines>
+    </verse>
+  </lyrics>
+</song>

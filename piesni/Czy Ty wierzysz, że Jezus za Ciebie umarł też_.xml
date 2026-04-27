@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:39:00">
+  <properties>
+    <titles>
+      <title>Czy Ty wierzysz, że Jezus za Ciebie umarł też?</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Czy Ty wierzysz, że Jezus za Ciebie umarł też?<br/>Duchu Święty do mnie przyjdź! <br/>Mogłeś wybrać drogi złe, ale On powołał cię!<br/>Duchu Święty, do mnie przyjdź!</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Oddaj całe życie Panu, a On uwolni cię!<br/>Duchu święty, do mnie przyjdź!<br/>Wtedy udział w Królestwie będziesz mieć!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Oddaję Tobie władzę,<br/>Duchu Święty wołaj, do mnie mów!<br/>Jesteś mą Światłością<br/>Aż do końca dni!</lines>
+    </verse>
+  </lyrics>
+</song>

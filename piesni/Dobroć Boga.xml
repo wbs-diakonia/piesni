@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-25T20:04:07">
+  <properties>
+    <titles>
+      <title>Dobroć Boga</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ja kocham Cię Twoja miłość nie zawodzi<br/>Przez wszystkie dni trzymasz mnie w rękach Twych<br/>Od momentu kiedy wstaję aż gdy sen spowija mnie<br/>Śpiewać chcę o dobroci Bożej Twej</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ty Panie zawsze jesteś wierny<br/>Ty Panie zawsze jesteś dobry tak<br/>I każdym moim tchnieniem Panie<br/>śpiewać chcę o dobroci Boże Twej</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Kocham Twój głos, przprowadziłeś mnie przez ogień<br/>a w ciemną noc jesteś bliższy niż ktokolwiek<br/>ja znam Cię jako Ojca i przyjaciela też        <br/>żyje dzięki dobroci Boże Twej</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Ty Panie zawsze jesteś wierny<br/>Ty Panie zawsze jesteś dobry tak<br/>I każdym moim tchnieniem Panie<br/>śpiewać chcę o dobroci Boże Twej</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Twa dobroć dogania mnie, dogania ciągle mnie<br/>Twa dobroć dogania mnie, dogania ciągle mnie<br/>Kłade Życię me i poddają się, Oddaję wszystko Ci <br/>Twa dobroć dogania mnie dogania ciągle mnie</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2024-01-16T19:32:19">
+  <properties>
+    <titles>
+      <title>Dzięki łasce</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Mój odkupicielu przebaczyłeś mi<br/>Niosłeś na ramionach ciężar moich win<br/>Nic nie mogę dodać do ofiary Twej</lines>
+    </verse>
+    <verse name="c1">
+      <lines>To nie moja moc<br/>Nie moje starania<br/>To nie moja mądrość to łaska Twa<br/>Najwspanialszy dar<br/>Źródło mojej siły<br/>Dzięki łasce Twej<br/>Żyję dzięki niej</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Blisko Twego serca moje serce jest<br/>Dusza moja wielbi pragnie oddać cześć<br/>Nic mnie nie odłączy od miłości Twej</lines>
+    </verse>
+  </lyrics>
+</song>

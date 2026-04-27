@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Bo góry mogą ustąpić</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Na krótką chwilę opuściłem ciebie,<br/>lecz w miłości ogromnej<br/>Przygarnę znów cię, mówi Pan</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo góry mogą ustąpić / x2<br/>i pagórki się zachwiać / x2<br/>Ale miłość Moja, miłość moja,<br/>Nigdy nie odstąpi od ciebie, mówi Pan.</lines>
+    </verse>
+  </lyrics>
+</song>

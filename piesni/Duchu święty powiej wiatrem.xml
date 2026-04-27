@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Duchu święty powiej wiatrem</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Duchu Święty powiej wiatrem <br/>i z mocą na nas zstąp!<br/>Bądź miłości ą w naszych sercach, <br/>Światłem ogarnij nas.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Daj nowe oczy, ześlij swój ogień<br/>I jedność z Tobą daj /x2<br/></lines>
+    </verse>
+    <verse name="v2">
+      <lines>Z czterech wiatrów przybądź Duchu, <br/>Powiej mocą, ożyw nas, <br/>Bądź wolnością w naszych sercach, <br/>życiem wypełnij nas.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-02-12T11:21:06">
+  <properties>
+    <titles>
+      <title>Godzien chwały jest nasz Bóg</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Gdy czekaliśmy w ciemności <br/>Gdy już Cień nadziei znikł<br/>Wtedy Ty przyszedłeś z nieba <br/>Miałeś Łaskę w oczach swych<br/>Gdy spełniły się proroctwa <br/>Słowo przyszło na ten świat<br/>Zostawiło tron swej chwały <br/>by zamieszkać pośród nas</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Godzien chwały Jest nasz Bóg<br/>Ojciec Syn i Święty Duch<br/>W majestacie Wiecznie trwa<br/>Wywyższony królów Król nasz Pan</lines>
+    </verse>
+    <verse name="v2">
+      <lines>By objawić swe królestwo <br/>i odkupić nas od win<br/>By pojednać ziemię z niebem <br/>Ty na siebie wziąłeś krzyż<br/>Nawet w bólu i ciepieniu <br/>Przed oczami miałeś cel<br/>Żeby przynieść nam zbawienie <br/>Jezu Ty poniosłeć śmierć</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Godzien chwały Jest nasz Bóg<br/>Ojciec Syn i Święty Duch<br/>W majestacie Wiecznie trwa<br/>Wywyższony królów Król nasz Pan</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Tak się zrodził kościół twój <br/>Ogień w nim rozpalił Duch<br/>Ewangeli twojej głos <br/>Nie ucichnie nigdy już<br/>Przez twą krew w imieniu twym <br/>Dziś prawdziwą wolność mam<br/>Jezu Ty z miłości swej <br/>Dałeś mi zbawienia dar</lines>
+    </verse>
+  </lyrics>
+</song>

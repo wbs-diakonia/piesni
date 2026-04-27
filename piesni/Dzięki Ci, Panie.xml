@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-03T13:24:27">
+  <properties>
+    <titles>
+      <title>Dzięki Ci, Panie</title>
+    </titles>
+    <verseOrder>c1 v1 c1 v2 c1 v3 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Dzięki Ci, Panie, za Ciało Twe i Krew<br/>Za dary nieskończone wielbimy Cię /x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Chwalimy Cię, Wszechmocny<br/>za dary Twe nieskończone<br/>Za Ciało i Twoją Krew<br/>Przebacz w swojej dobroci tym, co Ciebie niegodni<br/>Kiedy do Twego stołu się zbliżamy</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Przebacz, żeś hojny i wierny<br/>Uwolnij z więzów grzechu<br/>Byśmy się odmienili<br/>Przez Tajemnice Najświętsze</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Niechaj przestworem spłynie zgwiazd Anioł Twój miły,<br/>Oczyści i uleczy nasze serca i ciała.<br/>Powiedzie za sprawą tajemnicy na same szczyty nieba,<br/>A tu na ziemi ratuje obroną Twoją potężną.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Spojrzyj łaskawie, Stwórco na nas znikomych i słabych,<br/>Ocal, Doby Pasterzu, owce na swojej łące.<br/>Tyś życie nam przywrócił wbrew nieprzyjacielowi,<br/>I wzmacniasz już na zawsze, siebie dając nam, Panie.</lines>
+    </verse>
+    <verse name="v5">
+      <lines>Spraw to Ojcze Wszechmocny w dobroci swej niezmiernej,<br/>Byśmy się stali jedno,<br/>Z Tobą, Chrystusem i Duchem,<br/>Ty, coś w Trójcy jedyny.</lines>
+    </verse>
+  </lyrics>
+</song>

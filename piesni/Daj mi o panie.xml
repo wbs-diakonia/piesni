@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:38">
+  <properties>
+    <titles>
+      <title>Daj mi o panie</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Daj mi o Panie doznać łaski Twojej,<br/>bo w Tobie pokładam nadzieję.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-02-03T21:41:55">
+  <properties>
+    <titles>
+      <title>Chwalę Ciebie Panie</title>
+    </titles>
+    <verseOrder>v1 c1 v2</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Chwalę Ciebie Panie /x2<br/>I uwielbiam /x2<br/><br/>Wznoszę w górę swoje ręce,<br/>wywyższając Imię Twe /x2</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Bo wielkiś Ty, wielkie dzieła czynisz dziś<br/>Nie dorówna Tobie nikt /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jesteś mą nadzieją, wiarą, życiem<br/>Daj mi poznać Twoje drogi bym nie zbładził nigdy już</lines>
+    </verse>
+  </lyrics>
+</song>

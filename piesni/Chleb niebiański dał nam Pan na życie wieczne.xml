@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:29:24">
+  <properties>
+    <titles>
+      <title>Chleb niebiański dał nam Pan na życie wieczne</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Chleb niebiański dał nam Pan na życie wieczne.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Wzięliśmy i jedliśmy Chleb Błogosławiony<br/>Ciało Pana i Krew drogocenną.<br/>Chleb Przemienił Pan, Kielich Zbawczy.<br/>Napój orzeźwiający.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Chleb niebiański dał nam Pan na życie wieczne.</lines>
+    </verse>
+    <verse name="v2">
+      <lines> Przyjąwszy Święty Chleb będziemy wysławiali Boga,<br/> Który na całej ziemi uczynił wielkie rzeczy<br/> Radujcie się, sprawiedliwi, w Panu,<br/> Przyjmując Ciało i Krew Chrystusa.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Chleb niebiański dał nam Pan na życie wieczne.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Dziś spożywaliśmy Chleb aniołów,<br/>Dziś oglądaliśmy naszego Pana Jezusa Chrystusa,<br/>Dziś wychwalaliśmy Węgiel żarzący się na ołtarzu,<br/>W cieniu którego śpiewają Serafiny.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Chleb niebiański dał nam Pan na życie wieczne.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Dziś usłyszeliśmy wielki i słodki głos:<br/>„To Ciało spali ciernie grzechów <br/>i oświeci dusze ludzi<br/>Przyjmujących Boski Pokarm”.</lines>
+    </verse>
+    <verse name="c5">
+      <lines>Chleb niebiański dał nam Pan na życie wieczne.</lines>
+    </verse>
+  </lyrics>
+</song>

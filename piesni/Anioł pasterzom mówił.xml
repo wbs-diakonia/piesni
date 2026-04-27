@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Anioł pasterzom mówił</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Anioł pasterzom mówił <br/>Chrystus się wam narodził, <br/>W Betlejem, nie bardzo podłym mieście <br/>Narodził się w ubóstwie <br/>Pan waszego stworzenia.</lines>
+    </verse>
+    <verse name="v2">
+      <lines><br/>Chcąc się dowiedzieć tego – poselstwa<br/>wesołego, bieżeli do Betlejem skwapliwie -<br/>Znaleźli Dziecię w żłobie, Maryję z Józefem.</lines>
+    </verse>
+    <verse name="v3">
+      <lines><br/>Taki Pan chwały wielkiej! - Uniżył się Wysoki,<br/>pałacu kosztownego żadnego - Nie miał zbudowanego. Pan wszego<br/>stworzenia!</lines>
+    </verse>
+    <verse name="v4">
+      <lines><br/>Bogu bądź cześć i chwała - która byś nie ustała,<br/>jak Ojcu, tak i Jego Synowi - i Świętemu Duchowi,<br/>w Trójcy jedynemu.</lines>
+    </verse>
+  </lyrics>
+</song>

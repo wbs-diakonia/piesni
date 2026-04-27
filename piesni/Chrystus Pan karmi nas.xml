@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:38">
+  <properties>
+    <titles>
+      <title>Chrystus Pan karmi nas</title>
+    </titles>
+    <verseOrder>c1 v1 c1 v2 c1 v3 c1 v4 c1 v5 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1">
+      <lines>Chrystus Pan karmi nas<br/>swoim świętym Ciałem,<br/>Chwalmy Go na wieki!/x2</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Duchem całym wielbię Pana<br/>Boga, Zbawcę Jedynego.<br/>Bo w Nim samym odnajduję<br/>wszystką radość życia mego.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wielbię, bo chciał wejrzeć z nieba<br/>na swą sługę uniżoną, <br/>By mnie odtąd wszyscy ludzie<br/>mogli zwać Błogosławioną. </lines>
+    </verse>
+    <verse name="v3">
+      <lines>Sprawił we mnie wielkie dzieła<br/>w swej dobroci niepojętej, <br/>On, Wszechmocny, On, Najwyższy<br/>On sam jeden zawsze święty. </lines>
+    </verse>
+    <verse name="v4">
+      <lines>On który przez pokolenia<br/>pozostaje miłosierny, <br/>Wobec tego, kto Mu służy<br/>i chce zostać Jemu wierny. </lines>
+    </verse>
+    <verse name="v5">
+      <lines>On, który swą mocą objawia<br/>gdy wyniosłość serc uniża, <br/>Każdy zamiar może zburzyć<br/>który pychą Mu ubliża.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:37">
+  <properties>
+    <titles>
+      <title>Apel Jasnogórski</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Maryjo Królowo Polski, /2x <br/>Jestem przy Tobie, pamiętam o Tobie – <br/>I czuwam na każdy czas. /2x</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Maryjo jesteśmy młodzi, /2x <br/>Już dzisiaj zależy od polskiej młodzieży<br/> Następne tysiąc lat. /2x</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Maryjo Królowo nasza, /2x <br/>Ciebie prosimy, uświęcaj rodziny <br/>Uświęcaj każdego z nas. /2x</lines>
+    </verse>
+  </lyrics>
+</song>

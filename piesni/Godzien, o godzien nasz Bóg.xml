@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2026-04-26T07:45:32">
+  <properties>
+    <titles>
+      <title>Godzien, o godzien nasz Bóg</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Godzien, o godzien jest Bóg - Siedzący na tronie.<br/>Baranek wśród chwał - Przyjąć wdzięczność,<br/>siłę i moc, błogosławieństwo i cześć!</lines>
+    </verse>
+    <verse name="c1">
+      <lines>On Panem jest od wieków na wieki /x3<br/>Amen.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Będziemy niezmiennie wciąż trwać,<br/>W miłości i  prawdzie - Oddając Mu hołd,<br/>Miłość, wdzięczność, siłę i moc, błogosławieństwo i cześć!</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2023-10-23T09:53:57">
+  <properties>
+    <titles>
+      <title>Bóg nad swym ludem zmiłował się</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Bóg nad swym ludem zmiłował się<br/>I Zbawiciela nam zesłał.<br/>Miłość nam daje usuwa grzech,<br/>Prowadzi w bramy Królestwa.</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Chryste króluj, Chryste zwyciężaj,<br/>Swoją miłość odnów w nas. /2x</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Miłość Chrystusa przemienia świat,<br/>Wyznacza szlaki wciąż nowe,<br/>Kruszy nienawiść, wprowadza ład,<br/>Jednoczy z ludźmi i z Bogiem.</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Chryste króluj, Chryste zwyciężaj,<br/>Swoją miłość odnów w nas. /2x</lines>
+    </verse>
+    <verse name="v3">
+      <lines>W miłości swojej zachowaj nas<br/>Chryste, Zwycięzco i Panie.<br/>Niech upragniony nadejdzie czas<br/>Odnowy i Pojednania.</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Chryste króluj, Chryste zwyciężaj,<br/>Swoją miłość odnów w nas. /2x</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Na straży Bogu oddanych serc<br/>Matka Kościoła trwa wiernie.<br/>W Jej dłonie złóżmy nadzieje swe,<br/>A Ona wspierać nas będzie.</lines>
+    </verse>
+    <verse name="c4">
+      <lines>Chryste króluj, Chryste zwyciężaj,<br/>Swoją miłość odnów w nas. /2x</lines>
+    </verse>
+  </lyrics>
+</song>

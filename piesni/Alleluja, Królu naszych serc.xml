@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-07-02T08:17:09">
+  <properties>
+    <titles>
+      <title>Alleluja, Królu naszych serc</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Boże, Ojcze nasz<br/>Tobie cześć, Tobie chwała<br/>Uwielbiamy Cię<br/>Tobie się kłaniamy</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Alleluja<br/>Królu naszych serc<br/>Alleluja<br/>Dziś z całym niebem wielbimy Ciebie<br/>Dziś z całym niebem wielbimy Ciebie</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Najjaśniejsza z gwiazd<br/>Blada jest przy Tobie<br/>Chcemy nieść Twój blask<br/>Rozpal w nas swój ogień</lines>
+    </verse>
+    <verse name="b1a">
+      <lines>Alleluja<br/>Królu naszych serc<br/>Alleluja<br/>Dziś z całym niebem wielbimy Ciebie<br/>Dziś z całym niebem wielbimy Ciebie</lines>
+    </verse>
+    <verse name="b1b">
+      <lines>Całe niebo śpiewa<br/>Święty jest nasz Pan Bóg<br/>Cała ziemia śpiewa<br/>Święty jest On</lines>
+    </verse>
+    <verse name="b2">
+      <lines>Alleluja, Alleluja<br/>Alleluja, święty jest Bóg</lines>
+    </verse>
+  </lyrics>
+</song>

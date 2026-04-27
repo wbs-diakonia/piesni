@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2021-01-16T18:02:39">
+  <properties>
+    <titles>
+      <title>Gdy klęczę przed Tobą</title>
+    </titles>
+    <verseOrder>v1 c1 v2 c1 v3 c1</verseOrder>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Gdy klęczę przed Tobą<br/>modlę się i składam hołd<br/>Weź ten dzień uczyń go swym<br/>i we mnie miłość wznieć</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Wszystko Tobie daję<br/>każdy sen i każdą myśl<br/>Matko Boga Matko moja<br/>wznieś je przed Pana tron</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Gdy klęczę przed Tobą<br/>widzę Twą radosną twarz<br/>Każda myśl, każde słowo<br/>niech spocznie w dłoniach Twych</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Ave Maria gratia plena<br/>Dominus tecum benedicta tu</lines>
+    </verse>
+  </lyrics>
+</song>

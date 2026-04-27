@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.7" modifiedIn="OpenLP 3.1.7" modifiedDate="2025-10-05T14:02:07">
+  <properties>
+    <titles>
+      <title>Im bardziej Cię pragnę</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Im bardziej Cię pragnę<br/>Tym bardziej znajduję<br/>Im bardziej znajduję<br/>Tym bardziej Cię kocham</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Chcę usiąść u Twoich stóp, skosztować kielich z Twych rąk.<br/>Zanurzyć w Tobie swój wzrok i nasłuchiwać.<br/>Twa miłość i moc jak głębia morskich fal.<br/>Zanurzam się w nich, Jesteś tak piękny.</lines>
+    </verse>
+  </lyrics>
+</song>
