@@ -68,17 +68,24 @@
             padding: 5px;
         }
 
-        #display {
-            flex-grow: 1;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            text-align: center;
-            padding: 10px 20px;
-            cursor: pointer;
-            overflow: hidden;
-            position: relative;
-        }
+#display {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+
+    /* Ustawienia tła z logo */
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 50vmin oznacza 50% długości krótszego boku */
+    background-size: 50vmin; 
+}
 
         #lyrics-container {
             width: 100%;
