@@ -4,138 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pieśni WBS</title>
-    <style>
-        /* --- Style podstawowe (Wspólne) --- */
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: #fff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            overflow: hidden;
-        }
+<style>
+    /* --- Style podstawowe (Wspólne) --- */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+    }
 
+    #ui-layer {
+        padding: 15px;
+        background: #1a1a1a;
+        display: flex;
+        gap: 10px;
+        border-bottom: 1px solid #333;
+        z-index: 100;
+    }
+
+    select {
+        padding: 10px;
+        font-size: 16px;
+        background: #333;
+        color: white;
+        border: 1px solid #444;
+        border-radius: 4px;
+        flex-grow: 1;
+        min-width: 0;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+        white-space: nowrap;
+    }
+
+    button:hover { opacity: 0.8; }
+    .btn-load { background: #28a745; }
+    .btn-clear { background: #6c757d; }
+
+    #display {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    #lyrics-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .verse {
+        font-weight: 600;
+        line-height: 1.4;
+        white-space: pre-wrap;
+        animation: fadeIn 0.2s ease-out;
+        
+        /* Ustawienia dla rzutnika */
+        font-size: 8vh; 
+        padding: 0 40px;
+        padding-bottom: 80px; /* Zwiększony odstęp od dołu */
+    }
+
+    /* POPRAWIONA STOPKA - teraz znacznie bardziej widoczna */
+    #section-footer {
+        position: absolute;
+        bottom: 25px;
+        right: 30px;
+        font-size: 3vh; /* Większa czcionka */
+        color: #aaa; /* Jaśniejszy kolor */
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: bold;
+        pointer-events: none;
+        
+        /* Wyraźniejsza etykieta */
+        background: rgba(255, 255, 255, 0.1); 
+        padding: 8px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(5px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --- Style dla urządzeń mobilnych (RWD) --- */
+    @media (max-width: 768px) {
         #ui-layer {
-            padding: 15px;
-            background: #1a1a1a;
-            display: flex;
-            gap: 10px;
-            border-bottom: 1px solid #333;
-            z-index: 100;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 8px;
         }
 
         select {
-            padding: 10px;
-            font-size: 16px;
-            background: #333;
-            color: white;
-            border: 1px solid #444;
-            border-radius: 4px;
-            flex-grow: 1;
-            min-width: 0; /* Zapobiega wypychaniu kontenera */
-        }
-
-        button {
-            padding: 10px 15px;
-            font-size: 16px;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: opacity 0.2s;
-            white-space: nowrap;
-        }
-
-        button:hover { opacity: 0.8; }
-        .btn-load { background: #28a745; }
-        .btn-clear { background: #6c757d; }
-
-        #display {
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 20px;
-            cursor: pointer;
-            position: relative;
-        }
-
-        #lyrics-container {
             width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            order: 1;
+        }
+
+        .btn-load, .btn-clear {
+            flex: 1;
+            order: 2;
+            font-size: 15px;
+            padding: 12px 5px;
         }
 
         .verse {
-            font-weight: 600;
-            line-height: 1.4;
-            white-space: pre-wrap;
-            animation: fadeIn 0.2s ease-out;
-            
-            /* Ustawienia dla rzutnika */
-            font-size: 7vh; 
-            padding: 0 40px;
-            padding-bottom: 60px; /* Miejsce na stopkę */
+            font-size: 4.5vh; 
+            padding: 0 10px;
+            padding-bottom: 70px;
+            line-height: 1.25;
         }
 
         #section-footer {
-            position: absolute;
+            font-size: 16px;
             bottom: 15px;
-            right: 20px;
-            font-size: 2.2vh;
-            color: #444;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            pointer-events: none;
+            right: 15px;
+            padding: 5px 10px;
+            background: rgba(0, 0, 0, 0.7);
         }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* --- Style dla urządzeń mobilnych (RWD) --- */
-        @media (max-width: 768px) {
-            #ui-layer {
-                flex-wrap: wrap; /* Pozwala na zawijanie w razie potrzeby */
-                padding: 10px;
-                gap: 8px;
-            }
-
-            select {
-                width: 100%;
-                order: 1; /* Select na górze */
-            }
-
-            .btn-load, .btn-clear {
-                flex: 1; /* Przyciski po 50% szerokości */
-                order: 2; /* Przyciski pod selectem */
-                font-size: 15px;
-                padding: 12px 5px;
-            }
-
-            .verse {
-                font-size: 4.2vh; 
-                padding: 0 10px;
-                padding-bottom: 50px; /* Ochrona przed stopką na komórce */
-                line-height: 1.25;
-            }
-
-            #section-footer {
-                font-size: 14px;
-                bottom: 8px;
-                right: 12px;
-                background: rgba(0,0,0,0.5); /* Lekkie tło pod napisem, by był czytelny */
-                padding: 2px 5px;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
 
