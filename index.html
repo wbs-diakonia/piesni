@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Pieśni WBS</title>
     <style>
+        * { box-sizing: border-box; } /* Bardzo ważne dla telefonów */
+
         body {
             margin: 0;
             padding: 0;
@@ -13,7 +15,8 @@
             font-family: 'Segoe UI', sans-serif;
             display: flex;
             flex-direction: column;
-            height: 100vh;
+            height: 100vh; /* Sztywna wysokość ekranu */
+            width: 100vw;
             overflow: hidden;
         }
 
@@ -22,104 +25,72 @@
             background: #1a1a1a;
             display: flex;
             gap: 10px;
-            border-bottom: 1px solid #333;
             z-index: 1000;
+            flex-shrink: 0; /* Menu nie może się ścisnąć */
         }
 
-        select {
-            padding: 10px;
-            font-size: 16px;
-            background: #333;
-            color: white;
-            border: 1px solid #444;
-            border-radius: 4px;
-            flex-grow: 1;
-            min-width: 0;
-        }
-
-        button {
-            padding: 10px 15px;
-            font-size: 16px;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            white-space: nowrap;
-        }
-
-        .btn-load { background: #28a745; }
-        .btn-clear { background: #6c757d; }
-
+        /* Ustawienia dla wyświetlacza */
         #display {
             flex-grow: 1;
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             padding: 20px;
             cursor: pointer;
-            position: relative; /* Ważne dla pozycjonowania stopki */
             overflow: hidden;
-        }
-
-        #lyrics-container {
-            width: 100%;
+            /* Kluczowe dla Samsunga S24: */
+            height: calc(100vh - 60px); 
         }
 
         .verse {
             font-weight: 600;
-            line-height: 1.4;
+            line-height: 1.3;
             white-space: pre-wrap;
             animation: fadeIn 0.2s ease-out;
-            font-size: 8vh; 
-            padding: 0 40px;
-            padding-bottom: 100px; /* Duży margines, by tekst nie zasłonił stopki */
+            font-size: 8vh;
+            width: 100%;
+            /* Margines od dołu, by tekst nie wszedł pod stopkę */
+            padding-bottom: 15vh; 
         }
 
-        /* STOPKA - Wersja ultra-widoczna */
+        /* STOPKA - Zmieniona pozycja, by zawsze była widoczna */
         #section-footer {
             position: absolute;
-            bottom: 30px;
-            right: 30px;
-            font-size: 20px; /* Stały rozmiar w pikselach dla pewności */
-            color: #ffffff; /* Czysty biały */
+            bottom: 20px; /* Wyżej od krawędzi */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #ffffff;
             text-transform: uppercase;
-            letter-spacing: 2px;
             font-weight: bold;
-            background: rgba(50, 50, 50, 0.8); /* Ciemne, wyraźne tło */
-            padding: 10px 20px;
-            border-radius: 10px;
-            border: 2px solid #444;
-            z-index: 9999; /* Zawsze na wierzchu */
-            display: block !important; /* Wymuszenie wyświetlania */
-            min-width: 100px;
+            background: rgba(60, 60, 60, 0.9);
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid #555;
+            z-index: 9999;
+            white-space: nowrap;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* Poprawki mobilne */
+        /* Poprawki pod Brave / Mobile */
         @media (max-width: 768px) {
-            #ui-layer {
-                flex-wrap: wrap;
-            }
-            select { width: 100%; order: 1; }
-            .btn-load, .btn-clear { flex: 1; order: 2; }
-
+            #ui-layer { flex-wrap: wrap; }
+            select { width: 100%; order: 1; font-size: 16px; }
+            button { flex: 1; order: 2; font-size: 14px; }
+            
             .verse {
-                font-size: 4.5vh; 
-                padding: 0 15px;
-                padding-bottom: 120px; /* Jeszcze więcej miejsca na dole w komórce */
+                font-size: 4.5vh;
+                padding-bottom: 80px;
             }
-
+            
             #section-footer {
-                font-size: 18px;
-                bottom: 20px; /* Wyżej, żeby paski nawigacji Samsunga go nie zakryły */
-                right: 50%;
-                transform: translateX(50%); /* Wyśrodkowanie na komórce dla lepszej widoczności */
-                white-space: nowrap;
+                bottom: 15px; /* Jeszcze wyżej na komórce */
+                font-size: 14px;
+                padding: 6px 12px;
             }
         }
     </style>
@@ -130,8 +101,8 @@
     <select id="song-select">
         <option value="">Ładowanie...</option>
     </select>
-    <button class="btn-load" onclick="loadSong()">Załaduj</button>
-    <button class="btn-clear" onclick="clearDisplay()">Wyczyść</button>
+    <button class="btn-load" style="background:#28a745" onclick="loadSong()">Załaduj</button>
+    <button class="btn-clear" style="background:#6c757d" onclick="clearDisplay()">Wyczyść</button>
 </div>
 
 <div id="display" onclick="nextVerse()">
@@ -142,6 +113,12 @@
 </div>
 
 <script>
+    // Tu wstaw całą dotychczasową sekcję SCRIPT (funkcje init, loadSong, itd.)
+    // Pamiętaj tylko, by w funkcji renderVerse() dopisać na końcu:
+    // document.getElementById('section-footer').style.display = "block";
+    
+    // ... (reszta Twojego działającego skryptu) ...
+    
     let verses = [];
     let sectionNames = [];
     let currentVerseIndex = 0;
@@ -171,21 +148,18 @@
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
-            
-            verses = [];
-            sectionNames = [];
-
+            verses = []; sectionNames = [];
             for (let v of xmlVerses) {
                 const name = v.getAttribute("name") || "";
                 const linesNode = v.getElementsByTagName("lines")[0];
                 if (linesNode) {
-                    let text = "";
+                    let txt = "";
                     for (let node of linesNode.childNodes) {
-                        if (node.nodeType === 3) text += node.nodeValue;
-                        else if (node.nodeName === "br") text += "\n";
+                        if (node.nodeType === 3) txt += node.nodeValue;
+                        else if (node.nodeName === "br") txt += "\n";
                     }
-                    if (text.trim()) {
-                        verses.push(text.trim());
+                    if (txt.trim()) {
+                        verses.push(txt.trim());
                         sectionNames.push(translateSectionName(name));
                     }
                 }
@@ -211,12 +185,12 @@
         if (verses.length > 0) {
             container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
             footer.textContent = sectionNames[currentVerseIndex];
-            footer.style.display = "block"; // Wymuszenie pokazania
+            footer.style.display = "block";
         }
     }
 
     function clearDisplay() {
-        document.getElementById('lyrics-container').innerHTML = "";
+        document.getElementById('lyrics-container').innerHTML = '<div class="verse"> </div>';
         document.getElementById('section-footer').textContent = "";
         document.getElementById('section-footer').style.display = "none";
     }
@@ -250,5 +224,6 @@
 
     init();
 </script>
+
 </body>
 </html>
