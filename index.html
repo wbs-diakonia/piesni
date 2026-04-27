@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pieśni WBS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #ui-layer {
+            padding: 15px;
+            background: #1a1a1a;
+            display: flex;
+            gap: 10px;
+            border-bottom: 1px solid #333;
+            z-index: 100;
+        }
+
+        select {
+            padding: 10px;
+            font-size: 16px;
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            border-radius: 4px;
+            flex-grow: 1;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .btn-load { background: #28a745; }
+        .btn-clear { background: #6c757d; }
+
+        #display {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .verse {
+            font-size: 7vh; 
+            font-weight: 600;
+            line-height: 1.4;
+            white-space: pre-wrap;
+            animation: fadeIn 0.2s ease-out;
+        }
+
+        #section-footer {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 2.5vh;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        #hint {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            color: #222;
+            font-size: 14px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="ui-layer">
+    <select id="song-select">
+        <option value="">Ładowanie listy...</option>
+    </select>
+    <button class="btn-load" onclick="loadSong()">Załaduj</button>
+    <button class="btn-clear" onclick="clearDisplay()">Wyczyść</button>
+</div>
+
+<div id="display" onclick="nextVerse()">
+    <div id="lyrics-container">
+        <div class="verse">Wybierz z listy</div>
+    </div>
+    <div id="section-footer"></div>
+</div>
+
+<div id="hint">Spacja / Strzałki / Klik - nawigacja</div>
+
+<script>
+    let verses = [];
+    let sectionNames = [];
+    let currentVerseIndex = 0;
+
+    async function init() {
+        try {
+            const response = await fetch('lista.txt');
+            const text = await response.text();
+            const files = text.split(/\r?\n/).filter(line => line.trim() !== '');
+            
+            const select = document.getElementById('song-select');
+            select.innerHTML = '<option value="">-- Wybierz pieśń --</option>';
+
+            files.forEach(fileName => {
+                const option = document.createElement('option');
+                option.value = 'piesni/' + fileName.trim();
+                option.textContent = fileName.replace('.xml', '').replace(/_/g, ' ');
+                select.appendChild(option);
+            });
+        } catch (err) {
+            console.error("Błąd listy:", err);
+        }
+    }
+
+    async function loadSong() {
+        const url = document.getElementById('song-select').value;
+        if (!url) return;
+
+        try {
+            const response = await fetch(url);
+            const str = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(str, "text/xml");
+            
+            const xmlVerses = xmlDoc.getElementsByTagName("verse");
+            verses = [];
+            sectionNames = [];
+            
+            for (let v of xmlVerses) {
+                const name = v.getAttribute("name") || "";
+                const linesNode = v.getElementsByTagName("lines")[0];
+                if (linesNode) {
+                    let textWithNewLines = "";
+                    for (let node of linesNode.childNodes) {
+                        if (node.nodeType === 3) {
+                            textWithNewLines += node.nodeValue;
+                        } else if (node.nodeName === "br") {
+                            textWithNewLines += "\n";
+                        }
+                    }
+                    
+                    if (textWithNewLines.trim()) {
+                        verses.push(textWithNewLines.trim());
+                        sectionNames.push(translateSectionName(name));
+                    }
+                }
+            }
+
+            currentVerseIndex = 0;
+            renderVerse();
+        } catch (err) {
+            console.error(err);
+            alert("Błąd wczytywania pliku XML.");
+        }
+    }
+
+    function translateSectionName(name) {
+        if (!name) return "";
+        let translated = name.toLowerCase();
+        if (translated.startsWith('v')) return "Zwrotka " + translated.substring(1);
+        if (translated.startsWith('c')) return "Refren " + translated.substring(1);
+        if (translated.startsWith('b')) return "Bridge " + translated.substring(1);
+        if (translated.startsWith('p')) return "Pre-refren " + translated.substring(1);
+        return name;
+    }
+
+    // Funkcja czyszcząca ekran
+    function clearDisplay() {
+        document.getElementById('lyrics-container').innerHTML = "";
+        document.getElementById('section-footer').textContent = "";
+        // Nie zerujemy currentVerseIndex ani verses, żeby móc wrócić do pieśni
+    }
+
+    function renderVerse() {
+        const container = document.getElementById('lyrics-container');
+        const footer = document.getElementById('section-footer');
+        
+        if (verses.length > 0) {
+            container.innerHTML = `<div class="verse">${verses[currentVerseIndex]}</div>`;
+            footer.textContent = sectionNames[currentVerseIndex] || "";
+        }
+    }
+
+    function nextVerse() {
+        if (verses.length === 0) return;
+        currentVerseIndex = (currentVerseIndex + 1) % verses.length;
+        renderVerse();
+    }
+
+    function prevVerse() {
+        if (verses.length === 0) return;
+        currentVerseIndex = (currentVerseIndex - 1 + verses.length) % verses.length;
+        renderVerse();
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.code === 'Space' || e.code === 'ArrowRight' || e.code === 'ArrowDown') {
+            e.preventDefault();
+            nextVerse();
+        } else if (e.code === 'ArrowLeft' || e.code === 'ArrowUp') {
+            prevVerse();
+        } else if (e.code === 'Escape' || e.code === 'KeyB') {
+            // Skrót klawiszowy dla czyszczenia: ESC lub klawisz B (Blackout)
+            clearDisplay();
+        }
+    });
+
+    init();
+</script>
+
+</body>
+</html>
