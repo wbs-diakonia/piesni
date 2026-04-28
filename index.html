@@ -29,7 +29,19 @@
             gap: 6px;
             border-bottom: 1px solid #333;
             z-index: 1000;
-            flex-shrink: 0; /* Menu nie może się ścisnąć */
+            flex-shrink: 0;
+        }
+
+        /* STYL WYSZUKIWARKI */
+        #song-search {
+            flex: 1 1 100%;
+            padding: 10px;
+            font-size: 16px;
+            background: #222;
+            color: #ffca28;
+            border: 1px solid #444;
+            border-radius: 4px;
+            margin-bottom: 2px;
         }
 
         #song-select {
@@ -71,7 +83,6 @@
             padding: 5px;
         }
 
-        /* --- KONTENER WYŚWIETLANIA --- */
         #display {
             flex-grow: 1;
             position: relative;
@@ -84,45 +95,42 @@
             background: black;
         }
 
-        /* --- NOWA WARSTWA LOGO --- */
         #logo-bg {
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
             background-image: url('logo.png');
             background-repeat: no-repeat;
             background-position: center;
-            /* 50vmin: 50% krótszego boku - skalowanie */
             background-size: 50vmin; 
-            z-index: 1; /* Pod tekstem */
+            z-index: 1;
+            opacity: 0.7; /* Subtelne logo w tle */
         }
 
-        /* --- KONTENER TEKSTU --- */
         #lyrics-container {
             width: 100%;
-            z-index: 2; /* Tekst nad logo */
+            z-index: 2;
             padding: 10px 20px;
         }
 
         .verse {
             font-weight: 600;
-            line-height: 1.2;
+            line-height: 1.25;
             white-space: pre-wrap;
             animation: fadeIn 0.2s ease-out;
-            font-size: 3.8vh; 
+            font-size: 3.8dvh; 
             width: 100%;
-            /* Cień tekstu poprawia czytelność na tle logo */
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
         }
 
         .hidden { visibility: hidden; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-        /* Media Queries (Desktop) */
         @media (min-width: 769px) {
             #ui-layer { flex-wrap: nowrap; }
-            #song-select { flex: 2; }
-            .controls-row { flex: 1; width: auto; }
+            #song-search { flex: 1; margin-bottom: 0; }
+            #song-select { flex: 1; }
+            .controls-row { flex: 0 1 auto; width: auto; }
             .verse { font-size: 7vh; line-height: 1.4; }
         }
     </style>
@@ -130,9 +138,12 @@
 <body>
 
 <div id="ui-layer">
+    <input type="text" id="song-search" placeholder="Szukaj (np. fragment tytułu)..." oninput="filterSongs()" onkeydown="handleSearchKey(event)">
+    
     <select id="song-select" onchange="loadSong()">
-        <option value="">Ładowanie...</option>
+        <option value="">Ładowanie listy...</option>
     </select>
+    
     <div class="controls-row">
         <button id="btn-toggle" class="btn-toggle" onclick="toggleDisplay()">Ukryj</button>
         <select id="section-select" onchange="jumpToSection(this.value)">
@@ -142,14 +153,16 @@
 </div>
 
 <div id="display" onclick="handleTap(event)">
-    <div id="logo-bg"></div> <div id="lyrics-container">
+    <div id="logo-bg"></div> 
+    <div id="lyrics-container">
         <div id="verse-text" class="verse"></div>
     </div>
 </div>
 
 <script>
-    let versesList = []; // Finalna lista tekstów do wyświetlenia
-    let sectionLabelsList = []; // Finalna lista etykiet (np. Zw 1a)
+    let allSongs = []; 
+    let versesList = []; 
+    let sectionLabelsList = []; 
     let currentVerseIndex = 0;
     let isHidden = false;
 
@@ -162,22 +175,52 @@
         'e': 'Zak'
     };
 
+    // --- INICJALIZACJA ---
     async function init() {
         try {
             const response = await fetch('lista.txt');
             const text = await response.text();
-            const files = text.split(/\r?\n/).filter(line => line.trim() !== '');
-            const select = document.getElementById('song-select');
-            select.innerHTML = '<option value="">-- Wybierz pieśń --</option>';
-            files.forEach(fileName => {
-                const option = document.createElement('option');
-                option.value = 'piesni/' + fileName.trim();
-                option.textContent = fileName.replace('.xml', '').replace(/_/g, ' ');
-                select.appendChild(option);
-            });
-        } catch (err) { console.error(err); }
+            allSongs = text.split(/\r?\n/)
+                .filter(line => line.trim() !== '')
+                .map(fileName => ({
+                    path: 'piesni/' + fileName.trim(),
+                    name: fileName.replace('.xml', '').replace(/_/g, ' ')
+                }));
+            
+            displaySongs(allSongs);
+        } catch (err) { console.error("Błąd ładowania listy:", err); }
     }
 
+    // --- WYSZUKIWARKA ---
+    function displaySongs(songsToDisplay) {
+        const select = document.getElementById('song-select');
+        select.innerHTML = '<option value="">-- Wybierz pieśń (' + songsToDisplay.length + ') --</option>';
+        songsToDisplay.forEach(song => {
+            const option = document.createElement('option');
+            option.value = song.path;
+            option.textContent = song.name;
+            select.appendChild(option);
+        });
+    }
+
+    function filterSongs() {
+        const query = document.getElementById('song-search').value.toLowerCase();
+        const filtered = allSongs.filter(song => song.name.toLowerCase().includes(query));
+        displaySongs(filtered);
+    }
+
+    function handleSearchKey(e) {
+        if (e.key === 'Enter') {
+            const select = document.getElementById('song-select');
+            if (select.options.length > 1) {
+                select.selectedIndex = 1; // Wybiera pierwszą przefiltrowaną pieśń
+                loadSong();
+                document.getElementById('song-search').blur(); // Chowa klawiaturę
+            }
+        }
+    }
+
+    // --- ŁADOWANIE PIEŚNI ---
     async function loadSong() {
         const url = document.getElementById('song-select').value;
         if (!url) return;
@@ -187,7 +230,6 @@
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
             
-            // 1. Mapujemy unikalne sekcje
             const availableSections = {};
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
             for (let v of xmlVerses) {
@@ -203,7 +245,6 @@
                 }
             }
 
-            // 2. Obsługa verseOrder
             const orderTag = xmlDoc.getElementsByTagName("verseOrder")[0];
             let orderArray = [];
             if (orderTag && orderTag.textContent) {
@@ -212,10 +253,8 @@
                 orderArray = Array.from(xmlVerses).map(v => v.getAttribute("name").toLowerCase());
             }
 
-            // 3. Budujemy finalne listy
             versesList = [];
             sectionLabelsList = [];
-            
             orderArray.forEach(name => {
                 if (availableSections[name]) {
                     versesList.push(availableSections[name]);
@@ -248,6 +287,7 @@
         return result;
     }
 
+    // --- INTERFEJS I NAWIGACJA ---
     function updateSectionDropdown() {
         const sel = document.getElementById('section-select');
         sel.innerHTML = '';
@@ -314,6 +354,7 @@
     }
 
     document.addEventListener('keydown', (e) => {
+        if (e.target.id === 'song-search') return; // Nie reaguj na strzałki podczas pisania
         if (e.code === 'Space' || e.code === 'ArrowRight') nextVerse();
         else if (e.code === 'ArrowLeft') prevVerse();
         else if (e.code === 'KeyH' || e.code === 'Escape') toggleDisplay();
