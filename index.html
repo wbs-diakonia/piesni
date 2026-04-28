@@ -27,6 +27,7 @@
             gap: 6px;
             border-bottom: 1px solid #333;
             z-index: 1000;
+            flex-shrink: 0; /* Menu nie może się ścisnąć */
         }
 
         #song-select {
@@ -58,7 +59,7 @@
         .btn-toggle { background: #28a745; }
         
         #section-select {
-            flex: 0 1 110px; /* Nieco szerszy, by zmieścić nazwy typu v1a */
+            flex: 0 1 110px;
             background: #444;
             color: #ffca28;
             border: 1px solid #555;
@@ -68,28 +69,37 @@
             padding: 5px;
         }
 
-#display {
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 20px;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
+        /* --- KONTENER WYŚWIETLANIA --- */
+        #display {
+            flex-grow: 1;
+            display: flex;
+            align-items: center; /* Centrowanie zawartości w pionie */
+            justify-content: center; /* Centrowanie zawartości w poziomie */
+            text-align: center;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            background: black; /* Tło dla całego ekranu */
+        }
 
-    /* Ustawienia tła z logo */
-    background-image: url('logo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    /* 50vmin oznacza 50% długości krótszego boku */
-    background-size: 50vmin; 
-}
+        /* --- NOWA WARSTWA LOGO --- */
+        #logo-bg {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-image: url('logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            /* 50vmin: 50% krótszego boku - skalowanie */
+            background-size: 50vmin; 
+            z-index: 1; /* Pod tekstem */
+        }
 
+        /* --- KONTENER TEKSTU --- */
         #lyrics-container {
             width: 100%;
-            margin-top: 20px;
+            z-index: 2; /* Tekst nad logo */
+            padding: 10px 20px;
         }
 
         .verse {
@@ -99,12 +109,15 @@
             animation: fadeIn 0.2s ease-out;
             font-size: 3.8vh; 
             width: 100%;
+            /* Cień tekstu poprawia czytelność na tle logo */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
         .hidden { visibility: hidden; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
+        /* Media Queries (Desktop) */
         @media (min-width: 769px) {
             #ui-layer { flex-wrap: nowrap; }
             #song-select { flex: 2; }
@@ -128,7 +141,7 @@
 </div>
 
 <div id="display" onclick="handleTap(event)">
-    <div id="lyrics-container">
+    <div id="logo-bg"></div> <div id="lyrics-container">
         <div id="verse-text" class="verse"></div>
     </div>
 </div>
@@ -173,7 +186,7 @@
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(str, "text/xml");
             
-            // 1. Mapujemy wszystkie dostępne sekcje z pliku do obiektu pomocniczego
+            // 1. Mapujemy unikalne sekcje
             const availableSections = {};
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
             for (let v of xmlVerses) {
@@ -189,18 +202,16 @@
                 }
             }
 
-            // 2. Sprawdzamy czy jest zdefiniowana kolejność (verseOrder)
+            // 2. Obsługa verseOrder
             const orderTag = xmlDoc.getElementsByTagName("verseOrder")[0];
             let orderArray = [];
             if (orderTag && orderTag.textContent) {
-                // Rozbijamy np. "v1 c1 v2 c1" na tablicę
                 orderArray = orderTag.textContent.toLowerCase().split(/\s+/).filter(s => s !== "");
             } else {
-                // Jeśli brak verseOrder, bierzemy sekcje w kolejności występowania w pliku
                 orderArray = Array.from(xmlVerses).map(v => v.getAttribute("name").toLowerCase());
             }
 
-            // 3. Budujemy finalne listy do wyświetlania
+            // 3. Budujemy finalne listy
             versesList = [];
             sectionLabelsList = [];
             
@@ -224,19 +235,15 @@
 
     function translateSectionName(name) {
         if (!name) return "???";
-        // Wyciągamy litery (typ), cyfry (numer) i opcjonalne litery a/b na końcu
         const match = name.match(/^([a-z]+)(\d*)([a-z]?)$/i);
         if (!match) return name;
-
         const prefix = match[1].toLowerCase();
         const num = match[2];
         const suffix = match[3];
-
         let label = sectionMap[prefix] || prefix.toUpperCase();
         let result = label;
         if (num) result += " " + num;
         if (suffix) result += suffix;
-        
         return result;
     }
 
