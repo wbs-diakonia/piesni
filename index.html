@@ -16,6 +16,8 @@
             display: flex;
             flex-direction: column;
             height: 100vh;
+            height: 100dvh; 
+            width: 100vw;
             overflow: hidden;
         }
 
@@ -72,21 +74,20 @@
         /* --- KONTENER WYŚWIETLANIA --- */
         #display {
             flex-grow: 1;
+            position: relative;
             display: flex;
-            align-items: center; /* Centrowanie zawartości w pionie */
-            justify-content: center; /* Centrowanie zawartości w poziomie */
+            align-items: center; 
+            justify-content: center;
             text-align: center;
             cursor: pointer;
             overflow: hidden;
-            position: relative;
-            background: black; /* Tło dla całego ekranu */
+            background: black;
         }
 
         /* --- NOWA WARSTWA LOGO --- */
         #logo-bg {
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
+            top: 0; left: 0; right: 0; bottom: 0;
             background-image: url('logo.png');
             background-repeat: no-repeat;
             background-position: center;
