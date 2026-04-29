@@ -226,39 +226,42 @@
         if (!url) return;
         try {
             const response = await fetch(url);
-            const str = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(str, "text/xml");
+            const data = await response.json(); // FreeShow używa formatu JSON
             
-            const availableSections = {};
-            const xmlVerses = xmlDoc.getElementsByTagName("verse");
-            for (let v of xmlVerses) {
-                const name = v.getAttribute("name");
-                const linesNode = v.getElementsByTagName("lines")[0];
-                if (linesNode) {
-                    let txt = "";
-                    for (let node of linesNode.childNodes) {
-                        if (node.nodeType === 3) txt += node.nodeValue;
-                        else if (node.nodeName === "br") txt += "\n";
-                    }
-                    availableSections[name.toLowerCase()] = txt.trim();
-                }
-            }
-
-            const orderTag = xmlDoc.getElementsByTagName("verseOrder")[0];
-            let orderArray = [];
-            if (orderTag && orderTag.textContent) {
-                orderArray = orderTag.textContent.toLowerCase().split(/\s+/).filter(s => s !== "");
-            } else {
-                orderArray = Array.from(xmlVerses).map(v => v.getAttribute("name").toLowerCase());
-            }
+            // Plik FreeShow to tablica, gdzie drugi element zawiera dane pieśni
+            const songData = data[1];
+            const slides = songData.slides;
+            
+            // Pobieramy ID slajdów w poprawnej kolejności z aktywnego układu
+            const activeLayoutId = songData.settings.activeLayout;
+            const layoutSlides = songData.layouts[activeLayoutId].slides;
 
             versesList = [];
             sectionLabelsList = [];
-            orderArray.forEach(name => {
-                if (availableSections[name]) {
-                    versesList.push(availableSections[name]);
-                    sectionLabelsList.push(translateSectionName(name));
+
+            layoutSlides.forEach((layoutItem, index) => {
+                const slideId = layoutItem.id;
+                const slide = slides[slideId];
+                
+                if (slide && slide.items) {
+                    // Wyciągamy tekst ze wszystkich linii na slajdzie
+                    let slideText = "";
+                    slide.items.forEach(item => {
+                        if (item.lines) {
+                            const lines = item.lines.map(line => 
+                                line.text.map(t => t.value).join("")
+                            ).join("\n");
+                            slideText += lines;
+                        }
+                    });
+
+                    if (slideText.trim() !== "") {
+                        versesList.push(slideText.trim());
+                        
+                        // Pobieramy nazwę grupy (Zwrotka, Refren itp.)
+                        const groupName = slide.group || "Slajd";
+                        sectionLabelsList.push(`${groupName} ${index + 1}`);
+                    }
                 }
             });
 
@@ -268,23 +271,13 @@
             updateUI();
             renderVerse();
         } catch (err) { 
-            console.error(err);
-            alert("Błąd przetwarzania pieśni."); 
+            console.error("Błąd przetwarzania pliku JSON:", err);
+            alert("Błąd przetwarzania pieśni. Upewnij się, że plik ma format JSON (.show)."); 
         }
     }
-
+    
     function translateSectionName(name) {
-        if (!name) return "???";
-        const match = name.match(/^([a-z]+)(\d*)([a-z]?)$/i);
-        if (!match) return name;
-        const prefix = match[1].toLowerCase();
-        const num = match[2];
-        const suffix = match[3];
-        let label = sectionMap[prefix] || prefix.toUpperCase();
-        let result = label;
-        if (num) result += " " + num;
-        if (suffix) result += suffix;
-        return result;
+        return name;
     }
 
     // --- INTERFEJS I NAWIGACJA ---
