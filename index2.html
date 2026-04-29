@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pieśni WBS</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            height: 100dvh; 
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        #ui-layer {
+            padding: 8px;
+            background: #1a1a1a;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            border-bottom: 1px solid #333;
+            z-index: 1000;
+            flex-shrink: 0;
+        }
+
+        /* STYL WYSZUKIWARKI */
+        #song-search {
+            flex: 1 1 100%;
+            padding: 10px;
+            font-size: 16px;
+            background: #222;
+            color: #ffca28;
+            border: 1px solid #444;
+            border-radius: 4px;
+            margin-bottom: 2px;
+        }
+
+        #song-select {
+            flex: 1 1 100%;
+            padding: 8px;
+            font-size: 16px;
+            background: #333;
+            color: white;
+            border: 1px solid #444;
+            border-radius: 4px;
+        }
+
+        .controls-row {
+            display: flex;
+            width: 100%;
+            gap: 6px;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 14px;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            flex: 1;
+        }
+
+        .btn-toggle { background: #28a745; }
+        
+        #section-select {
+            flex: 0 1 110px;
+            background: #444;
+            color: #ffca28;
+            border: 1px solid #555;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        #display {
+            flex-grow: 1;
+            position: relative;
+            display: flex;
+            align-items: center; 
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            overflow: hidden;
+            background: black;
+        }
+
+        #logo-bg {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: url('logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50vmin; 
+            z-index: 1;
+            opacity: 0.7; /* Subtelne logo w tle */
+        }
+
+        #lyrics-container {
+            width: 100%;
+            z-index: 2;
+            padding: 10px 20px;
+        }
+
+        .verse {
+            font-weight: 600;
+            line-height: 1.25;
+            white-space: pre-wrap;
+            animation: fadeIn 0.2s ease-out;
+            font-size: 3.8dvh; 
+            width: 100%;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+        }
+
+        .hidden { visibility: hidden; }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        @media (min-width: 769px) {
+            #ui-layer { flex-wrap: nowrap; }
+            #song-search { flex: 1; margin-bottom: 0; }
+            #song-select { flex: 1; }
+            .controls-row { flex: 0 1 auto; width: auto; }
+            .verse { font-size: 7vh; line-height: 1.4; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="ui-layer">
+    <input type="text" id="song-search" placeholder="Szukaj (np. fragment tytułu)..." oninput="filterSongs()" onkeydown="handleSearchKey(event)">
+    
+    <select id="song-select" onchange="loadSong()">
+        <option value="">Ładowanie listy...</option>
+    </select>
+    
+    <div class="controls-row">
+        <button id="btn-toggle" class="btn-toggle" onclick="toggleDisplay()">Ukryj</button>
+        <select id="section-select" onchange="jumpToSection(this.value)">
+            <option value="">---</option>
+        </select>
+    </div>
+</div>
+
+<div id="display" onclick="handleTap(event)">
+    <div id="logo-bg"></div> 
+    <div id="lyrics-container">
+        <div id="verse-text" class="verse"></div>
+    </div>
+</div>
+
+<script>
+    let allSongs = []; 
+    let versesList = []; 
+    let sectionLabelsList = []; 
+    let currentVerseIndex = 0;
+    let isHidden = false;
+
+    const sectionMap = {
+        'v': 'Zwr',
+        'c': 'Ref',
+        'b': 'Bri',
+        'p': 'Pre',
+        'i': 'Int',
+        'e': 'Zak'
+    };
+
+    // --- INICJALIZACJA ---
+    async function init() {
+        try {
+            const response = await fetch('lista.txt');
+            const text = await response.text();
+            allSongs = text.split(/\r?\n/)
+                .filter(line => line.trim() !== '')
+                .map(fileName => ({
+                    path: 'piesni/' + fileName.trim(),
+                    name: fileName.replace('.xml', '').replace(/_/g, ' ')
+                }));
+            
+            displaySongs(allSongs);
+        } catch (err) { console.error("Błąd ładowania listy:", err); }
+    }
+
+    // --- WYSZUKIWARKA ---
+    function displaySongs(songsToDisplay) {
+        const select = document.getElementById('song-select');
+        select.innerHTML = '<option value="">-- Wybierz pieśń (' + songsToDisplay.length + ') --</option>';
+        songsToDisplay.forEach(song => {
+            const option = document.createElement('option');
+            option.value = song.path;
+            option.textContent = song.name;
+            select.appendChild(option);
+        });
+    }
+
+    function filterSongs() {
+        const query = document.getElementById('song-search').value.toLowerCase();
+        const filtered = allSongs.filter(song => song.name.toLowerCase().includes(query));
+        displaySongs(filtered);
+    }
+
+    function handleSearchKey(e) {
+        if (e.key === 'Enter') {
+            const select = document.getElementById('song-select');
+            if (select.options.length > 1) {
+                select.selectedIndex = 1; // Wybiera pierwszą przefiltrowaną pieśń
+                loadSong();
+                document.getElementById('song-search').blur(); // Chowa klawiaturę
+            }
+        }
+    }
+
+    // --- ŁADOWANIE PIEŚNI ---
+    async function loadSong() {
+        const url = document.getElementById('song-select').value;
+        if (!url) return;
+        try {
+            const response = await fetch(url);
+            const str = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(str, "text/xml");
+            
+            const availableSections = {};
+            const xmlVerses = xmlDoc.getElementsByTagName("verse");
+            for (let v of xmlVerses) {
+                const name = v.getAttribute("name");
+                const linesNode = v.getElementsByTagName("lines")[0];
+                if (linesNode) {
+                    let txt = "";
+                    for (let node of linesNode.childNodes) {
+                        if (node.nodeType === 3) txt += node.nodeValue;
+                        else if (node.nodeName === "br") txt += "\n";
+                    }
+                    availableSections[name.toLowerCase()] = txt.trim();
+                }
+            }
+
+            const orderTag = xmlDoc.getElementsByTagName("verseOrder")[0];
+            let orderArray = [];
+            if (orderTag && orderTag.textContent) {
+                orderArray = orderTag.textContent.toLowerCase().split(/\s+/).filter(s => s !== "");
+            } else {
+                orderArray = Array.from(xmlVerses).map(v => v.getAttribute("name").toLowerCase());
+            }
+
+            versesList = [];
+            sectionLabelsList = [];
+            orderArray.forEach(name => {
+                if (availableSections[name]) {
+                    versesList.push(availableSections[name]);
+                    sectionLabelsList.push(translateSectionName(name));
+                }
+            });
+
+            updateSectionDropdown();
+            currentVerseIndex = 0;
+            isHidden = false;
+            updateUI();
+            renderVerse();
+        } catch (err) { 
+            console.error(err);
+            alert("Błąd przetwarzania pieśni."); 
+        }
+    }
+
+    function translateSectionName(name) {
+        if (!name) return "???";
+        const match = name.match(/^([a-z]+)(\d*)([a-z]?)$/i);
+        if (!match) return name;
+        const prefix = match[1].toLowerCase();
+        const num = match[2];
+        const suffix = match[3];
+        let label = sectionMap[prefix] || prefix.toUpperCase();
+        let result = label;
+        if (num) result += " " + num;
+        if (suffix) result += suffix;
+        return result;
+    }
+
+    // --- INTERFEJS I NAWIGACJA ---
+    function updateSectionDropdown() {
+        const sel = document.getElementById('section-select');
+        sel.innerHTML = '';
+        sectionLabelsList.forEach((label, index) => {
+            const opt = document.createElement('option');
+            opt.value = index;
+            opt.textContent = label;
+            sel.appendChild(opt);
+        });
+    }
+
+    function jumpToSection(index) {
+        currentVerseIndex = parseInt(index);
+        isHidden = false;
+        updateUI();
+        renderVerse();
+    }
+
+    function toggleDisplay() {
+        isHidden = !isHidden;
+        updateUI();
+    }
+
+    function updateUI() {
+        const btn = document.getElementById('btn-toggle');
+        const text = document.getElementById('verse-text');
+        if (isHidden) {
+            text.classList.add('hidden');
+            btn.textContent = "Pokaż";
+            btn.style.background = "#6c757d";
+        } else {
+            text.classList.remove('hidden');
+            btn.textContent = "Ukryj";
+            btn.style.background = "#28a745";
+        }
+    }
+
+    function renderVerse() {
+        const container = document.getElementById('verse-text');
+        const secSelect = document.getElementById('section-select');
+        if (versesList.length > 0) {
+            container.innerText = versesList[currentVerseIndex];
+            secSelect.value = currentVerseIndex;
+        }
+    }
+
+    function handleTap(e) {
+        if (versesList.length === 0) return;
+        const width = window.innerWidth;
+        if (e.clientX < width / 2) prevVerse();
+        else nextVerse();
+    }
+
+    function nextVerse() {
+        if (versesList.length === 0) return;
+        currentVerseIndex = (currentVerseIndex + 1) % versesList.length;
+        renderVerse();
+    }
+
+    function prevVerse() {
+        if (versesList.length === 0) return;
+        currentVerseIndex = (currentVerseIndex - 1 + versesList.length) % versesList.length;
+        renderVerse();
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (e.target.id === 'song-search') return; // Nie reaguj na strzałki podczas pisania
+        if (e.code === 'Space' || e.code === 'ArrowRight') nextVerse();
+        else if (e.code === 'ArrowLeft') prevVerse();
+        else if (e.code === 'KeyH' || e.code === 'Escape') toggleDisplay();
+    });
+
+    init();
+</script>
+</body>
+</html>
