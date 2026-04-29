@@ -178,13 +178,13 @@
     // --- INICJALIZACJA ---
     async function init() {
         try {
-            const response = await fetch('lista.txt');
+            const response = await fetch('lista2.txt');
             const text = await response.text();
             allSongs = text.split(/\r?\n/)
                 .filter(line => line.trim() !== '')
                 .map(fileName => ({
-                    path: 'piesni/' + fileName.trim(),
-                    name: fileName.replace('.xml', '').replace(/_/g, ' ')
+                    path: 'piesni2/' + fileName.trim(),
+                    name: fileName.replace('.show', '').replace(/_/g, ' ')
                 }));
             
             displaySongs(allSongs);
