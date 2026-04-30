@@ -9,16 +9,16 @@ Alleluja, Królu naszych serc.show
 Anioł pasterzom mówił.show
 Apel Jasnogórski.show
 Barka.show
-bez granic otwarta na słowo Pana.show
+Bez granic otwarta na słowo Pana.show
 Bliskie jest Królestwo Boże.show
 Blisko, blisko.show
 Bo góry mogą ustąpić.show
 Bo jak śmierć potężna jest miłość.show
 Bo jesteś dobry.show
 Bo nie ma większej miłości.show
+Boże Twa łaska nad nami jest.show
 Boże mój, Boże.show
 Boże obdarz Kościół swój.show
-Boże Twa łaska nad nami jest.show
 Być bliżej Ciebie chcę.show
 Bóg jest miłością.show
 Bóg jest zawsze między nami (Emmanuel).show
@@ -27,7 +27,7 @@ Bądź moją misją.show
 Bądź pochwalony.show
 Bądźże pozdrowiona Hostyjo żywa.show
 Będę Cię wysławiał Panie.show
-będę tańczyć przedTwoim tronem.show
+Będę tańczyć przedTwoim tronem.show
 Będę śpiewał Tobie.show
 Błogosław duszo moja Pana.show
 Błogosławcie Pana.show
@@ -67,20 +67,20 @@ Do mnie wróć.show
 Do stołu przyjdź.show
 Dobranoc Głowo Święta.show
 Dobroć Boga.show
+Dobry Pasterzu.show
 Dobry jest Pan, dla ufnych.show
 Dobry jest święty Bóg.show
-Dobry Pasterzu.show
 Dotknij Panie moich oczu.show
 Duchu Miłości wylewaj się na nas.show
+Duchu Święty Stworzycielu.show
 Duchu Święty oddaję się Tobie.show
-Duchu święty powiej wiatrem.show
 Duchu Święty przyjdź i rozpal nas.show
 Duchu Święty przyjdź.show
 Duchu Święty rozpalaj serce me.show
-Duchu Święty Stworzycielu.show
 Duchu Święty wołam przyjdź.show
 Duchu Święty, Tchnienie Ojca,.show
 Duchu Święty... przyjdź, dotknij mnie.show
+Duchu święty powiej wiatrem.show
 Duszo Chrystusowa.show
 Duszo ma Pana chwal.show
 Dzieciątko się narodziło.show
@@ -90,8 +90,8 @@ Dzięki Ci, Panie.show
 Dzięki Jezu.show
 Dzięki łasce.show
 Dziękujemy Jezusowi.show
-Dziś jest czas by oddać Bogu chwałę.show
 Dziś Kościele żyjącego Boga wstań.show
+Dziś jest czas by oddać Bogu chwałę.show
 Egipt.show
 Gdy klęczę przed Tobą.show
 Gdy się Chrystus rodzi.show
@@ -125,27 +125,27 @@ Jest jedno Ciało....show
 Jest zakątek.show
 Jestem tego pewien nic nie oddzieli nas.show
 Jestem tu, by wielbić.show
-Jesteś dobry.show
 Jesteś Królem.show
+Jesteś dobry.show
 Jesteś naszą dumą.show
 Jesteśmy piękni.show
 Jezu Chryste Panie Miły.show
+Jezu Tyś jest światłością mej duszy.show
 Jezu cichy i serca pokornego.show
 Jezu pragnę blisko Ciebie być.show
 Jezu tchnij.show
-Jezu Tyś jest światłością mej duszy.show
 Jezu uwielbiam Cię.show
 Jezu w Hostii utajony.show
 Jezu, ufam Tobie.show
 Jezus Chrystus moim Panem jest.show
+Jezus Oblubiencem.show
+Jezus Panem mego życa jest.show
 Jezus daje nam zbawienie.show
 Jezus dla Jezusa.show
 Jezus jest tu (o wznieśmy ręce).show
 Jezus jest z nami tu.show
 Jezus mą miłością jest.show
 Jezus najwyższe imie, nasz Zbawiciel.show
-Jezus Oblubiencem.show
-Jezus Panem mego życa jest.show
 Jezus przychodzi do duszy pokornej.show
 Jezus zwyciężył.show
 Jezus, Jezus, Jezus.show
@@ -172,11 +172,13 @@ Kto spożywa.show
 Kto zaufał Tobie nie zawiedzie się.show
 Któż jak Bóg.show
 Kyrie eleison.show
-Litania do najświętszego Serca Pana Jezusa.show
 Litania Loretańska.show
+Litania do najświętszego Serca Pana Jezusa.show
 Lud twój Panie lud pielgrzymi.show
 Ludu mój ludu.show
 Lulajże Jezuniu.show
+Łaskawość Twoja Panie.show
+Łaską jesteśmy zbawieni.show
 Magnificat.show
 Marana Tha 2.show
 Marana Tha.show
@@ -188,8 +190,8 @@ Matko bolesna.show
 Matko która nas znasz.show
 Memu Bogu Królowi.show
 Misericordias domini.show
-Miłość którą jest Bóg.show
 Miłość Twa od najwyższysch gór.show
+Miłość którą jest Bóg.show
 Miłujcie się wzajemnie.show
 Miłuję Ciebie mój synu, córko moja.show
 Moje owce.show
@@ -215,26 +217,26 @@ Nie ma takiego jak Jezus.show
 Nie ma za trudnych spraw.show
 Nie nam Panie nie nam.show
 Nie wyście mnie wybrali.show
+Niech Twój Święty Duch.show
 Niech ci błogosławi Pan.show
 Niech nas ogarnie.show
-Niech Twój Święty Duch.show
 Niech zabrzmi Panu chwała w niebiosa.show
 Niechaj Cię Panie.show
 Niechaj miłość Twa.show
 Niechaj z nami będzie Pan.show
 Niechaj zstąpi Duch Twój.show
 Nim zabrzmiał mój głos.show
-O chwalmy Go.show
-O jak nieskończona Bezgrniczna Miłość Boża jest.show
 O Jezu Boże utajony.show
 O Jezu cichy i pokorny.show
 O Krwi najdroższa.show
-O miłości twej zawsze śpiewać.show
 O Pani ufność nasza.show
 O Panie Ty nam dajesz.show
 O Piękności Niestworzona.show
-O przyjdźcie do tronu.show
 O Stworzycielu Duchu przyjdź.show
+O chwalmy Go.show
+O jak nieskończona Bezgrniczna Miłość Boża jest.show
+O miłości twej zawsze śpiewać.show
+O przyjdźcie do tronu.show
 O wychwalajcie.show
 O zbawcza Hostio.show
 Oblubienica i Duch.show
@@ -249,18 +251,18 @@ Oddaję Ci życie swe.show
 Odszedł Pasterz.show
 Ofiaruję Ci Panie.show
 Ofiaruję Tobie Panie mój.show
-Ojcze nasz.show
 Ojcze Ty kochasz mnie.show
+Ojcze nasz.show
 On dał mi całkiem nowe zycie.show
 On z miłości zbawił świat.show
 Oto Boży Baranek.show
-Oto ja klęczę kolejny raz.show
+Oto Jezus Umiera.show
+Oto ja kle?cze? kolejny raz.show
 Oto ja poślij mnie.show
+Oto jest Król (Hallelu Jah).show
 Oto jest dzień (zwr. 1,2,6,7).show
 Oto jest dzień (zwrotki).show
 Oto jest dzień.show
-Oto jest Król (Hallelu Jah).show
-Oto Jezus Umiera.show
 Oto ojciec posyła ducha swego syna.show
 Oto stoję u drzwi i kołaczę.show
 Oto są baranki młode.show
@@ -274,10 +276,10 @@ Pan jest pasterzem moim.show
 Pan ma wielką moc.show
 Pan mnie strzeże.show
 Pan wieczernik przygotował.show
-Panie daj mi łaskę wiernej modlitwy.show
-Panie dobry jak chleb.show
 Panie Jezu Chryste.show
 Panie Jezu przyjdź.show
+Panie daj mi łaskę wiernej modlitwy.show
+Panie dobry jak chleb.show
 Panie mój przychodzę dziś.show
 Panie nie jestem godzien.show
 Panie przepasz mnie.show
@@ -300,8 +302,8 @@ Pragnę śpiewać Ci.show
 Pragnę.show
 Praise (Wielbij Go).show
 Prawda jedyna.show
-Przed obliczem Pana uniżmy.show
 Przed Tronem Twym stoimy.show
+Przed obliczem Pana uniżmy.show
 Przenikasz i znasz Panie mnie.show
 Przybieżeli do Betlejem pasterze.show
 Przybądź Duchu Święty.show
@@ -309,16 +311,16 @@ Przybądź płomieniu.show
 Przybądź Święty Niepojęty, Duchu.show
 Przychodzisz, Panie.show
 Przyjaciela mam.show
-Przyjdź dotknij mnie.show
 Przyjdź Duchu Św. ja pragne.show
 Przyjdź Duchu Święty ja pragnę.show
 Przyjdź Duchu Święty napełnij me serce.show
-Przyjdź i zajmij miejsce swe.show
-Przyjdź jak deszcz.show
 Przyjdź Jezu mój.show
 Przyjdź Jezu przyjdź.show
-Przyjdź o Jezu w mocy swej.show
 Przyjdź Panie Jezu.show
+Przyjdź dotknij mnie.show
+Przyjdź i zajmij miejsce swe.show
+Przyjdź jak deszcz.show
+Przyjdź o Jezu w mocy swej.show
 Przyjdź.show
 Przyjdźcie do stołu miłosierdzia.show
 Przymnóż nam wiary.show
@@ -346,18 +348,25 @@ Stwórz we mnie serce czyste.show
 Swojego Ducha Panie.show
 Sław języku.show
 Sławię Cie.show
+Święta dziewico.show
+Święte Imię Jezus.show
+Świętemu Bogu oddaj cześć.show
+Święty Boże.show
+Święty Pan.show
+Święty jest nasz Bóg.show
+Święty na zawsze.show
 Tak bowiem Bóg umiłował świat.show
 Tak mnie skrusz.show
 Taki jesteś Ty.show
 Tchnij moc.show
 Te Deum.show
 To Miłość (Oto Ona).show
-To mój Pan, wiele mi uczynił.show
 To On, nasz Pan i Król.show
 To Ty, Ty jesteś moją mocą.show
+To mój Pan, wiele mi uczynił.show
 Tobie Chwała.show
-Tobie chór aniołów.show
 Tobie Panie mój.show
+Tobie chór aniołów.show
 Tryumfy Króla niebieskiego.show
 Twe drogi są nalepsze.show
 Twemu sercu cześć składamy.show
@@ -367,8 +376,8 @@ Twój blask.show
 Ty co nie zwątpiłaś.show
 Ty dajesz pokój Panie mój.show
 Ty dasz mi pokój serca.show
-Ty jesteś chlebem żywym.show
 Ty jesteś Panie Bogiem łaski.show
+Ty jesteś chlebem żywym.show
 Ty pokonałeś śmierć.show
 Ty przez Królową.show
 Ty przynosisz mi zwycięstwa pieśń.show
@@ -396,6 +405,8 @@ Uwielbiam Imię Twoje Panie.show
 Uwielbiam Twoje Imię.show
 Uwielbiam Twoje Święte Oblicze.show
 Uzdrów mnie Jezu.show
+W Tobie jest światło.show
+W Tobie jestem wolny.show
 W imię Jezusa.show
 W lekkim powiewie.show
 W maleńkiej stajence, ubogiej stajence.show
@@ -404,8 +415,6 @@ W naszych sercach (Abba Ojcze).show
 W ogniu ze mną.show
 W swe ramiona mnie weź.show
 W swoim wielkim miłosierdziu.show
-W Tobie jest światło.show
-W Tobie jestem wolny.show
 Wejdźmy do Jego bram z dziękczynieniem.show
 Wesel się Królowo.show
 Widzę dom.show
@@ -429,10 +438,10 @@ Wznoszę swe oczy ku górom.show
 Wzywam Cię - Duchu przyjdź.show
 Wzywam Cię.show
 Yeshua (Jedno jest imię pod niebem).show
+Z Tobą ciemność nie będzie ciemna.show
 Z dawna polski.show
 Z głębokości mórz.show
 Z narodzenia Pana.show
-Z Tobą ciemność nie będzie ciemna.show
 Zabrałeś cały strach.show
 Zakochaj się w Panu.show
 Zależę od Ciebie.show
@@ -456,12 +465,3 @@ Zmatwychwstały Pan Królestwo objął dziś.show
 Znów dotknij serc.show
 Zostań tu i ze mną sie módl.show
 Zrzuć swą troskę na Pana.show
-Łaskawość Twoja Panie.show
-Łaską jesteśmy zbawieni.show
-Święta dziewico.show
-Święte Imię Jezus.show
-Świętemu Bogu oddaj cześć.show
-Święty Boże.show
-Święty jest nasz Bóg.show
-Święty na zawsze.show
-Święty Pan.show
