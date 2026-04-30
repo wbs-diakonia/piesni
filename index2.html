@@ -166,13 +166,13 @@
     let currentVerseIndex = 0;
     let isHidden = false;
 
-    const sectionMap = {
-        'v': 'Zwr',
-        'c': 'Ref',
-        'b': 'Bri',
-        'p': 'Pre',
-        'i': 'Int',
-        'e': 'Zak'
+const sectionMap = {
+        'intro': 'Int',
+        'verse': 'Zwr',
+        'chorus': 'Ref',
+        'bridge': 'Bri',
+        'pre_chorus': 'Pre',
+        'outro': 'Zak'
     };
 
     // --- INICJALIZACJA ---
@@ -221,46 +221,50 @@
     }
 
     // --- ŁADOWANIE PIEŚNI ---
-    async function loadSong() {
+async function loadSong() {
         const url = document.getElementById('song-select').value;
         if (!url) return;
         try {
             const response = await fetch(url);
-            const data = await response.json(); // FreeShow używa formatu JSON
+            const data = await response.json();
             
-            // Plik FreeShow to tablica, gdzie drugi element zawiera dane pieśni
+            // Dane pieśni znajdują się w drugim elemencie głównej tablicy
             const songData = data[1];
-            const slides = songData.slides;
+            const allSlides = songData.slides;
             
-            // Pobieramy ID slajdów w poprawnej kolejności z aktywnego układu
+            // Pobranie ID aktywnego układu i listy slajdów w zdefiniowanej kolejności
             const activeLayoutId = songData.settings.activeLayout;
-            const layoutSlides = songData.layouts[activeLayoutId].slides;
+            const orderedSlideRefs = songData.layouts[activeLayoutId].slides;
 
             versesList = [];
             sectionLabelsList = [];
 
-            layoutSlides.forEach((layoutItem, index) => {
-                const slideId = layoutItem.id;
-                const slide = slides[slideId];
-                
-                if (slide && slide.items) {
-                    // Wyciągamy tekst ze wszystkich linii na slajdzie
-                    let slideText = "";
-                    slide.items.forEach(item => {
-                        if (item.lines) {
-                            const lines = item.lines.map(line => 
-                                line.text.map(t => t.value).join("")
-                            ).join("\n");
-                            slideText += lines;
-                        }
-                    });
+            // Liczniki dla każdej grupy, aby móc nadać numery (np. Zwr 1, Zwr 2)
+            const counters = { intro: 0, verse: 0, chorus: 0, bridge: 0, pre_chorus: 0, outro: 0 };
 
-                    if (slideText.trim() !== "") {
-                        versesList.push(slideText.trim());
+            orderedSlideRefs.forEach((ref) => {
+                const slideId = ref.id;
+                const slideData = allSlides[slideId];
+
+                if (slideData && slideData.items) {
+                    // Wyciąganie tekstu ze struktury JSON[cite: 3]
+                    let content = slideData.items.map(item => {
+                        return item.lines ? item.lines.map(line => 
+                            line.text.map(t => t.value).join("")
+                        ).join("\n") : "";
+                    }).join("\n");
+
+                    if (content.trim() !== "") {
+                        versesList.push(content.trim());
                         
-                        // Pobieramy nazwę grupy (Zwrotka, Refren itp.)
-                        const groupName = slide.group || "Slajd";
-                        sectionLabelsList.push(`${groupName} ${index + 1}`);
+                        // Generowanie etykiety na podstawie globalGroup[cite: 3]
+                        const gGroup = slideData.globalGroup || 'verse';
+                        const labelPrefix = sectionMap[gGroup] || 'Inne';
+                        
+                        // Zwiększamy licznik tylko dla unikalnych treści, 
+                        // ale tutaj każdemu wystąpieniu w layout nadajemy kolejny numer
+                        counters[gGroup] = (counters[gGroup] || 0) + 1;
+                        sectionLabelsList.push(`${labelPrefix} ${counters[gGroup]}`);
                     }
                 }
             });
@@ -271,8 +275,8 @@
             updateUI();
             renderVerse();
         } catch (err) { 
-            console.error("Błąd przetwarzania pliku JSON:", err);
-            alert("Błąd przetwarzania pieśni. Upewnij się, że plik ma format JSON (.show)."); 
+            console.error("Błąd ładowania JSON:", err);
+            alert("Nie udało się załadować pieśni."); 
         }
     }
     
