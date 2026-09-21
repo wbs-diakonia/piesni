@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-17T18:45:33">
+  <properties>
+    <titles>
+      <title>Litania</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Duchu Święty, Ogniu łaski zstąp</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Przyjdź Duchu do naszych serc, <br/>rozpal nas</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Przyjdź i namaść nas, rozpal ognia żar<br/>Duchu Święty wołam Przyjdź!</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Wołam, przyjdź, wypełnij mnie!</lines>
+    </verse>
+  </lyrics>
+</song>

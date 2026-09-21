@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-05-06T14:56:08">
+  <properties>
+    <titles>
+      <title>Jezus Chrystus to Pan panów</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Jezus Chrystus to panów Pan<br/>całej ziemi Król /x2</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jedyny Pan, władca narodów,<br/>jedyny Pan i Bóg <br/>W innym imieniu nie ma zbawienia,<br/>bo Jezus to panów Pan.<br/>Jezus to panów Pan, <br/>Jezus to panów Pan!</lines>
+    </verse>
+  </lyrics>
+</song>

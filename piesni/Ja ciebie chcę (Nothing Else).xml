@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-14T16:41:05">
+  <properties>
+    <titles>
+      <title>Ja ciebie chcę (Nothing Else)</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Złowiony w Twą Obecność<br/>Chcę po prostu usiąść u Twych stóp<br/>Zatrzymał mnie ten święty moment<br/>Już chcę pozostać tu</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Nie jestem tu dla darów<br/>Jezu, nic nie jesteś winny mi<br/>Od tego, co potrafisz, bardziej<br/>Ja Ciebie chcę</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Przepraszam, że w pośpiechu mijałem Cię<br/>Przepraszam, gdy bez serca śpiewałem pieśń<br/>Weź mnie znowu do początku<br/>Pociągnij znowu mnie</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Przepraszam, gdy chcę robić po swojemu<br/>Przepaszam, gdy zapominam, że Sam wystarczysz<br/>Weź mnie znowu do początku<br/>Pociągnij znowu mnie</lines>
+    </verse>
+    <verse name="c3">
+      <lines>Złowiony w Twą Obecność ...<br/><br/>Nie jestem tu dla darów ...</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Ja Ciebie chcę<br/>Ja Ciebie chcę<br/>Nic nie liczy się<br/>Ja Ciebie chcę</lines>
+    </verse>
+  </lyrics>
+</song>
