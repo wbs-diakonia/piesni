@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-17T17:01:23">
+  <properties>
+    <titles>
+      <title>Tak jak jest w Niebie (Elevarion Worship)</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Już atmosfera zmienia się<br/>Bo Duch Pana z nami tutaj jest<br/>I wszystko wokół mówi że<br/>To Duch Pana z nami tutaj jest</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Pokaż nam Twoją moc<br/>W serce wlej miłość swą<br/>Niech nas wypełnia<br/>Przychodzimy tu dziś<br/>By w miłości Twej być<br/>Niech nas wypełnia</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Niech dziś Twój Duch wypełni nas<br/>Pragniemy Ciebie<br/>Królestwo przyjdź bądź wola Twa<br/>Tak jak jest w niebie</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Cuda mogą zdarzyć się<br/>Bo Duch Pana z nami tutaj jest<br/>I wszystko wokół mówi że<br/>To Duch Pana z nami tutaj jest</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Pokaż nam Twoją moc<br/>W serce wlej miłość swą<br/>Niech nas wypełnia<br/>Przychodzimy tu dziś<br/>By w miłości Twej być<br/>Niech nas wypełnia</lines>
+    </verse>
+  </lyrics>
+</song>

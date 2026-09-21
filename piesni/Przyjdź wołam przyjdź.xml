@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-17T16:59:59">
+  <properties>
+    <titles>
+      <title>Przyjdź wołam, przyjdź</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="c1a">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v1">
+      <lines>Jestem jak ziemia spieczona,<br/>jestem jak pusty dzban</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Jesteś żywą wodą<br/>JEsteś jak potok, rwąca rzeka</lines>
+    </verse>
+    <verse name="c1c">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v3">
+      <lines>Kiedy nie umiem się modlić,<br/>Ty modlsz się we mnie</lines>
+    </verse>
+    <verse name="c1d">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v4">
+      <lines>Ty przekonujesz o grzechu,<br/>sprawiedliwości i sądzie</lines>
+    </verse>
+    <verse name="c1e">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v5a">
+      <lines>Jestem Twoją świątynią,<br/>którą Ty uświęcasz</lines>
+    </verse>
+    <verse name="c1f">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+    <verse name="v5b">
+      <lines>Namaściłeś mnie, posłałeś mnie,<br/>bym głosił dobrą nowinę</lines>
+    </verse>
+    <verse name="c1g">
+      <lines>Przyjdź wołam przyjdź.<br/>Wołam przyjdź.</lines>
+    </verse>
+  </lyrics>
+</song>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-14T06:41:50">
+  <properties>
+    <titles>
+      <title>Poddaję wszystko Tobie</title>
+    </titles>
+    <authors>
+      <author>abc</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1a">
+      <lines>Dzisiaj składam u Twych stóp<br/>Własną dumę, własny trud<br/>Poddaję wszystko Tobie<br/>Poddaję wszystko Tobie</lines>
+    </verse>
+    <verse name="v1b">
+      <lines>Dzisiaj składam u twych stóp<br/>Każde kłamstwo, każdy ból<br/>Poddaję wszystko Tobie</lines>
+    </verse>
+    <verse name="c1a">
+      <lines>Przyjmij dziś to, co mam<br/>Oddaję Ci moją przestrzeń<br/>Możesz czynić, co zechcesz</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Zburz każdy mur mojej tradycji<br/>Niech runie grunt pustej religii<br/>Chcę tylko Ciebie<br/>Chcę tylko Ciebie</lines>
+    </verse>
+    <verse name="v2a">
+      <lines>Życie składam u Twych stóp<br/>Twoją drogą pragnę pójść<br/>Poddaję wszystko Tobie<br/>Poddaję wszystko Tobie</lines>
+    </verse>
+    <verse name="v2b">
+      <lines>Życie składam u Twych stóp<br/>Twoją drogą pragnę pójść<br/>Poddaję wszystko Tobie</lines>
+    </verse>
+    <verse name="c1b">
+      <lines>Przyjmij dziś to, co mam<br/>Oddaję Ci moją przestrzeń<br/>Możesz czynić, co zechcesz</lines>
+    </verse>
+  </lyrics>
+</song>
