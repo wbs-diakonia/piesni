@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-07-15T17:00:20">
+  <properties>
+    <titles>
+      <title>Wielbię imię Twe</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines>Ty krzyż poniosłeś mój<br/>Umarłeś by podarować mi wolność<br/>Me życie Twoje jest<br/>Na zawsze już śpiewać chcę o dobroci Twej</lines>
+    </verse>
+    <verse name="c1">
+      <lines>Wielbię Imię Twe Jezu<br/>Przyjmij wszselką cześć<br/>Wielbię Imię Twe<br/>Wielbię Imię Twe Jezu<br/>Przyjmij wszelką cześć<br/>Wielbię Imię Twe</lines>
+    </verse>
+    <verse name="v2">
+      <lines>Ty wstyd zabrałeś mój<br/>Zdumiewa mnie tak niezawodna wciąż miłość Twa<br/>Twa łaska trwa i trwa<br/>Na zawsze już śpiewać chcę dobroci Twej</lines>
+    </verse>
+    <verse name="c2">
+      <lines>Wielbię Imię Twe Jezu<br/>Przyjmij wszselką cześć<br/>Wielbię Imię Twe<br/>Wielbię Imię Twe Jezu<br/>Przyjmij wszelką cześć<br/>Wielbię Imię Twe</lines>
+    </verse>
+    <verse name="b1">
+      <lines>Wywyższony bądź na niebiosach<br/>I na ziemi pośród nas<br/>Jesteś godzien przyjąć cześć<br/>Imię Twe najwyższe jest!</lines>
+    </verse>
+  </lyrics>
+</song>
