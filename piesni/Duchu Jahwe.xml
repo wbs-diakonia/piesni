@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<song xmlns="http://openlyrics.info/namespace/2009/song" version="0.8" createdIn="OpenLP 3.1.2" modifiedIn="OpenLP 3.1.2" modifiedDate="2026-05-20T12:06:35">
+  <properties>
+    <titles>
+      <title>Duchu Jahwe</title>
+    </titles>
+    <authors>
+      <author>a</author>
+    </authors>
+  </properties>
+  <lyrics>
+    <verse name="v1">
+      <lines break="optional">Ześlij Panie swego Ducha<br/>niech napełni nas swym żarem.<br/>Poślij dziś gorące tchnienie,<br/>w serca ogień wlej.</lines>
+      <lines>Duchu Jahwe, zstąp z wysoka dziś.<br/>Duchu Jahwe, znów w płomieniach przyjdź.<br/>Duchu Jahwe, teraz jest Twój czas.<br/>Duchu Jahwe, przyjdź napełnij nas.</lines>
+    </verse>
+  </lyrics>
+</song>
