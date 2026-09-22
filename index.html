@@ -110,6 +110,15 @@
             width: 100%;
             z-index: 2;
             padding: 10px 20px;
+            box-sizing: border-box;
+        }
+
+        /* Gdy nawet po zmniejszeniu czcionki tekst się nie mieści,
+           włączamy przewijanie i wyrównanie do góry ekranu. */
+        #display.scrollable {
+            align-items: flex-start;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         .verse {
@@ -243,28 +252,41 @@
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(row.lyrics, "text/xml");
 
-            const availableSections = {};
             const xmlVerses = xmlDoc.getElementsByTagName("verse");
+            // Zachowujemy zwrotki w kolejności dokumentu (do trybu bez verse_order)
+            // oraz w słowniku klucz->tekst (do trybu z verse_order, gdzie ten sam
+            // klucz np. "c1" może być celowo wielokrotnie odwoływany dla refrenu).
+            const orderedVerses = [];
+            const availableSections = {};
             for (let v of xmlVerses) {
                 const key = (v.getAttribute("type") + v.getAttribute("label")).toLowerCase();
-                availableSections[key] = (v.textContent || "").trim();
-            }
-
-            let orderArray = [];
-            if (row.verse_order && row.verse_order.trim() !== "") {
-                orderArray = row.verse_order.toLowerCase().split(/\s+/).filter(s => s !== "");
-            } else {
-                orderArray = Array.from(xmlVerses).map(v => (v.getAttribute("type") + v.getAttribute("label")).toLowerCase());
+                const text = (v.textContent || "").trim();
+                orderedVerses.push({ key, text });
+                availableSections[key] = text;
             }
 
             versesList = [];
             sectionLabelsList = [];
-            orderArray.forEach(name => {
-                if (availableSections[name]) {
-                    versesList.push(availableSections[name]);
-                    sectionLabelsList.push(translateSectionName(name));
-                }
-            });
+            if (row.verse_order && row.verse_order.trim() !== "") {
+                // OpenLP jawnie określił kolejność i powtórzenia (np. refrenów) po kluczu.
+                const orderArray = row.verse_order.toLowerCase().split(/\s+/).filter(s => s !== "");
+                orderArray.forEach(name => {
+                    if (availableSections[name]) {
+                        versesList.push(availableSections[name]);
+                        sectionLabelsList.push(translateSectionName(name));
+                    }
+                });
+            } else {
+                // Brak verse_order: pokazujemy zwrotki dokładnie w kolejności z XML,
+                // bez odwoływania się do słownika (niektóre pieśni mają zduplikowane
+                // klucze type+label o różnej treści, co powodowało gubienie zwrotek).
+                orderedVerses.forEach(({ key, text }) => {
+                    if (text) {
+                        versesList.push(text);
+                        sectionLabelsList.push(translateSectionName(key));
+                    }
+                });
+            }
 
             updateSectionDropdown();
             currentVerseIndex = 0;
@@ -335,8 +357,53 @@
         if (versesList.length > 0) {
             container.innerText = versesList[currentVerseIndex];
             secSelect.value = currentVerseIndex;
+            fitVerseText();
         }
     }
+
+    // --- DOPASOWANIE ROZMIARU CZCIONKI DO EKRANU ---
+    // Zwraca bazowy rozmiar czcionki (w px) zgodny z regułami CSS dla .verse
+    // (3.8dvh na telefonie, 7vh od 769px szerokości).
+    function getBaseFontSizePx() {
+        const isDesktop = window.matchMedia('(min-width: 769px)').matches;
+        const vh = window.innerHeight || document.documentElement.clientHeight;
+        const percent = isDesktop ? 7 : 3.8;
+        return vh * percent / 100;
+    }
+
+    // Zmniejsza czcionkę tekstu zwrotki, jeśli nie mieści się na ekranie.
+    // Jeśli nawet minimalny rozmiar nie wystarczy, włącza przewijanie.
+    function fitVerseText() {
+        const displayEl = document.getElementById('display');
+        const containerEl = document.getElementById('lyrics-container');
+        const textEl = document.getElementById('verse-text');
+
+        const baseSize = getBaseFontSizePx();
+        const minSize = baseSize * 0.4; // nie schodzimy poniżej 40% bazowego rozmiaru
+        let size = baseSize;
+
+        displayEl.classList.remove('scrollable');
+        textEl.style.fontSize = size + 'px';
+
+        while (containerEl.scrollHeight > displayEl.clientHeight && size > minSize) {
+            size -= 1;
+            textEl.style.fontSize = size + 'px';
+        }
+
+        if (containerEl.scrollHeight > displayEl.clientHeight) {
+            displayEl.classList.add('scrollable');
+        }
+    }
+
+    let resizeTimeout = null;
+    window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(fitVerseText, 150);
+    });
+    window.addEventListener('orientationchange', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(fitVerseText, 150);
+    });
 
     function handleTap(e) {
         if (versesList.length === 0) return;
