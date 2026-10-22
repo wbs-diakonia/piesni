@@ -139,9 +139,8 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
         }
 
-        #copyright {
+        #copyright, #db-date {
             position: fixed;
-            right: 8px;
             bottom: 6px;
             font-size: 11px;
             color: rgba(255, 255, 255, 0.3);
@@ -149,6 +148,8 @@
             user-select: none;
             z-index: 3;
         }
+        #copyright { right: 8px; }
+        #db-date { left: 8px; }
 
         .hidden { visibility: hidden; }
 
@@ -187,6 +188,7 @@
     </div>
 </div>
 
+<div id="db-date"></div>
 <div id="copyright">©dominik</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
@@ -226,7 +228,18 @@
             }));
 
             displaySongs(allSongs);
+            showDbDate();
         } catch (err) { console.error("Błąd ładowania bazy songs.sqlite:", err); }
+    }
+
+    // Data ostatniej zmiany bazy = najnowsza data modyfikacji pieśni zapisana przez OpenLP.
+    function showDbDate() {
+        try {
+            const res = db.exec("SELECT MAX(last_modified) FROM songs");
+            const value = res[0] && res[0].values[0][0];
+            const match = String(value || '').match(/^(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2})/);
+            if (match) document.getElementById('db-date').textContent = `songs: ${match[1]} ${match[2]}`;
+        } catch (err) { console.error("Nie udało się odczytać daty bazy:", err); }
     }
 
     // --- WYSZUKIWARKA ---
