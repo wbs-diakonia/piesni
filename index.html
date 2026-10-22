@@ -131,6 +131,17 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
         }
 
+        #copyright {
+            position: fixed;
+            right: 8px;
+            bottom: 6px;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.3);
+            pointer-events: none;
+            user-select: none;
+            z-index: 3;
+        }
+
         .hidden { visibility: hidden; }
 
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -168,6 +179,8 @@
     </div>
 </div>
 
+<div id="copyright">©dominik</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
 <script>
     let db = null;
@@ -200,7 +213,8 @@
             allSongs = (result[0] ? result[0].values : []).map(row => ({
                 id: row[0],
                 name: row[1],
-                searchLyrics: (row[2] || '').toLowerCase()
+                searchName: normalizeText(row[1]),
+                searchLyrics: normalizeText(row[2])
             }));
 
             displaySongs(allSongs);
@@ -219,11 +233,21 @@
         });
     }
 
+    // Usuwa polskie (i inne) znaki diakrytyczne, np. "Święty" -> "swiety".
+    // "ł" nie rozkłada się przez NFD, więc zamieniamy go ręcznie.
+    function normalizeText(text) {
+        return (text || '')
+            .toLowerCase()
+            .replace(/ł/g, 'l')
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '');
+    }
+
     function filterSongs() {
-        const query = document.getElementById('song-search').value.toLowerCase().trim();
+        const query = normalizeText(document.getElementById('song-search').value).trim();
         const filtered = query === ''
             ? allSongs
-            : allSongs.filter(song => song.name.toLowerCase().includes(query) || song.searchLyrics.includes(query));
+            : allSongs.filter(song => song.searchName.includes(query) || song.searchLyrics.includes(query));
         displaySongs(filtered);
     }
 
