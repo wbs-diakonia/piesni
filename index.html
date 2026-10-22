@@ -32,8 +32,10 @@
         #ui-layer {
             padding: 8px;
             background: #1a1a1a;
-            display: flex;
-            flex-wrap: wrap;
+            /* Telefon: [szukaj | zwrotki + Ukryj], pod spodem lista tytułów */
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            grid-template-areas: "search controls" "songs songs";
             gap: 6px;
             border-bottom: 1px solid #333;
             z-index: 1000;
@@ -42,18 +44,23 @@
 
         /* STYL WYSZUKIWARKI */
         #song-search {
-            flex: 1 1 100%;
-            padding: 10px;
+            grid-area: search;
+            width: 100%;
+            min-width: 0;
+            padding: 8px;
             font-size: 16px;
             background: #222;
             color: #ffca28;
             border: 1px solid #444;
             border-radius: 4px;
-            margin-bottom: 2px;
         }
 
         #song-select {
-            flex: 1 1 100%;
+            grid-area: songs;
+            width: 100%;
+            min-width: 0;
+            max-width: 100%;
+            text-overflow: ellipsis;
             padding: 8px;
             font-size: 16px;
             background: #333;
@@ -63,9 +70,11 @@
         }
 
         .controls-row {
-            display: flex;
-            width: 100%;
+            grid-area: controls;
+            display: grid;
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
             gap: 6px;
+            min-width: 0;
         }
 
         button {
@@ -75,13 +84,16 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
-            flex: 1;
+            min-width: 0;
+            padding-left: 4px;
+            padding-right: 4px;
         }
 
         .btn-toggle { background: #28a745; }
         
         #section-select {
-            flex: 0 1 110px;
+            width: 100%;
+            min-width: 0;
             background: #444;
             color: #ffca28;
             border: 1px solid #555;
@@ -156,10 +168,15 @@
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
         @media (min-width: 769px) {
-            #ui-layer { flex-wrap: nowrap; }
-            #song-search { flex: 1; margin-bottom: 0; }
-            #song-select { flex: 1; }
-            .controls-row { flex: 0 1 auto; width: auto; }
+            /* Komputer: jak dawniej w jednym wierszu, tylko "Ukryj" na końcu */
+            #ui-layer {
+                grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+                grid-template-areas: "search songs controls";
+            }
+            #song-search { padding: 10px; }
+            .controls-row { display: flex; }
+            #section-select { flex: 0 0 110px; width: 110px; }
+            button { flex: 1; padding: 8px 12px; }
             .verse { font-size: 7vh; line-height: 1.4; }
         }
     </style>
@@ -167,17 +184,17 @@
 <body>
 
 <div id="ui-layer">
-    <input type="text" id="song-search" placeholder="Szukaj (tytuł lub fragment tekstu)..." oninput="filterSongs()" onkeydown="handleSearchKey(event)">
+    <input type="text" id="song-search" placeholder="Szukaj..." title="Szukaj (tytuł lub fragment tekstu)" oninput="filterSongs()" onkeydown="handleSearchKey(event)">
     
     <select id="song-select" onchange="loadSong()">
         <option value="">Ładowanie listy...</option>
     </select>
     
     <div class="controls-row">
-        <button id="btn-toggle" class="btn-toggle" onclick="toggleDisplay()">Ukryj</button>
         <select id="section-select" onchange="jumpToSection(this.value)">
             <option value="">---</option>
         </select>
+        <button id="btn-toggle" class="btn-toggle" onclick="toggleDisplay()">Ukryj</button>
     </div>
 </div>
 
@@ -475,6 +492,11 @@
         else if (e.code === 'ArrowLeft') prevVerse();
         else if (e.code === 'KeyH' || e.code === 'Escape') toggleDisplay();
     });
+
+    // Na komputerze jest miejsce na pełny opis pola wyszukiwania.
+    if (window.matchMedia('(min-width: 769px)').matches) {
+        document.getElementById('song-search').placeholder = 'Szukaj (tytuł lub fragment tekstu)...';
+    }
 
     init();
 
