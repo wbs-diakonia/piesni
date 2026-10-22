@@ -1,6 +1,6 @@
 // Service worker śpiewnika: pozwala zainstalować stronę jako aplikację
 // i korzystać z niej bez internetu.
-const CACHE = 'piesni-wbs-v1';
+const CACHE = 'piesni-wbs-v2';
 
 const PRECACHE = [
     './',
@@ -11,6 +11,7 @@ const PRECACHE = [
     'icon-180.png',
     'icon-192.png',
     'icon-512.png',
+    'icon-maskable-512.png',
     'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js',
     'https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.wasm'
 ];
