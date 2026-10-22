@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Wyślij songs.sqlite na GitHub</title>
+<style>
+  body { font-family: sans-serif; max-width: 560px; margin: 2em auto; }
+  label { display: block; margin-top: .8em; font-weight: bold; }
+  input { width: 100%; padding: .4em; box-sizing: border-box; }
+  button { margin-top: 1.2em; padding: .6em 1.2em; font-size: 1em; }
+  #log { margin-top: 1em; white-space: pre-wrap; }
+  .ok { color: green; } .err { color: #b00; }
+</style>
+</head>
+<body>
+<h2>Wyślij songs.sqlite na GitHub</h2>
+
+<label>Repozytorium (właściciel/nazwa)</label>
+<input id="repo" placeholder="wbs-diakonia/piesni">
+<label>Gałąź</label>
+<input id="branch" value="main">
+<label>Ścieżka pliku w repozytorium</label>
+<input id="path" value="songs.sqlite">
+<label>Folder kopii zapasowych</label>
+<input id="backupDir" value="kopie">
+<label>Liczba przechowywanych kopii</label>
+<input id="keep" type="number" min="0" value="3">
+<label>Token GitHub (fine-grained, tylko to repo, Contents: Read and write)</label>
+<input id="token" type="password">
+<label><input id="remember" type="checkbox" style="width:auto"> Zapamiętaj ustawienia i token w tej przeglądarce</label>
+<label>Plik</label>
+<input id="file" type="file" accept=".sqlite">
+
+<button id="send">Wyślij</button>
+<div id="log"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const FIELDS = ["repo", "branch", "path", "backupDir", "keep", "token"];
+
+FIELDS.forEach(f => { const v = localStorage.getItem("up_" + f); if (v) $(f).value = v; });
+$("remember").checked = !!localStorage.getItem("up_token");
+
+function log(msg, cls) { $("log").innerHTML = `<span class="${cls || ""}">${msg}</span>`; }
+
+function toBase64(file) {
+  return new Promise((res, rej) => {
+    const r = new FileReader();
+    r.onload = () => res(r.result.split(",")[1]);
+    r.onerror = rej;
+    r.readAsDataURL(file);
+  });
+}
+
+const pad = n => String(n).padStart(2, "0");
+function stamp(d = new Date()) {
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}_${pad(d.getHours())}${pad(d.getMinutes())}${pad(d.getSeconds())}`;
+}
+
+$("send").onclick = async () => {
+  const repo = $("repo").value.trim(), branch = $("branch").value.trim(),
+        path = $("path").value.trim(), backupDir = $("backupDir").value.trim().replace(/\/+$/, ""),
+        keep = Math.max(0, parseInt($("keep").value, 10) || 0),
+        token = $("token").value.trim(), file = $("file").files[0];
+  if (!repo || !branch || !path || !backupDir || !token || !file) return log("Uzupełnij wszystkie pola i wybierz plik.", "err");
+
+  if ($("remember").checked) FIELDS.forEach(f => localStorage.setItem("up_" + f, $(f).value.trim()));
+  else FIELDS.forEach(f => localStorage.removeItem("up_" + f));
+
+  const api = `https://api.github.com/repos/${repo}/git`;
+  const gh = async (method, url, body) => {
+    const r = await fetch(`${api}/${url}`, {
+      method, cache: "no-store",
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+      body: body ? JSON.stringify(body) : undefined
+    });
+    if (!r.ok) throw new Error(`${method} ${url} → ${r.status}: ${await r.text()}`);
+    return r.json();
+  };
+
+  try {
+    log("Pobieram stan repozytorium…");
+    const commitSha = (await gh("GET", `ref/heads/${branch}`)).object.sha;
+    const treeSha = (await gh("GET", `commits/${commitSha}`)).tree.sha;
+    const tree = (await gh("GET", `trees/${treeSha}?recursive=1`)).tree;
+    const current = tree.find(e => e.path === path && e.type === "blob");
+
+    log("Wysyłam plik…");
+    const blob = await gh("POST", "blobs", { content: await toBase64(file), encoding: "base64" });
+    if (current && current.sha === blob.sha) return log("Plik się nie zmienił – nic nie zapisano.", "ok");
+
+    const changes = [{ path, mode: "100644", type: "blob", sha: blob.sha }];
+    if (current) {
+      const fname = path.split("/").pop();
+      const dot = fname.lastIndexOf(".");
+      const name = dot > 0 ? fname.slice(0, dot) : fname, ext = dot > 0 ? fname.slice(dot) : "";
+      const newBackup = `${backupDir}/${name}-${stamp()}${ext}`;
+      changes.push({ path: newBackup, mode: "100644", type: "blob", sha: current.sha });
+
+      const backups = tree
+        .filter(e => e.type === "blob" && e.path.startsWith(`${backupDir}/${name}-`) && e.path.endsWith(ext))
+        .map(e => e.path).concat(newBackup).sort().reverse();
+      backups.slice(keep).forEach(p => changes.push({ path: p, mode: "100644", type: "blob", sha: null }));
+    }
+
+    log("Zapisuję commit…");
+    const newTree = await gh("POST", "trees", { base_tree: treeSha, tree: changes });
+    const newCommit = await gh("POST", "commits", {
+      message: `Aktualizacja ${path} (${new Date().toLocaleString("pl-PL")})`,
+      tree: newTree.sha, parents: [commitSha]
+    });
+    await gh("PATCH", `refs/heads/${branch}`, { sha: newCommit.sha });
+    log(`✔ Plik wysłany. Poprzednia wersja zapisana w „${backupDir}/” (przechowywane: ${keep}).`, "ok");
+  } catch (e) {
+    log("✖ Błąd: " + e.message, "err");
+  }
+};
+</script>
+</body>
+</html>
