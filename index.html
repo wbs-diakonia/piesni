@@ -34,7 +34,7 @@
             background: #1a1a1a;
             /* Telefon: [szukaj | zwrotki + Ukryj], pod spodem lista tytułów */
             display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            grid-template-columns: minmax(0, 1fr) auto;
             grid-template-areas: "search controls" "songs songs";
             gap: 6px;
             border-bottom: 1px solid #333;
@@ -72,7 +72,8 @@
         .controls-row {
             grid-area: controls;
             display: grid;
-            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+            /* Telefon: zwrotki i "Ukryj" tej samej szerokości */
+            grid-template-columns: 72px 72px;
             gap: 6px;
             min-width: 0;
         }
@@ -131,6 +132,11 @@
             z-index: 2;
             padding: 10px 20px;
             box-sizing: border-box;
+        }
+
+        /* Długi tekst (zmniejszona czcionka) zaczyna się tuż pod paskiem. */
+        #display.top-aligned {
+            align-items: flex-start;
         }
 
         /* Gdy nawet po zmniejszeniu czcionki tekst się nie mieści,
@@ -444,7 +450,7 @@
         const minSize = baseSize * 0.4; // nie schodzimy poniżej 40% bazowego rozmiaru
         let size = baseSize;
 
-        displayEl.classList.remove('scrollable');
+        displayEl.classList.remove('scrollable', 'top-aligned');
         textEl.style.fontSize = size + 'px';
 
         while (containerEl.scrollHeight > displayEl.clientHeight && size > minSize) {
@@ -452,6 +458,9 @@
             textEl.style.fontSize = size + 'px';
         }
 
+        if (size < baseSize) {
+            displayEl.classList.add('top-aligned');
+        }
         if (containerEl.scrollHeight > displayEl.clientHeight) {
             displayEl.classList.add('scrollable');
         }
