@@ -488,8 +488,8 @@
         if (versesList.length === 0) return;
         if (Date.now() - lastSwipeTime < 500) return; // to był gest przesunięcia, nie kliknięcie
         const width = window.innerWidth;
-        if (e.clientX < width / 2) prevVerse();
-        else nextVerse();
+        // Lewa połowa = jak przesunięcie w prawo (poprzednia), prawa = jak w lewo (następna).
+        slideVerse(e.clientX < width / 2 ? 1 : -1);
     }
 
     // Bez zapętlania: na ostatniej zwrotce "dalej" i na pierwszej "wstecz" nic nie robią.
@@ -555,6 +555,16 @@
             setTimeout(() => { reset(); animating = false; }, ANIM_MS);
         }
 
+        // Używane przy dotknięciu lewej/prawej połowy ekranu: ten sam efekt co gest.
+        window.slideVerse = function (dir) {
+            if (animating) return;
+            if (canGo(dir)) { changeAnimated('x', dir); return; }
+            // Na początku/końcu pieśni: lekkie drgnięcie i powrót, jak opór przy geście.
+            animating = true;
+            place('x', dir * 30, 1, true);
+            setTimeout(() => bounceBack('x'), ANIM_MS);
+        };
+
         displayEl.addEventListener('touchstart', (e) => {
             if (animating || e.touches.length !== 1 || versesList.length === 0) { start = null; return; }
             const t = e.touches[0];
@@ -614,8 +624,8 @@
 
     document.addEventListener('keydown', (e) => {
         if (e.target.id === 'song-search') return; // Nie reaguj na strzałki podczas pisania
-        if (e.code === 'Space' || e.code === 'ArrowRight') nextVerse();
-        else if (e.code === 'ArrowLeft') prevVerse();
+        if (e.code === 'Space' || e.code === 'ArrowRight') { if (versesList.length) slideVerse(-1); }
+        else if (e.code === 'ArrowLeft') { if (versesList.length) slideVerse(1); }
         else if (e.code === 'KeyH' || e.code === 'Escape') toggleDisplay();
     });
 
