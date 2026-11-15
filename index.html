@@ -508,39 +508,108 @@
     // Gesty na telefonie: przesunięcie w lewo lub w górę = następna zwrotka,
     // w prawo lub w dół = poprzednia. Gdy długi tekst jest przewijany,
     // pionowy gest zmienia zwrotkę dopiero na końcu (lub początku) tekstu.
+    // Tekst podąża za palcem; po puszczeniu odjeżdża, a nowa zwrotka wjeżdża
+    // z przeciwnej strony. Na pierwszej/ostatniej zwrotce tekst stawia opór i wraca.
     (function setupSwipe() {
         const displayEl = document.getElementById('display');
+        const lyricsEl = document.getElementById('lyrics-container');
         const MIN_DIST = 50;
+        const ANIM_MS = 180;
         let start = null;
+        let animating = false;
+
+        function place(axis, offset, opacity, animate) {
+            lyricsEl.style.transition = animate
+                ? `transform ${ANIM_MS}ms ease-out, opacity ${ANIM_MS}ms ease-out` : 'none';
+            lyricsEl.style.transform = axis === 'x' ? `translateX(${offset}px)` : `translateY(${offset}px)`;
+            lyricsEl.style.opacity = opacity;
+        }
+
+        function reset() {
+            lyricsEl.style.transition = lyricsEl.style.transform = lyricsEl.style.opacity = '';
+        }
+
+        // Ujemny kierunek (palec w lewo / w górę) = następna zwrotka.
+        function canGo(dir) {
+            return dir < 0 ? currentVerseIndex < versesList.length - 1 : currentVerseIndex > 0;
+        }
+
+        function changeAnimated(axis, dir) {
+            const size = axis === 'x' ? displayEl.clientWidth : displayEl.clientHeight;
+            animating = true;
+            place(axis, dir * size, 0, true);
+            setTimeout(() => {
+                reset();
+                if (dir < 0) nextVerse(); else prevVerse();
+                displayEl.scrollTop = 0;
+                place(axis, -dir * size * 0.5, 0, false);
+                void lyricsEl.offsetWidth; // wymusza zastosowanie pozycji startowej
+                place(axis, 0, 1, true);
+                setTimeout(() => { reset(); animating = false; }, ANIM_MS);
+            }, ANIM_MS);
+        }
+
+        function bounceBack(axis) {
+            animating = true;
+            place(axis, 0, 1, true);
+            setTimeout(() => { reset(); animating = false; }, ANIM_MS);
+        }
 
         displayEl.addEventListener('touchstart', (e) => {
-            if (e.touches.length !== 1) { start = null; return; }
+            if (animating || e.touches.length !== 1 || versesList.length === 0) { start = null; return; }
             const t = e.touches[0];
             const atTop = displayEl.scrollTop <= 1;
             const atBottom = displayEl.scrollTop + displayEl.clientHeight >= displayEl.scrollHeight - 2;
-            start = { x: t.clientX, y: t.clientY, atTop, atBottom };
+            start = { x: t.clientX, y: t.clientY, atTop, atBottom, axis: null, drag: false };
+        }, { passive: true });
+
+        displayEl.addEventListener('touchmove', (e) => {
+            if (!start) return;
+            const t = e.touches[0];
+            const dx = t.clientX - start.x;
+            const dy = t.clientY - start.y;
+
+            if (!start.axis) {
+                if (Math.max(Math.abs(dx), Math.abs(dy)) < 10) return;
+                start.axis = Math.abs(dx) > Math.abs(dy) ? 'x' : 'y';
+                const scrollable = displayEl.classList.contains('scrollable');
+                // Przy przewijanym tekście pionowy gest najpierw przewija tekst.
+                start.drag = start.axis === 'x' || !scrollable ||
+                    (dy < 0 && start.atBottom) || (dy > 0 && start.atTop);
+            }
+            if (!start.drag) return;
+
+            let d = start.axis === 'x' ? dx : dy;
+            if (!canGo(Math.sign(d))) d *= 0.25; // opór na początku/końcu pieśni
+            const size = start.axis === 'x' ? displayEl.clientWidth : displayEl.clientHeight;
+            place(start.axis, d, 1 - Math.min(Math.abs(d) / size, 0.6), false);
         }, { passive: true });
 
         displayEl.addEventListener('touchend', (e) => {
-            if (!start || versesList.length === 0) { start = null; return; }
+            if (!start) return;
             const t = e.changedTouches[0];
             const dx = t.clientX - start.x;
             const dy = t.clientY - start.y;
-            const scrollable = displayEl.classList.contains('scrollable');
-            let handled = false;
-
-            if (Math.abs(dx) >= MIN_DIST && Math.abs(dx) > Math.abs(dy) * 1.2) {
-                if (dx < 0) nextVerse(); else prevVerse();
-                handled = true;
-            } else if (Math.abs(dy) >= MIN_DIST && Math.abs(dy) > Math.abs(dx) * 1.2) {
-                if (dy < 0 && (!scrollable || start.atBottom)) { nextVerse(); handled = true; }
-                else if (dy > 0 && (!scrollable || start.atTop)) { prevVerse(); handled = true; }
-            }
-            if (handled || Math.abs(dx) >= 10 || Math.abs(dy) >= 10) lastSwipeTime = Date.now();
+            const { axis, drag } = start;
             start = null;
+            if (!axis) return; // zwykłe dotknięcie - obsłuży je handleTap
+
+            lastSwipeTime = Date.now();
+            if (!drag) return;
+            const d = axis === 'x' ? dx : dy;
+            const other = axis === 'x' ? dy : dx;
+            const dir = Math.sign(d);
+            if (Math.abs(d) >= MIN_DIST && Math.abs(d) > Math.abs(other) && canGo(dir)) {
+                changeAnimated(axis, dir);
+            } else {
+                bounceBack(axis);
+            }
         }, { passive: true });
 
-        displayEl.addEventListener('touchcancel', () => { start = null; }, { passive: true });
+        displayEl.addEventListener('touchcancel', () => {
+            if (start && start.drag) bounceBack(start.axis);
+            start = null;
+        }, { passive: true });
     })();
 
     document.addEventListener('keydown', (e) => {
