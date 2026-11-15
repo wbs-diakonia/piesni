@@ -33,6 +33,10 @@
         /* Gesty przesuwania obsługujemy sami (zmiana zwrotki). */
         #display { touch-action: none; }
 
+        /* Bez szarego błysku przy dotknięciu ekranu na telefonie. */
+        * { -webkit-tap-highlight-color: transparent; }
+        #display { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+
         #ui-layer {
             padding: 8px;
             background: #1a1a1a;
@@ -601,8 +605,16 @@
             const dx = t.clientX - start.x;
             const dy = t.clientY - start.y;
             const { axis, drag } = start;
+            const tapX = start.x;
             start = null;
-            if (!axis) return; // zwykłe dotknięcie - obsłuży je handleTap
+            if (!axis) {
+                // Zwykłe dotknięcie: obsługujemy je od razu, bez kliknięcia przeglądarki
+                // (które na telefonie potrafi rozbłysnąć całym obszarem).
+                e.preventDefault();
+                lastSwipeTime = Date.now();
+                slideVerse(tapX < window.innerWidth / 2 ? 1 : -1);
+                return;
+            }
 
             lastSwipeTime = Date.now();
             if (!drag) return;
@@ -614,7 +626,7 @@
             } else {
                 bounceBack(axis);
             }
-        }, { passive: true });
+        }, { passive: false });
 
         displayEl.addEventListener('touchcancel', () => {
             if (start && start.drag) bounceBack(start.axis);
